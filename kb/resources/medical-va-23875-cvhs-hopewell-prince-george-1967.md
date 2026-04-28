@@ -1,0 +1,30 @@
+---
+name: CVHS Hopewell-Prince George
+type: medical
+subtype: fqhc
+address: 4260 Crossings Blvd STE 2
+city: Prince George
+state: VA
+zip: '23875'
+county: Prince George County
+lat: 37.257178
+lng: -77.326243
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(804) 452-5800'
+website: https://www.cvhsinc.org
+hours_raw: 44.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-004333-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

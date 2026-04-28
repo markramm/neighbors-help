@@ -1,0 +1,29 @@
+---
+name: Callison Ranch
+type: food
+subtype: farmers_market
+address: 22450 State Highway 99 S
+city: Stonewall
+state: OK
+zip: '74871'
+county: Pontotoc County
+lat: 34.659962
+lng: -96.634811
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1473251'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

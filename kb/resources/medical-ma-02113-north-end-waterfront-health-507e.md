@@ -1,0 +1,30 @@
+---
+name: NORTH END WATERFRONT HEALTH
+type: medical
+subtype: fqhc
+address: 332 Hanover St
+city: Boston
+state: MA
+zip: '02113'
+county: Suffolk County
+lat: 42.364715
+lng: -71.053711
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(617) 643-8085'
+website: https://www.northendwaterfronthealth.org
+hours_raw: 56.50 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-001656-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

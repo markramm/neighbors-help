@@ -1,0 +1,44 @@
+{{- /*
+  Inline daisy SVG. Renders 7 petal slots in canonical order.
+  Params:
+    petals: comma-separated string of present petal ids (e.g. "food,medical,housing")
+            empty string means render brand mark with all 7 lit
+    count:  optional number to display in center (string-coerced)
+    size:   icon side length in px (default 34)
+    showLabel: "true" to show the count text (default false for brand mark)
+*/ -}}
+{{- $size := default 34 .size -}}
+{{- $count := default "" .count -}}
+{{- $showLabel := eq .showLabel "true" -}}
+{{- $petalsRaw := default "" .petals -}}
+{{- $present := dict -}}
+{{- if eq $petalsRaw "" -}}
+  {{- range slice "food" "medical" "housing" "safety" "care" "economy" "education" -}}
+    {{- $present = merge $present (dict . true) -}}
+  {{- end -}}
+{{- else -}}
+  {{- range split $petalsRaw "," -}}
+    {{- $present = merge $present (dict (trim . " ") true) -}}
+  {{- end -}}
+{{- end -}}
+{{- $order := slice "food" "medical" "housing" "safety" "care" "economy" "education" -}}
+{{- $half := div $size 2.0 -}}
+{{- $r := mul $size 0.30 -}}
+{{- $petalR := mul $size 0.16 -}}
+{{- $centerR := mul $size 0.17 -}}
+<svg xmlns="http://www.w3.org/2000/svg" width="{{ $size }}" height="{{ $size }}" viewBox="0 0 {{ $size }} {{ $size }}" style="display:block;overflow:visible">
+  {{- range $i, $p := $order -}}
+    {{- $angleDeg := sub (mul $i 51.4286) 90 -}}
+    {{- $angleRad := mul $angleDeg (div 3.14159265 180.0) -}}
+    {{- $cx := add $half (mul $r (math.Cos $angleRad)) -}}
+    {{- $cy := add $half (mul $r (math.Sin $angleRad)) -}}
+    {{- $color := cond (index $present $p) (printf "var(--%s)" $p) "oklch(0.88 0.01 60)" -}}
+    <circle cx="{{ $cx }}" cy="{{ $cy }}" r="{{ $petalR }}" fill="{{ $color }}" stroke="oklch(0.25 0.03 60 / 0.35)" stroke-width="1"/>
+  {{- end -}}
+  <circle cx="{{ $half }}" cy="{{ $half }}" r="{{ $centerR }}" fill="var(--yellow)" stroke="oklch(0.25 0.03 60 / 0.5)" stroke-width="1.2"/>
+  {{- if $showLabel -}}
+    <text x="{{ $half }}" y="{{ add $half (mul $size 0.07) }}" text-anchor="middle"
+          font-family="Lora, serif" font-size="{{ mul $size 0.22 }}" font-weight="600"
+          fill="oklch(0.22 0.02 60)">{{ $count }}</text>
+  {{- end -}}
+</svg>

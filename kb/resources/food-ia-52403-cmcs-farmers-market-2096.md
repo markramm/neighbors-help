@@ -1,0 +1,29 @@
+---
+name: Cmc's Farmers Market
+type: food
+subtype: farmers_market
+address: 1220 5th Ave Se
+city: Cedar Rapids
+state: IA
+zip: '52403'
+county: Linn County
+lat: 41.982296
+lng: -91.653748
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1601258'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,29 @@
+---
+name: AHS Family Health Center
+type: medical
+subtype: fqhc
+address: 6301 N Western Ave
+city: Chicago
+state: IL
+zip: '60659'
+county: Cook County
+lat: 41.99613
+lng: -87.689469
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(800) 597-5077'
+hours_raw: 48.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-036569-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

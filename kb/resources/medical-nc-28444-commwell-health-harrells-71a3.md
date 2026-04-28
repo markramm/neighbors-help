@@ -1,0 +1,30 @@
+---
+name: CommWell Health of Harrells
+type: medical
+subtype: fqhc
+address: 194 Tomahawk Hwy
+city: Harrells
+state: NC
+zip: '28444'
+county: Sampson County
+lat: 34.725633
+lng: -78.194135
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(877) 935-5255'
+website: https://www.commwellhealth.org
+hours_raw: 42.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-007823-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,29 @@
+---
+name: Stow Community Farmers Market
+type: food
+subtype: farmers_market
+address: 1567 Pilgrim Dr
+city: Stow
+state: OH
+zip: '44224'
+county: Summit County
+lat: 41.168602
+lng: -81.451408
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1153542'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

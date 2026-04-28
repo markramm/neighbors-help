@@ -1,0 +1,40 @@
+# ---- Hugo build output ----
+site/public/
+site/resources/
+site/.hugo_build.lock
+
+# ---- Generated artifacts (built from kb/ by scrapers.build_data) ----
+# Data files consumed by client-side JS
+site/static/data/index.json
+site/static/data/coverage.json
+site/static/data/zip-prefix.json
+site/static/data/resources.geojson
+site/static/data/states/
+# Content stubs that produce /s/{XX}/ and /z/{12345}/ pages
+site/content/s/
+site/content/z/
+
+# ---- Design handoff bundle (reference only, never committed) ----
+_design-source/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+
+# ---- Node (in case anyone adds tooling) ----
+node_modules/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

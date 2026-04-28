@@ -1,0 +1,29 @@
+---
+name: Ozarks Community Health Center - Miles for Smiles (Mobile)
+type: medical
+subtype: fqhc
+address: 203 E Broadway St
+city: Bolivar
+state: MO
+zip: '65613'
+county: Polk County
+lat: 37.614264
+lng: -93.410715
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(417) 328-6334'
+hours_raw: 28.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-027957-5'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

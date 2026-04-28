@@ -1,0 +1,48 @@
+{{- /*
+  Common meta tags for SEO + social sharing (Open Graph + Twitter Card).
+  Pass nothing — reads from the current page context.
+
+  - .Title         page title (used as og:title)
+  - .Description   if set, used; otherwise falls back to .Site.Params.description
+  - .Permalink     canonical URL
+  - .Site.Title    "Neighbors Help" (used as og:site_name)
+
+  All meta tags use the daisy favicon as og:image since we don't have
+  per-page social cards generated. Keep it simple for v1.
+*/ -}}
+{{- /* Resource pages use `name:` in frontmatter (not `title:`); fall back. */ -}}
+{{- $pageTitle := default (default .Title .Params.name) "" -}}
+{{- $title := cond .IsHome .Site.Title (printf "%s · %s" $pageTitle .Site.Title) -}}
+{{- /* Per-resource description: prefer page Description, else build one
+       — but only on actual resource pages (Kind=page), not the section
+       index. The section _index.md has neither a description nor the
+       per-resource fields, so falling through to .Site.Params.description
+       on it is correct. */ -}}
+{{- $desc := .Description -}}
+{{- if and (not $desc) (eq .Section "r") (eq .Kind "page") $.Params.name -}}
+  {{- $petalLabel := "" -}}
+  {{- range .Site.Data.petals -}}
+    {{- if eq .id $.Params.type -}}{{ $petalLabel = .label }}{{- end -}}
+  {{- end -}}
+  {{- $desc = printf "%s — %s in %s, %s %s. Free, public, no tracking." $.Params.name (lower (default "resource" $petalLabel)) (default "" $.Params.city) (upper (default "" $.Params.state)) (default "" $.Params.zip) -}}
+{{- end -}}
+{{- $desc = default .Site.Params.description $desc -}}
+{{- $url := .Permalink -}}
+{{- $img := absURL "og-card.png" -}}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}" />
+<link rel="canonical" href="{{ $url }}" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $desc }}" />
+<meta property="og:url" content="{{ $url }}" />
+<meta property="og:image" content="{{ $img }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $desc }}" />
+<meta name="twitter:image" content="{{ $img }}" />

@@ -1,0 +1,29 @@
+---
+name: Warwood Farmers Market
+type: food
+subtype: farmers_market
+address: 1501 Warwood Ave
+city: Wheeling
+state: WV
+zip: '26003'
+county: Ohio County
+lat: 40.115944
+lng: -80.698517
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1353568'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

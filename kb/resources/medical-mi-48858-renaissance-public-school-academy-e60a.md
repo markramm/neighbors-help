@@ -1,0 +1,29 @@
+---
+name: Renaissance Public School Academy
+type: medical
+subtype: fqhc
+address: 2797 S Isabella Rd
+city: Mount Pleasant
+state: MI
+zip: '48858'
+county: Isabella County
+lat: 43.60028
+lng: -84.74644
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(989) 491-1445'
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-035634-2'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

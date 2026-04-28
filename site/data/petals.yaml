@@ -1,0 +1,30 @@
+# Petal taxonomy — single source of truth for templates and JS.
+# Order is canonical; the daisy SVG renders in this order.
+- id: food
+  label: Food
+  desc: Pantries, soup kitchens, community fridges, SNAP enrollment help
+  cssVar: --food
+- id: medical
+  label: Medical
+  desc: Free clinics, FQHCs, mental health, harm reduction
+  cssVar: --medical
+- id: housing
+  label: Housing
+  desc: Emergency shelter, warming/cooling centers, transitional housing
+  cssVar: --housing
+- id: safety
+  label: Safety
+  desc: DV resources, crisis lines, tenant legal aid, community safety
+  cssVar: --safety
+- id: care
+  label: Care
+  desc: Childcare co-ops, elder care, disability support
+  cssVar: --care
+- id: economy
+  label: Economy
+  desc: Buy Nothing, mutual aid funds, tool libraries, time banks
+  cssVar: --economy
+- id: education
+  label: Education
+  desc: Libraries, tutoring, GED/ESL, digital access
+  cssVar: --education

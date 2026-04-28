@@ -1,0 +1,30 @@
+---
+name: Elder Service Plan, Brockton
+type: medical
+subtype: fqhc
+address: 479 Torrey St
+city: Brockton
+state: MA
+zip: '02301'
+county: Plymouth County
+lat: 42.071355
+lng: -71.064078
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(617) 533-2400'
+website: https://www.hhsi.us
+hours_raw: 62.50 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-019444-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

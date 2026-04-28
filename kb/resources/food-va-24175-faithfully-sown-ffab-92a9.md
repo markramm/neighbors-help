@@ -1,0 +1,29 @@
+---
+name: Faithfully Sown FFAB
+type: food
+subtype: farmers_market
+address: 1768 Trinity Rd
+city: Troutville
+state: VA
+zip: '24175'
+county: Botetourt County
+lat: 37.439228
+lng: -79.883797
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1648908'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

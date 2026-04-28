@@ -1,0 +1,29 @@
+---
+name: Kenosha Common Markets Inc.
+type: food
+subtype: farmers_market
+address: 2nd Avenue And 56th Street Place De Douai
+city: Kenosha
+state: WI
+zip: '53140'
+county: Kenosha County
+lat: 42.585663
+lng: -87.813698
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1191939'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

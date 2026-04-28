@@ -1,0 +1,29 @@
+---
+name: Ruth's Gleanings
+type: food
+subtype: farmers_market
+address: 147 Chapel St
+city: Spartanburg
+state: SC
+zip: '29303'
+county: Spartanburg County
+lat: 34.962318
+lng: -81.943703
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1517551'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,30 @@
+---
+name: Cass Family Clinic-Mobile
+type: medical
+subtype: fqhc
+address: 261 M 62
+city: Cassopolis
+state: MI
+zip: '49031'
+county: Cass County
+lat: 41.919282
+lng: -86.015123
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(269) 445-3874'
+website: https://cassfamilyclinic.org/
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-040522-5'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,29 @@
+---
+name: A&e Farms
+type: food
+subtype: farmers_market
+address: 18150 Kinsey Ave
+city: Westfield
+state: IN
+zip: '46074'
+county: Hamilton County
+lat: 40.050552
+lng: -86.153236
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1465675'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

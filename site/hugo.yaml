@@ -1,0 +1,55 @@
+baseURL: "https://markramm.github.io/neighbors-help/"
+languageCode: "en-us"
+title: "Neighbors Help"
+enableRobotsTXT: true
+enableGitInfo: false
+
+module:
+  mounts:
+    - source: layouts
+      target: layouts
+    - source: static
+      target: static
+    - source: content
+      target: content
+    - source: assets
+      target: assets
+    - source: data
+      target: data
+    # Mount the KB as a Hugo content section. Each .md file becomes a Page
+    # under /r/{filename-without-ext}/.
+    - source: ../kb/resources
+      target: content/r
+    - source: ../kb/geo
+      target: assets/geo
+
+params:
+  description: "Find food, shelter, medical care, and community resources near you."
+  repo: "https://github.com/markramm/neighbors-help"
+  contactEmail: "hello@neighbors-help.org"
+
+permalinks:
+  r: "/r/:contentbasename/"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Data files (index.json, states/{XX}.json, coverage.json, resources.geojson,
+# zip-prefix.json) are emitted by `python -m scrapers.build_data` directly
+# into site/static/data/. They live there as static assets — Hugo just
+# copies them through.
+
+outputs:
+  home:
+    - html
+  section:
+    - html
+  page:
+    - html
+
+disableKinds:
+  - taxonomy
+  - term
+  - RSS

@@ -1,0 +1,29 @@
+---
+name: Cumberland County Health Department Community Health Center
+type: medical
+subtype: fqhc
+address: 1503 S Main St
+city: Crossville
+state: TN
+zip: '38555'
+county: Cumberland County
+lat: 35.930463
+lng: -85.010639
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(931) 484-6196'
+hours_raw: 42.50 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-010424-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

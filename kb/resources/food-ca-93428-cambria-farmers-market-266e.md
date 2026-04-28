@@ -1,0 +1,29 @@
+---
+name: Cambria Farmers Market
+type: food
+subtype: farmers_market
+address: 1000 Main St Veterans Hall Parking Lot
+city: Cambria
+state: CA
+zip: '93428'
+county: San Luis Obispo County
+lat: 35.564777
+lng: -121.09647
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1254928'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

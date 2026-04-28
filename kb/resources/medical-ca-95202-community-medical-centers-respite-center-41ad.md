@@ -1,0 +1,29 @@
+---
+name: Community Medical Centers, Respite Center
+type: medical
+subtype: fqhc
+address: 201 N Stanislaus St
+city: Stockton
+state: CA
+zip: '95202'
+county: San Joaquin County
+lat: 37.956227
+lng: -121.282603
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(209) 762-5000'
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-032276-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

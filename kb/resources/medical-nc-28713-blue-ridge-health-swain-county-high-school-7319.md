@@ -1,0 +1,29 @@
+---
+name: Blue Ridge Health - Swain County High School
+type: medical
+subtype: fqhc
+address: 1415 Fontana Rd
+city: Bryson City
+state: NC
+zip: '28713'
+county: Swain County
+lat: 35.447248
+lng: -83.456747
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(828) 488-2152'
+hours_raw: 16.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-036364-2'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

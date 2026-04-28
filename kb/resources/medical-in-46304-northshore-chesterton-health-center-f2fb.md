@@ -1,0 +1,30 @@
+---
+name: NorthShore Chesterton Health Center
+type: medical
+subtype: fqhc
+address: 801 Broadway
+city: Chesterton
+state: IN
+zip: '46304'
+county: Porter County
+lat: 41.611597
+lng: -87.063273
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(219) 763-8112'
+website: https://www.northshorehealth.org
+hours_raw: 49.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-033765-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

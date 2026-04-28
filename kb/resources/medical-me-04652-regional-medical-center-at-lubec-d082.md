@@ -1,0 +1,30 @@
+---
+name: REGIONAL MEDICAL CENTER AT LUBEC, INC.
+type: medical
+subtype: fqhc
+address: 43 S Lubec Rd
+city: Lubec
+state: ME
+zip: '04652'
+county: Washington County
+lat: 44.845993
+lng: -66.999291
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(207) 733-1090'
+website: https://www.rmcl.org
+hours_raw: 44.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-002559-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

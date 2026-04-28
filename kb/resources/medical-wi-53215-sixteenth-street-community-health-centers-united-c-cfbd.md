@@ -1,0 +1,30 @@
+---
+name: Sixteenth Street Community Health Centers - United Community Center-Early Learning Academy
+type: medical
+subtype: fqhc
+address: 2130 W Becher St
+city: Milwaukee
+state: WI
+zip: '53215'
+county: Milwaukee County
+lat: 43.006679
+lng: -87.940092
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(414) 645-7001'
+website: https://sschc.org/locations/
+hours_raw: 8.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-034031-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,30 @@
+---
+name: Regence Health Network, Inc. RDA - PLNV
+type: medical
+subtype: fqhc
+address: 2801 W 8th St
+city: Plainview
+state: TX
+zip: '79072'
+county: Hale County
+lat: 34.187768
+lng: -101.736924
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '806-293-8561 x1228'
+website: https://www.rhn.md
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-002212-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

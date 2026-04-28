@@ -1,0 +1,30 @@
+---
+name: Ramer Family Health Center
+type: medical
+subtype: fqhc
+address: 5422 State Highway 94
+city: Ramer
+state: AL
+zip: '36069'
+county: Montgomery County
+lat: 32.051695
+lng: -86.21856
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(844) 503-0998'
+website: https://WWW.HSERVINC.ORG/LOCATIONS.HTM#1
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-005191-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

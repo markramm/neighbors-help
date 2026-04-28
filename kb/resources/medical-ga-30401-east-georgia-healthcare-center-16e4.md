@@ -1,0 +1,30 @@
+---
+name: East Georgia Healthcare Center, Inc.
+type: medical
+subtype: fqhc
+address: 215 N Coleman St
+city: Swainsboro
+state: GA
+zip: '30401'
+county: Emanuel County
+lat: 32.599544
+lng: -82.334491
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '478-237-6262 x1513'
+website: https://www.eghc.org
+hours_raw: 49.50 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-008789-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

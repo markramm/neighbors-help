@@ -1,0 +1,29 @@
+---
+name: Bridge Community Health Clinic - John Muir MS
+type: medical
+subtype: fqhc
+address: 1400 Stewart Av
+city: Wausau
+state: WI
+zip: '54401'
+county: Marathon County
+lat: 44.959744
+lng: -89.651674
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(715) 848-4884'
+hours_raw: 8.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-039155-2'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,30 @@
+---
+name: Jane Pauley Community Health Center at Alexandria-Monroe Intermediate School
+type: medical
+subtype: fqhc
+address: 308 W 11th St
+city: Alexandria
+state: IN
+zip: '46001'
+county: Madison County
+lat: 40.248645
+lng: -85.677524
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(844) 695-7242'
+website: https://www.janepauleychc.com
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-020911-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

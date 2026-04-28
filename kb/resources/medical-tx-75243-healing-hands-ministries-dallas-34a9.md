@@ -1,0 +1,30 @@
+---
+name: Healing Hands Ministries Dallas
+type: medical
+subtype: fqhc
+address: 8515 Greenville Ave, Suite 108
+city: Dallas
+state: TX
+zip: '75243'
+county: Dallas County
+lat: 32.894033
+lng: -96.753235
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(214) 221-0855'
+website: https://www.hhmhealth.org
+hours_raw: 50.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-019339-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

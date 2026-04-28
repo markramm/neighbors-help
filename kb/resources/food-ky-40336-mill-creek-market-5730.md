@@ -1,0 +1,29 @@
+---
+name: Mill Creek Market
+type: food
+subtype: farmers_market
+address: 1501 Richmond Rd
+city: Irvine
+state: KY
+zip: '40336'
+county: Estill County
+lat: 37.699745
+lng: -83.995567
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1540526'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,95 @@
+# Schema for resource entries in kb/resources/*.md (flat directory)
+#
+# Filename convention: {type}-{state}-{zip}-{org-slug}-{shorthash}.md
+# e.g. food-mi-48197-community-kitchen-first-umc-a3f.md
+#
+# The shorthash is the first 3 chars of sha1(address) — disambiguates collisions.
+# Type prefix gives humans visual grouping when scanning the directory; the
+# authoritative type is the `type:` field in frontmatter.
+
+required:
+  - name        # display name
+  - type        # one of the petal ids (see petals below)
+  - city
+  - state       # 2-letter US state code
+  - zip         # 5-digit US zip
+  - lat         # decimal degrees, WGS84
+  - lng         # decimal degrees, WGS84
+  - verified    # bool — has a maintainer reviewed this entry?
+  - source      # provenance — see sources below
+
+optional:
+  - subtype     # narrower category, free text
+  - address     # street address
+  - hours       # human-readable, e.g. "Mon/Wed/Fri 11am–1pm"
+  - contact     # phone or email — must be a public org channel
+  - website
+  - services    # list — see services vocabulary below
+  - populations # list — who is served (families, seniors, anyone, ...)
+  - languages   # list — ISO short codes or names
+  - verified_at # ISO date the maintainer last verified
+  - verified_by # github handle or "scraper:{source}"
+  - notes       # free text, public
+
+# Reserved for future phases — do not use in v1:
+#   accountability  # community-reported data-sharing concerns
+#   champion        # zip-level local maintainer
+
+petals:
+  - id: food
+    label: Food
+    color: var(--food)
+    desc: Pantries, soup kitchens, community fridges, SNAP enrollment help
+  - id: medical
+    label: Medical
+    color: var(--medical)
+    desc: Free clinics, FQHCs, mental health, harm reduction
+  - id: housing
+    label: Housing
+    color: var(--housing)
+    desc: Emergency shelter, warming/cooling centers, transitional housing
+  - id: safety
+    label: Safety
+    color: var(--safety)
+    desc: DV resources, crisis lines, tenant legal aid, community safety
+  - id: care
+    label: Care
+    color: var(--care)
+    desc: Childcare co-ops, elder care, disability support
+  - id: economy
+    label: Economy
+    color: var(--economy)
+    desc: Buy Nothing, mutual aid funds, tool libraries, time banks
+  - id: education
+    label: Education
+    color: var(--education)
+    desc: Libraries, tutoring, GED/ESL, digital access
+
+food_subtypes:
+  - soup_kitchen
+  - food_pantry
+  - community_fridge
+  - food_bank
+  - snap_enrollment
+  - farmers_market
+  - community_garden
+  - meal_delivery
+  - wic_clinic
+
+sources:
+  - id: 211_michigan
+    desc: Michigan 211 / iCarol
+  - id: 211_national
+    desc: National 211 / iCarol
+  - id: usda_snap
+    desc: USDA SNAP retailer + food pantry locator
+  - id: feeding_america
+    desc: Feeding America Food Bank Finder
+  - id: openstreetmap
+    desc: OSM via Overpass API
+  - id: mutual_aid_hub
+    desc: mutualaidhub.org
+  - id: community_pr
+    desc: Verified community submission via GitHub PR
+  - id: maintainer
+    desc: Hand-entered by a project maintainer

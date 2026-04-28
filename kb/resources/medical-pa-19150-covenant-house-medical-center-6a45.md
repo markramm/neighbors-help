@@ -1,0 +1,29 @@
+---
+name: Covenant House Medical Center
+type: medical
+subtype: fqhc
+address: 8125 Stenton Ave
+city: Philadelphia
+state: PA
+zip: '19150'
+county: Philadelphia County
+lat: 40.067493
+lng: -75.178873
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(215) 248-7560'
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-008296-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

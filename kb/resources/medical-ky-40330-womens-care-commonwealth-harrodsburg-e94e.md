@@ -1,0 +1,29 @@
+---
+name: Women's Care of the Commonwealth - Harrodsburg
+type: medical
+subtype: fqhc
+address: 1509 Louisville Rd
+city: Harrodsburg
+state: KY
+zip: '40330'
+county: Mercer County
+lat: 37.799557
+lng: -84.847351
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(859) 236-7712'
+hours_raw: 3.50 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-039721-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

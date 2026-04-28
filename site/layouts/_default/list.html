@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ partial "topbar.html" (dict "variant" "page") }}
+<article class="prose">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ if eq .Section "r" }}
+  <p style="color: var(--ink-mute);">
+    {{ len .Pages }} resources listed. <a href="{{ "/" | relURL }}">View on map →</a>
+  </p>
+  {{ end }}
+</article>
+{{ end }}

@@ -1,0 +1,34 @@
+---
+name: Curtis V. Cooper Primary Health Care, Inc.
+type: medical
+subtype: fqhc
+address: 4451 Paulsen St
+city: Savannah
+state: GA
+zip: '31405'
+county: Chatham County
+lat: 32.033105
+lng: -81.095055
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(912) 527-1000'
+website: https://www.cvcphc.net
+hours_raw: 8.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-038318-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+all_source_ids:
+- hrsa-BPS-H80-036255-1
+- hrsa-BPS-H80-036483-1
+- hrsa-BPS-H80-038318-1
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,30 @@
+---
+name: FamilyCare Health Center - West Virginia State University
+type: medical
+subtype: fqhc
+address: 301 Washington Ave
+city: Dunbar
+state: WV
+zip: '25064'
+county: Kanawha County
+lat: 38.379939
+lng: -81.763996
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(304) 766-3323'
+website: https://www.familycarewv.org
+hours_raw: 30.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-021209-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

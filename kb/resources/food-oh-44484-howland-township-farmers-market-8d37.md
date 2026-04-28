@@ -1,0 +1,29 @@
+---
+name: Howland Township Farmers Market
+type: food
+subtype: farmers_market
+address: 8204 E Market St Richard E. Orwig Park
+city: Warren
+state: OH
+zip: '44484'
+county: Trumbull County
+lat: 41.23716
+lng: -80.743668
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1134991'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

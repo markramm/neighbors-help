@@ -1,0 +1,29 @@
+---
+name: Ozark Farmers Agricultural Cooperative
+type: food
+subtype: farmers_market
+address: 805 Worley Dr
+city: West Plains
+state: MO
+zip: '65775'
+county: Howell County
+lat: 36.721172
+lng: -91.87822
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1193185'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

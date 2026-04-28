@@ -1,0 +1,23 @@
+# Default to LF line endings, normalize on commit.
+* text=auto eol=lf
+
+# Markdown / YAML / JSON / HTML / CSS / JS — all text.
+*.md       text
+*.yaml     text
+*.yml      text
+*.json     text
+*.geojson  text
+*.html     text
+*.css      text
+*.js       text
+*.py       text
+*.svg      text
+
+# Binary assets.
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.ico      binary
+*.pdf      binary
+*.zip      binary

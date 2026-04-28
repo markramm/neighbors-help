@@ -1,0 +1,30 @@
+---
+name: PERRY COUNTY MEDICAL CENTER, INC.
+type: medical
+subtype: fqhc
+address: 115 E Brooklyn St
+city: Linden
+state: TN
+zip: '37096'
+county: Perry County
+lat: 35.610291
+lng: -87.837692
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(931) 589-2104'
+website: https://www.3riverscommunityhealth.com
+hours_raw: 42.25 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-004762-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

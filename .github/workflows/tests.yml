@@ -1,0 +1,30 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scrapers/requirements.txt
+
+      - name: Install deps
+        run: pip install -r scrapers/requirements.txt
+
+      - name: kb tests
+        run: python -m scrapers.test_kb
+
+      - name: geocoder tests
+        run: python -m scrapers.test_geocoder
+
+      - name: dedup tests
+        run: python -m scrapers.test_dedup

@@ -1,0 +1,8 @@
+{
+  "_comment": "Authoritative zip centroids used for daisy clustering. Add a row whenever a resource lands in a new zip. Source: US Census Gazetteer (ZCTA centroids). Lat/lng in WGS84.",
+  "48103": { "name": "Ann Arbor (West)",     "lat": 42.2716, "lng": -83.7869 },
+  "48104": { "name": "Ann Arbor (Central)",  "lat": 42.2613, "lng": -83.7250 },
+  "48105": { "name": "Ann Arbor (Northeast)","lat": 42.3140, "lng": -83.6960 },
+  "48197": { "name": "Ypsilanti (South)",    "lat": 42.2120, "lng": -83.6260 },
+  "48198": { "name": "Ypsilanti (North)",    "lat": 42.2700, "lng": -83.5800 }
+}

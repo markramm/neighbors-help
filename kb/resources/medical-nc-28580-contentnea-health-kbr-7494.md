@@ -1,0 +1,30 @@
+---
+name: Contentnea Health KBR
+type: medical
+subtype: fqhc
+address: 205 Martin L King Jr Pkwy
+city: Snow Hill
+state: NC
+zip: '28580'
+county: Greene County
+lat: 35.453642
+lng: -77.682202
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(252) 747-4199'
+website: https://www.greenecountyhealthcare.com
+hours_raw: 53.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-001097-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

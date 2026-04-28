@@ -1,0 +1,29 @@
+---
+name: TERRY REILLY HEALTH SERVICES
+type: medical
+subtype: fqhc
+address: 211 16th Ave N
+city: Nampa
+state: ID
+zip: '83687'
+county: Canyon County
+lat: 43.579166
+lng: -116.552166
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '208-467-4431 x255'
+website: https://www.trhs.org
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-003250-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

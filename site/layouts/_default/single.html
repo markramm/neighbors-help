@@ -1,0 +1,74 @@
+{{ define "main" }}
+{{- $petals := .Site.Data.petals -}}
+{{- $p := index (where $petals "id" .Params.type) 0 -}}
+{{- $petalLabel := cond (ne $p nil) $p.label .Params.type -}}
+{{- $petalVar := cond (ne $p nil) $p.cssVar (printf "--%s" .Params.type) -}}
+
+{{ partial "topbar.html" (dict "variant" "page") }}
+
+<article class="page-shell">
+  <a href="{{ "/" | relURL }}" class="back-link">← Back to map</a>
+
+  <header class="r-head">
+    <div style="flex:1; min-width:0;">
+      <p class="r-eyebrow">
+        <span class="pg-dot" style="background: var({{ $petalVar }})"></span>
+        {{ $petalLabel }}{{ with .Params.subtype }} · {{ . }}{{ end }}
+      </p>
+      <h1>{{ .Params.name }}</h1>
+      <div class="r-loc">
+        {{ with .Params.address }}{{ . }} · {{ end }}{{ .Params.city }}, {{ .Params.state | upper }} {{ .Params.zip }}
+      </div>
+    </div>
+  </header>
+
+  {{ with .Content }}
+  <div class="r-card">
+    <div class="r-blurb">{{ . }}</div>
+  </div>
+  {{ end }}
+
+  <div class="r-card">
+    <h3>Details</h3>
+    <dl>
+      {{ with .Params.hours_raw }}<dt>Hours</dt><dd>{{ . }}</dd>{{ end }}
+      {{ with .Params.phone }}<dt>Phone</dt><dd>{{ . }}</dd>{{ end }}
+      {{ with .Params.email }}<dt>Email</dt><dd><a href="mailto:{{ . }}">{{ . }}</a></dd>{{ end }}
+      {{ with .Params.website }}<dt>Website</dt><dd><a href="{{ . }}" rel="noopener" target="_blank">{{ . | replaceRE "^https?://" "" | replaceRE "/$" "" }}</a></dd>{{ end }}
+      <dt>Address</dt><dd>{{ with .Params.address }}{{ . }}, {{ end }}{{ .Params.city }}, {{ .Params.state | upper }} {{ .Params.zip }}{{ with .Params.county }} · {{ . }}{{ end }}</dd>
+    </dl>
+  </div>
+
+  {{ if or .Params.services .Params.populations .Params.languages }}
+  <div class="r-card">
+    <h3>Who &amp; what</h3>
+    <dl>
+      {{ with .Params.services }}
+      <dt>Services</dt>
+      <dd><div class="r-tags">{{ range . }}<span class="r-tag">{{ . | humanize }}</span>{{ end }}</div></dd>
+      {{ end }}
+      {{ with .Params.populations }}
+      <dt>Serves</dt>
+      <dd><div class="r-tags">{{ range . }}<span class="r-tag">{{ . | humanize }}</span>{{ end }}</div></dd>
+      {{ end }}
+      {{ with .Params.languages }}
+      <dt>Languages</dt>
+      <dd><div class="r-tags">{{ range . }}<span class="r-tag">{{ . | title }}</span>{{ end }}</div></dd>
+      {{ end }}
+    </dl>
+  </div>
+  {{ end }}
+
+  <div class="r-meta">
+    {{ if .Params.verified }}
+      <span class="r-verified-badge">✓ Verified{{ with .Params.verified_at }} · {{ . }}{{ end }}</span>
+    {{ else }}
+      <span class="r-unverified-badge">Unverified · please confirm before relying on details</span>
+    {{ end }}
+    {{ with .Params.source }}<span style="font-size:11px; color: var(--ink-mute);">via {{ . }}</span>{{ end }}
+    <span style="margin-left: auto;">
+      <a href="{{ .Site.Params.repo }}/issues/new?template=suggest-correction.md&title=Correction%3A%20{{ .Params.name | urlquery }}" rel="noopener" target="_blank">Suggest a correction →</a>
+    </span>
+  </div>
+</article>
+{{ end }}

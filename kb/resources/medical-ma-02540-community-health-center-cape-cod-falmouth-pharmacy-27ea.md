@@ -1,0 +1,30 @@
+---
+name: Community Health Center of Cape Cod, Falmouth Pharmacy
+type: medical
+subtype: fqhc
+address: 200 Jones Road
+city: Falmouth
+state: MA
+zip: '02540'
+county: Barnstable County
+lat: 41.561372
+lng: -70.612081
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '508-477-7090 x7090'
+website: https://www.chcofcapecod.org
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-034347-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

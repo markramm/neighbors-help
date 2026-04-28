@@ -1,0 +1,76 @@
+{{ define "main" }}
+{{- $petals := .Site.Data.petals -}}
+{{- $petalSlice := slice -}}
+{{- range $petals -}}
+  {{- $petalSlice = $petalSlice | append (dict "id" .id "label" .label "cssVar" .cssVar) -}}
+{{- end -}}
+<div class="app">
+  {{ partial "topbar.html" (dict "variant" "map") }}
+
+  <aside class="sidebar" id="sidebar">
+    <section>
+      <h2>{{ .Params.zip_city }} · {{ .Params.zip_code }}</h2>
+      <div style="font-size: 13px; color: var(--ink-soft); margin-bottom: 10px;">
+        {{ .Params.zip_total }} resource{{ if ne .Params.zip_total 1 }}s{{ end }} listed
+      </div>
+      <a href="{{ printf "/s/%s/" .Params.zip_state | relURL }}" id="back-to-state" class="back-to-us">
+        <span aria-hidden="true">←</span> All {{ .Params.zip_state }} resources
+      </a>
+      <a href="{{ "/" | relURL }}" class="back-to-us" style="margin-left: 6px;">
+        <span aria-hidden="true">←</span> US
+      </a>
+    </section>
+
+    <section>
+      <h2>Filter by petal</h2>
+      <div class="filters">
+        {{ range $petals }}
+        <label class="filter-row">
+          <input type="checkbox" class="petal-filter" data-petal="{{ .id }}" checked />
+          <span class="filter-swatch" style="{{ printf "background: var(%s)" .cssVar | safeCSS }}"></span>
+          <span class="filter-label">{{ .label }}</span>
+          <span class="filter-count" data-count="{{ .id }}">0</span>
+        </label>
+        {{ end }}
+      </div>
+    </section>
+
+    <section>
+      <h2>Resources <span id="result-count" style="color: var(--ink-mute); font-weight: 400;">(0)</span></h2>
+      <div id="results" class="results"></div>
+    </section>
+
+    <section>
+      <h2>Know one we missed?</h2>
+      <a class="btn primary" style="width:100%; justify-content:center;" href="{{ .Site.Params.repo }}/issues/new?template=add-resource.md&title=Add+resource+for+{{ .Params.zip_code }}" rel="noopener" target="_blank">+ Add a resource in {{ .Params.zip_code }}</a>
+    </section>
+  </aside>
+
+  <div class="map-wrap">
+    <div id="map"></div>
+    <div class="map-badge" id="map-badge">
+      <span class="mb-dot"></span>
+      <span id="map-mode"><b>{{ .Params.zip_city }}</b> · {{ .Params.zip_code }}</span>
+    </div>
+    <div id="daisy-panel-mount"></div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+{{- $petalSlice := slice -}}
+{{- range .Site.Data.petals -}}
+  {{- $petalSlice = $petalSlice | append (dict "id" .id "label" .label "cssVar" .cssVar) -}}
+{{- end -}}
+<script>
+  window.PETALS = {{ $petalSlice | jsonify | safeJS }};
+  window.NH_REPO = {{ .Site.Params.repo | jsonify | safeJS }};
+  window.NH_INITIAL = {
+    state: {{ .Params.zip_state | jsonify | safeJS }},
+    zip:   {{ .Params.zip_code  | jsonify | safeJS }},
+    lat:   {{ .Params.zip_lat   | jsonify | safeJS }},
+    lng:   {{ .Params.zip_lng   | jsonify | safeJS }}
+  };
+</script>
+<script src="{{ "/js/map.js" | relURL }}" defer></script>
+{{ end }}

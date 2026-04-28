@@ -1,0 +1,29 @@
+---
+name: Rt 18 Farm Market 001
+type: food
+subtype: farmers_market
+address: 1038 WV Highway 18
+city: Troy
+state: WV
+zip: '26443'
+county: Gilmer County
+lat: 39.069904
+lng: -80.764763
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1291967'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

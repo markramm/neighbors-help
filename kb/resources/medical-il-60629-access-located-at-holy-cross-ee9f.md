@@ -1,0 +1,30 @@
+---
+name: ACCESS Located at Holy Cross
+type: medical
+subtype: fqhc
+address: '2701 W 68th St # 3-south'
+city: Chicago
+state: IL
+zip: '60629'
+county: Cook County
+lat: 41.769998
+lng: -87.69098
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(866) 882-2237'
+website: https://www.accesscommunityhealth.net
+hours_raw: 63.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-011907-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,32 @@
+---
+name: CDT Grupo Medico San Pablo, Inc. (CDT GMSP)
+type: medical
+subtype: fqhc
+address: B7 Calle Santa Cruz
+city: Bayamon
+state: PR
+zip: '00961'
+county: Bayamo'n Municipio
+lat: 18.396692
+lng: -66.147433
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(787) 625-6111'
+website: https://www.cdtgmsp.org
+hours_raw: 119.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-LAL-041252-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+needs_review: true
+review_notes: coordinates outside US bounds
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

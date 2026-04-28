@@ -1,0 +1,69 @@
+{{ define "main" }}
+{{- $petals := .Site.Data.petals -}}
+<div class="app">
+  {{ partial "topbar.html" (dict "variant" "map") }}
+
+  <aside class="sidebar" id="sidebar">
+    <section>
+      <h2>Pick a state</h2>
+      <select id="state-selector" class="state-selector">
+        <option value="">Loading…</option>
+      </select>
+      <a href="#" id="back-to-us" class="back-to-us" style="display:none;">
+        <span aria-hidden="true">←</span> Back to US (currently <span class="bb-label">…</span>)
+      </a>
+    </section>
+
+    <section>
+      <h2>Filter by petal</h2>
+      <div class="filters">
+        {{ range $petals }}
+        <label class="filter-row">
+          <input type="checkbox" class="petal-filter" data-petal="{{ .id }}" checked />
+          <span class="filter-swatch" style="{{ printf "background: var(%s)" .cssVar | safeCSS }}"></span>
+          <span class="filter-label">{{ .label }}</span>
+          <span class="filter-count" data-count="{{ .id }}">0</span>
+        </label>
+        {{ end }}
+      </div>
+    </section>
+
+    <section>
+      <h2>Resources <span id="result-count" style="color: var(--ink-mute); font-weight: 400;">(0)</span></h2>
+      <div id="results" class="results"></div>
+    </section>
+
+    <section>
+      <h2>Don't see what you need?</h2>
+      <a class="btn primary" style="width:100%; justify-content:center;" href="{{ .Site.Params.repo }}/issues/new?template=add-resource.md" rel="noopener" target="_blank">+ Add a resource</a>
+      <div style="font-size:12px; color: var(--ink-mute); padding: 10px 2px 0; line-height: 1.5;">
+        Free and public. A maintainer will review and add it. No personal info collected.
+      </div>
+    </section>
+  </aside>
+
+  <div class="map-wrap">
+    <div id="map"></div>
+    <div class="map-badge" id="map-badge">
+      <span class="mb-dot"></span>
+      <span id="map-mode"><b>States</b> · pick one to zoom in</span>
+    </div>
+    <div id="daisy-panel-mount"></div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+{{- /* Build PETALS via a single jsonify of the slice — Hugo's HTML minifier
+       mangles per-field quoting in <script> contexts, but a single jsonify
+       call survives. */ -}}
+{{- $petalSlice := slice -}}
+{{- range .Site.Data.petals -}}
+  {{- $petalSlice = $petalSlice | append (dict "id" .id "label" .label "cssVar" .cssVar) -}}
+{{- end -}}
+<script>
+  window.PETALS = {{ $petalSlice | jsonify | safeJS }};
+  window.NH_REPO = {{ .Site.Params.repo | jsonify | safeJS }};
+</script>
+<script src="{{ "/js/map.js" | relURL }}" defer></script>
+{{ end }}

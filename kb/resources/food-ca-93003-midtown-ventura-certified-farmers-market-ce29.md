@@ -1,0 +1,29 @@
+---
+name: Midtown Ventura Certified Farmers' Market
+type: food
+subtype: farmers_market
+address: 3301 E. Main Street Pacific View Mall
+city: Ventura
+state: CA
+zip: '93003'
+county: Ventura County
+lat: 34.268402
+lng: -119.24876
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1072286'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

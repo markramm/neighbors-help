@@ -1,0 +1,30 @@
+---
+name: AZA HEALTH
+type: medical
+subtype: fqhc
+address: 250 State Road 207
+city: St Augustine
+state: FL
+zip: '32084'
+county: St. Johns County
+lat: 29.877258
+lng: -81.329409
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(904) 824-3322'
+website: https://www.azahealth.org
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-019048-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,29 @@
+---
+name: Purdum's Produce Llc
+type: food
+subtype: farmers_market
+address: 6237 Elmore Rd
+city: Fruitland
+state: ID
+zip: '83619'
+county: Payette County
+lat: 43.973721
+lng: -116.8941
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1668481'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,29 @@
+---
+name: Washington Junior High School
+type: medical
+subtype: fqhc
+address: 210 NE 6th St
+city: Washington
+state: IN
+zip: '47501'
+county: Daviess County
+lat: 38.659341
+lng: -87.169068
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(812) 254-2682'
+hours_raw: 8.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-LAL-039509-2'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

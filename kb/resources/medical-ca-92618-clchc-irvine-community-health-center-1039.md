@@ -1,0 +1,29 @@
+---
+name: CLCHC - Irvine Community Health Center
+type: medical
+subtype: fqhc
+address: 15785 Laguna Canyon Rd STE 250
+city: Irvine
+state: CA
+zip: '92618'
+county: Orange County
+lat: 33.665352
+lng: -117.761643
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(949) 866-3600'
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-LAL-036558-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

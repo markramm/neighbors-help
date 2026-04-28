@@ -1,0 +1,29 @@
+---
+name: Azle Farmers Market
+type: food
+subtype: farmers_market
+address: 225 Church St
+city: Azle
+state: TX
+zip: '76020'
+county: Tarrant County
+lat: 32.893913
+lng: -97.542488
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1599156'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

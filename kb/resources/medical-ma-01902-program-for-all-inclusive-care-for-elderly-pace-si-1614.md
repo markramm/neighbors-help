@@ -1,0 +1,29 @@
+---
+name: Program for All-Inclusive Care for the Elderly (PACE) Site
+type: medical
+subtype: fqhc
+address: 37 Friend St
+city: Lynn
+state: MA
+zip: '01902'
+county: Essex County
+lat: 42.465266
+lng: -70.940018
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(781) 715-6608'
+hours_raw: 10.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-012148-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

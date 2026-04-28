@@ -1,0 +1,29 @@
+---
+name: North Rome Farmers Market
+type: food
+subtype: farmers_market
+address: 516 Kingston Ave NE
+city: Rome
+state: GA
+zip: '30161'
+county: Floyd County
+lat: 34.264854
+lng: -85.147285
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1457636'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

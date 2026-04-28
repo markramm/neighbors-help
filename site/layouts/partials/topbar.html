@@ -1,0 +1,21 @@
+{{- $variant := default "map" .variant -}}
+<div class="{{ if eq $variant "map" }}topbar{{ else }}page-topbar{{ end }}">
+  <a href="{{ "/" | relURL }}" class="brand">
+    <span class="brand-mark">{{ partial "daisy-icon.html" (dict "size" 34 "showLabel" "false") }}</span>
+    <span>Neighbors Help</span>
+    <span class="brand-tagline">— find help nearby</span>
+  </a>
+  {{ if eq $variant "map" }}
+  <div class="topbar-search">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="7"></circle>
+      <line x1="21" y1="21" x2="16.5" y2="16.5"></line>
+    </svg>
+    <input id="search" type="text" placeholder="Search zip or town (try 48197 or Ypsilanti)…" autocomplete="off" />
+  </div>
+  {{ end }}
+  <div class="topbar-actions">
+    <a class="btn" href="{{ "/about/" | relURL }}"><span class="btn-text">About</span></a>
+    <a class="btn primary" href="{{ .Site.Params.repo }}/issues/new?template=add-resource.md" rel="noopener" target="_blank">+ Add resource</a>
+  </div>
+</div>

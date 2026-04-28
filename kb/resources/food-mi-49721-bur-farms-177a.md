@@ -1,0 +1,29 @@
+---
+name: Bur Farms
+type: food
+subtype: farmers_market
+address: 4010 Riggsville Rd
+city: Cheboygan
+state: MI
+zip: '49721'
+county: Cheboygan County
+lat: 45.589027
+lng: -84.574158
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1407988'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

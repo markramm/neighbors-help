@@ -1,0 +1,29 @@
+---
+name: Community Health Center of Southeast Kansas/Neosho Heights Elementary
+type: medical
+subtype: fqhc
+address: 100 Oregon St
+city: Oswego
+state: KS
+zip: '67356'
+county: Labette County
+lat: 37.170409
+lng: -95.099298
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(620) 231-9873'
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-037755-2'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

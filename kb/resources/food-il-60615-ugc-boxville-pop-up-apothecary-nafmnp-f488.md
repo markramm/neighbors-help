@@ -1,0 +1,29 @@
+---
+name: Ugc Boxville Pop Up & Apothecary NAFMNP
+type: food
+subtype: farmers_market
+address: 330 E 51st St
+city: Chicago
+state: IL
+zip: '60615'
+county: Cook County
+lat: 41.802143
+lng: -87.61821
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+services:
+- snap_enrollment
+populations:
+- anyone
+source: usda_snap_retailers
+source_id: 'snap-1458193'
+all_sources:
+- usda_snap_retailers
+verified: true
+verified_by: scraper:usda_snap
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

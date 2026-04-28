@@ -1,0 +1,30 @@
+---
+name: Caring Health Center Main Street Clinic
+type: medical
+subtype: fqhc
+address: 1049 Main St
+city: Springfield
+state: MA
+zip: '01103'
+county: Hampden County
+lat: 42.099702
+lng: -72.584783
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(413) 739-1100'
+website: https://www.caringhealth.org
+hours_raw: 63.50 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-032116-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

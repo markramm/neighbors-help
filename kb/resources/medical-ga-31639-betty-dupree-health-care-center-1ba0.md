@@ -1,0 +1,30 @@
+---
+name: Betty Dupree Health Care Center
+type: medical
+subtype: fqhc
+address: 201 N Bartow St
+city: Nashville
+state: GA
+zip: '31639'
+county: Berrien County
+lat: 31.208161
+lng: -83.25082
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(229) 686-2774'
+website: https://scpccga.org
+hours_raw: 43.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-015006-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

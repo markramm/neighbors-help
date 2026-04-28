@@ -1,0 +1,28 @@
+---
+name: NorthPoint Administration
+type: medical
+subtype: fqhc
+address: 1256 Penn Ave N
+city: Minneapolis
+state: MN
+zip: '55411'
+county: Hennepin County
+lat: 44.991182
+lng: -93.308204
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(612) 543-2500'
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-039931-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

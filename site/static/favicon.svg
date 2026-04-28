@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <style>
+    :root { color-scheme: light dark; }
+    .petal { stroke: oklch(0.25 0.03 60 / 0.35); stroke-width: 1; }
+    .center { fill: oklch(0.86 0.15 95); stroke: oklch(0.25 0.03 60 / 0.5); stroke-width: 1.2; }
+  </style>
+  <g>
+    <circle class="petal" cx="32" cy="13" r="10" fill="oklch(0.72 0.18 145)"/>
+    <circle class="petal" cx="48.7" cy="22.2" r="10" fill="oklch(0.64 0.20 25)"/>
+    <circle class="petal" cx="48.0" cy="41.6" r="10" fill="oklch(0.55 0.19 255)"/>
+    <circle class="petal" cx="38.4" cy="55.0" r="10" fill="oklch(0.55 0.20 295)"/>
+    <circle class="petal" cx="25.6" cy="55.0" r="10" fill="oklch(0.58 0.14 45)"/>
+    <circle class="petal" cx="16.0" cy="41.6" r="10" fill="oklch(0.78 0.16 85)"/>
+    <circle class="petal" cx="15.3" cy="22.2" r="10" fill="oklch(0.65 0.13 200)"/>
+    <circle class="center" cx="32" cy="32" r="11"/>
+  </g>
+</svg>
