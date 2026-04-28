@@ -10,7 +10,7 @@ county: San Luis Obispo County
 lat: 35.274756
 lng: -120.645451
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(805) 269-1350'
 website: https://www.chccc.org
@@ -23,8 +23,8 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
 verified_at: '2026-04-27'
 ---

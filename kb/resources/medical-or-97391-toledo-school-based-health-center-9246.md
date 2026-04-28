@@ -10,7 +10,7 @@ county: Lincoln County
 lat: 44.633378
 lng: -123.923394
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(541) 336-5419'
 website: http://www.CoastalHealthcare.org
@@ -23,8 +23,8 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
 verified_at: '2026-04-27'
 ---

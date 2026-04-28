@@ -10,7 +10,7 @@ county: Union County
 lat: 37.463691
 lng: -89.246914
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(618) 833-4471'
 website: https://www.ruralhealthinc.org
@@ -23,8 +23,8 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
 verified_at: '2026-04-27'
 ---

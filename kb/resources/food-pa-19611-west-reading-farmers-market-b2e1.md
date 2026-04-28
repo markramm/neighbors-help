@@ -10,7 +10,7 @@ county: Berks County
 lat: 40.335529
 lng: -75.947838
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 services:
 - snap_enrollment
@@ -22,9 +22,9 @@ all_sources:
 - usda_snap_retailers
 verified: true
 verified_by: scraper:usda_snap
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
 all_source_ids:
 - snap-1447238
 - snap-1661595

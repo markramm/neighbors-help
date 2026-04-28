@@ -1,1 +1,14 @@
-{}
+{
+  "1411 east 31st st. oa wing, 1st floor rooms 12, 13, 19, 21a, 21c, 22-24, 26-28, 30-32|oakland|CA|94602": {
+    "geocoded_at": "2026-04-28",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "delutaoch rd|koror palau|PW|": {
+    "geocoded_at": "2026-04-28",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  }
+}

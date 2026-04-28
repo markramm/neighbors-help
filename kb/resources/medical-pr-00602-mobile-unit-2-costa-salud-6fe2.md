@@ -10,7 +10,7 @@ county: Aguada Municipio
 lat: 18.380654
 lng: -67.184175
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(787) 252-5500'
 website: https://www.costasalud.com
@@ -23,11 +23,11 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-27'
+last_checked: '2026-04-28'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-27'
-updated: '2026-04-27'
+created: '2026-04-28'
+updated: '2026-04-28'
 all_source_ids:
 - hrsa-BPS-H80-040431-5
 - hrsa-BPS-H80-040432-5

@@ -10,7 +10,7 @@ county: Jackson County
 lat: 39.046567
 lng: -94.586671
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(816) 753-5144'
 website: https://www.kccare.org
@@ -23,9 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
 all_source_ids:
 - hrsa-BPS-H80-015460-1
 - hrsa-BPS-H80-036370-1

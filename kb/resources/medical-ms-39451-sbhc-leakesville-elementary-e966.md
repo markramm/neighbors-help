@@ -10,7 +10,7 @@ county: Greene County
 lat: 31.144765
 lng: -88.531346
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(601) 394-5093'
 hours_raw: 12.00 hours/week
@@ -22,8 +22,8 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
 verified_at: '2026-04-27'
 ---

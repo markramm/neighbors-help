@@ -10,7 +10,7 @@ county: Guam County
 lat: 13.437855
 lng: 144.71063
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 services:
 - snap_enrollment
@@ -22,10 +22,10 @@ all_sources:
 - usda_snap_retailers
 verified: true
 verified_by: scraper:usda_snap
-last_checked: '2026-04-27'
+last_checked: '2026-04-28'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-27'
-updated: '2026-04-27'
+created: '2026-04-28'
+updated: '2026-04-28'
 verified_at: '2026-04-27'
 ---
