@@ -131,7 +131,15 @@ jobs:
           path: site/public
 
   deploy:
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    # Use always() so that `deploy` runs even when an upstream `needs` job
+    # was skipped (the scrape job is intentionally skipped on push). Without
+    # `always()`, GitHub Actions inherits "skipped" status through the
+    # needs chain and never deploys.
+    if: |
+      always() &&
+      needs.build.result == 'success' &&
+      github.ref == 'refs/heads/main' &&
+      github.event_name != 'pull_request'
     needs: [build]
     runs-on: ubuntu-latest
     environment:
