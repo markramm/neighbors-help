@@ -5,7 +5,7 @@
   {{- $petalSlice = $petalSlice | append (dict "id" .id "label" .label "cssVar" .cssVar) -}}
 {{- end -}}
 <div class="app">
-  {{ partial "topbar.html" (dict "variant" "map") }}
+  {{ partial "topbar.html" (dict "variant" "map" "page" .) }}
 
   <aside class="sidebar" id="sidebar">
     <section>
@@ -13,10 +13,10 @@
       <div style="font-size: 13px; color: var(--ink-soft); margin-bottom: 10px;">
         {{ .Params.zip_total }} resource{{ if ne .Params.zip_total 1 }}s{{ end }} listed
       </div>
-      <a href="{{ printf "/s/%s/" .Params.zip_state | relURL }}" id="back-to-state" class="back-to-us">
+      <a href="{{ printf "s/%s/" .Params.zip_state | relURL }}" id="back-to-state" class="back-to-us">
         <span aria-hidden="true">←</span> All {{ .Params.zip_state }} resources
       </a>
-      <a href="{{ "/" | relURL }}" class="back-to-us" style="margin-left: 6px;">
+      <a href="{{ "" | relURL }}" class="back-to-us" style="margin-left: 6px;">
         <span aria-hidden="true">←</span> US
       </a>
     </section>
@@ -65,6 +65,7 @@
 <script>
   window.PETALS = {{ $petalSlice | jsonify | safeJS }};
   window.NH_REPO = {{ .Site.Params.repo | jsonify | safeJS }};
+  window.NH_BASE = {{ "" | relURL | jsonify | safeJS }};
   window.NH_INITIAL = {
     state: {{ .Params.zip_state | jsonify | safeJS }},
     zip:   {{ .Params.zip_code  | jsonify | safeJS }},
@@ -72,5 +73,5 @@
     lng:   {{ .Params.zip_lng   | jsonify | safeJS }}
   };
 </script>
-<script src="{{ "/js/map.js" | relURL }}" defer></script>
+<script src="{{ "js/map.js" | relURL }}" defer></script>
 {{ end }}

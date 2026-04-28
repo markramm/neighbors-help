@@ -35,6 +35,10 @@
   const PETALS = window.PETALS || [];
   const PETAL_BY_ID = Object.fromEntries(PETALS.map(p => [p.id, p]));
   const PETAL_ORDER = PETALS.map(p => p.id);
+  // Base path for fetches/links. On a subpath deploy (e.g. GitHub Pages
+  // /neighbors-help/), this is the repo subpath. On the production domain
+  // it'll be "/". Always ends with a slash.
+  const BASE = (window.NH_BASE || '/').replace(/\/?$/, '/');
 
   const state = {
     scope: 'us',                  // 'us' | 'state'
@@ -58,9 +62,9 @@
 
   // ============= bootstrap =============
   Promise.all([
-    fetch('/data/index.json').then(r => r.json()),
-    fetch('/data/coverage.json').then(r => r.json()).catch(() => ({})),
-    fetch('/data/zip-prefix.json').then(r => r.json()).catch(() => ({})),
+    fetch(BASE + 'data/index.json').then(r => r.json()),
+    fetch(BASE + 'data/coverage.json').then(r => r.json()).catch(() => ({})),
+    fetch(BASE + 'data/zip-prefix.json').then(r => r.json()).catch(() => ({})),
   ]).then(([index, coverage, zipPrefix]) => {
     state.index = index;
     state.coverage = coverage;
@@ -157,8 +161,8 @@
     state.scope = 'us';
     state.stateCode = null;
     state.selectedZip = null;
-    if (window.location.pathname === '/') {
-      try { history.replaceState(null, '', '/'); } catch (_) {}
+    if (window.location.pathname === BASE) {
+      try { history.replaceState(null, '', BASE); } catch (_) {}
     }
     map.setView(US_VIEW.center, US_VIEW.zoom, { animate: true });
     clearLayer();
@@ -202,7 +206,7 @@
     if (!state.stateCache[code]) {
       const resultsEl = document.getElementById('results');
       if (resultsEl) resultsEl.innerHTML = `<div class="empty">Loading ${code}…</div>`;
-      fetch(`/data/states/${code}.json`).then(r => r.json()).then(data => {
+      fetch(`${BASE}data/states/${code}.json`).then(r => r.json()).then(data => {
         state.stateCache[code] = data;
         enterState(code);
         if (then) then();
@@ -222,7 +226,7 @@
     state.selectedZip = null;
     // Update URL bar without full reload, but only on homepage. (On /s/ and
     // /z/ pages, navigating in-place would lose Hugo-rendered OG tags.)
-    if (window.location.pathname === '/') {
+    if (window.location.pathname === BASE) {
       try {
         const u = new URL(window.location.href);
         u.searchParams.set('state', code);
@@ -718,10 +722,10 @@
         if (!sel.value) return;
         // On /s/ and /z/ pages, navigating to a new state should update the
         // URL bar — drive a full nav. On the homepage, just switch in place.
-        if (window.location.pathname === '/') {
+        if (window.location.pathname === BASE) {
           loadState(sel.value);
         } else {
-          window.location.href = `/s/${sel.value}/`;
+          window.location.href = `${BASE}s/${sel.value}/`;
         }
       });
     }
@@ -731,7 +735,7 @@
     // the link has a real href to /; let the browser navigate normally so
     // the URL bar updates.
     const back = document.getElementById('back-to-us');
-    if (back && window.location.pathname === '/') {
+    if (back && window.location.pathname === BASE) {
       back.addEventListener('click', e => { e.preventDefault(); renderUS(); });
     }
   }

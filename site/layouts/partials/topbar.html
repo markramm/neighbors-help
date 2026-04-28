@@ -1,6 +1,11 @@
+{{- /* The partial is called with a small dict as its context so we can
+       pass `variant`. Reach back to the page via `.page` (passed by the
+       caller) for things like .Site.Params. */ -}}
 {{- $variant := default "map" .variant -}}
+{{- $page := .page -}}
+{{- $repo := $page.Site.Params.repo -}}
 <div class="{{ if eq $variant "map" }}topbar{{ else }}page-topbar{{ end }}">
-  <a href="{{ "/" | relURL }}" class="brand">
+  <a href="{{ "" | relURL }}" class="brand">
     <span class="brand-mark">{{ partial "daisy-icon.html" (dict "size" 34 "showLabel" "false") }}</span>
     <span>Neighbors Help</span>
     <span class="brand-tagline">— find help nearby</span>
@@ -15,7 +20,7 @@
   </div>
   {{ end }}
   <div class="topbar-actions">
-    <a class="btn" href="{{ "/about/" | relURL }}"><span class="btn-text">About</span></a>
-    <a class="btn primary" href="{{ .Site.Params.repo }}/issues/new?template=add-resource.md" rel="noopener" target="_blank">+ Add resource</a>
+    <a class="btn" href="{{ "about/" | relURL }}"><span class="btn-text">About</span></a>
+    <a class="btn primary" href="{{ $repo }}/issues/new?template=add-resource.md" rel="noopener" target="_blank">+ Add resource</a>
   </div>
 </div>

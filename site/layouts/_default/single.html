@@ -4,10 +4,10 @@
 {{- $petalLabel := cond (ne $p nil) $p.label .Params.type -}}
 {{- $petalVar := cond (ne $p nil) $p.cssVar (printf "--%s" .Params.type) -}}
 
-{{ partial "topbar.html" (dict "variant" "page") }}
+{{ partial "topbar.html" (dict "variant" "page" "page" .) }}
 
 <article class="page-shell">
-  <a href="{{ "/" | relURL }}" class="back-link">← Back to map</a>
+  <a href="{{ "" | relURL }}" class="back-link">← Back to map</a>
 
   <header class="r-head">
     <div style="flex:1; min-width:0;">

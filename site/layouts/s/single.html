@@ -5,7 +5,7 @@
   {{- $petalSlice = $petalSlice | append (dict "id" .id "label" .label "cssVar" .cssVar) -}}
 {{- end -}}
 <div class="app">
-  {{ partial "topbar.html" (dict "variant" "map") }}
+  {{ partial "topbar.html" (dict "variant" "map" "page" .) }}
 
   <aside class="sidebar" id="sidebar">
     <section>
@@ -13,7 +13,7 @@
       <select id="state-selector" class="state-selector">
         <option value="">Loading…</option>
       </select>
-      <a href="{{ "/" | relURL }}" id="back-to-us" class="back-to-us">
+      <a href="{{ "" | relURL }}" id="back-to-us" class="back-to-us">
         <span aria-hidden="true">←</span> Back to US (currently <span class="bb-label">{{ .Params.state_name }}</span>)
       </a>
     </section>
@@ -65,7 +65,8 @@
 <script>
   window.PETALS = {{ $petalSlice | jsonify | safeJS }};
   window.NH_REPO = {{ .Site.Params.repo | jsonify | safeJS }};
+  window.NH_BASE = {{ "" | relURL | jsonify | safeJS }};
   window.NH_INITIAL = { state: {{ .Params.state_code | jsonify | safeJS }} };
 </script>
-<script src="{{ "/js/map.js" | relURL }}" defer></script>
+<script src="{{ "js/map.js" | relURL }}" defer></script>
 {{ end }}

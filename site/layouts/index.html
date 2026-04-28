@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{- $petals := .Site.Data.petals -}}
 <div class="app">
-  {{ partial "topbar.html" (dict "variant" "map") }}
+  {{ partial "topbar.html" (dict "variant" "map" "page" .) }}
 
   <aside class="sidebar" id="sidebar">
     <section>
@@ -64,6 +64,7 @@
 <script>
   window.PETALS = {{ $petalSlice | jsonify | safeJS }};
   window.NH_REPO = {{ .Site.Params.repo | jsonify | safeJS }};
+  window.NH_BASE = {{ "" | relURL | jsonify | safeJS }};
 </script>
-<script src="{{ "/js/map.js" | relURL }}" defer></script>
+<script src="{{ "js/map.js" | relURL }}" defer></script>
 {{ end }}
