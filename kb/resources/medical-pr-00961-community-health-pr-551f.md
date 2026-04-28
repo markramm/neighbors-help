@@ -10,7 +10,7 @@ county: Bayamo'n Municipio
 lat: 18.396913
 lng: -66.149886
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-04-27'
 geocode_confidence: high
 phone: '787-203-3826 x1622'
 website: https://www.chfpr.org
@@ -23,10 +23,10 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
+last_checked: '2026-04-27'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-28'
-updated: '2026-04-28'
+created: '2026-04-27'
+updated: '2026-04-27'
 verified_at: '2026-04-27'
 ---

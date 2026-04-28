@@ -10,7 +10,7 @@ county: Hancock County
 lat: 36.53659
 lng: -83.21053
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-04-27'
 geocode_confidence: high
 phone: '(423) 733-2131'
 website: https://www.rhsctn.com
@@ -23,8 +23,8 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
 verified_at: '2026-04-27'
 ---

@@ -10,7 +10,7 @@ county: Aibonito Municipio
 lat: 18.134344
 lng: -66.273057
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-04-27'
 geocode_confidence: high
 phone: '787-739-8182 x1700'
 hours_raw: 44.00 hours/week
@@ -22,11 +22,11 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
+last_checked: '2026-04-27'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-28'
-updated: '2026-04-28'
+created: '2026-04-27'
+updated: '2026-04-27'
 all_source_ids:
 - hrsa-BPS-H80-026005-1
 - hrsa-BPS-H80-032788-1

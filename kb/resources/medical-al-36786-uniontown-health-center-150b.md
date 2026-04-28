@@ -10,7 +10,7 @@ county: Perry County
 lat: 32.452865
 lng: -87.508138
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-04-27'
 geocode_confidence: high
 phone: '(334) 628-2651'
 website: https://www.rhmpi.com
@@ -23,8 +23,8 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
 verified_at: '2026-04-27'
 ---

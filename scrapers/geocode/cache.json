@@ -10,5 +10,550 @@
     "lat": null,
     "lng": null,
     "source": "miss"
+  },
+  "rev|21.2958|-157.8661": {
+    "city": "Honolulu",
+    "county": "Honolulu County",
+    "source": "census",
+    "state": "HI",
+    "zip": "96813"
+  },
+  "rev|28.3232|-82.4319": {
+    "city": "Central Pasco",
+    "county": "Pasco County",
+    "source": "census",
+    "state": "FL",
+    "zip": "33523"
+  },
+  "rev|30.2227|-91.9961": {
+    "city": "Lafayette",
+    "county": "Lafayette County",
+    "source": "census",
+    "state": "LA",
+    "zip": "70501"
+  },
+  "rev|33.0198|-96.6989": {
+    "city": "Plano",
+    "county": "Collin County",
+    "source": "census",
+    "state": "TX",
+    "zip": "75074"
+  },
+  "rev|33.1959|-117.3795": {
+    "city": "Oceanside",
+    "county": "San Diego County",
+    "source": "census",
+    "state": "CA",
+    "zip": "92054"
+  },
+  "rev|33.3943|-104.523": {
+    "city": "Roswell",
+    "county": "Chaves County",
+    "source": "census",
+    "state": "NM",
+    "zip": "88201"
+  },
+  "rev|33.896|-118.254": {
+    "city": "Compton",
+    "county": "Los Angeles County",
+    "source": "census",
+    "state": "CA",
+    "zip": "90220"
+  },
+  "rev|34.0612|-118.2945": {
+    "city": "Los Angeles",
+    "county": "Los Angeles County",
+    "source": "census",
+    "state": "CA",
+    "zip": "90005"
+  },
+  "rev|34.1064|-117.5931": {
+    "city": "Rancho Cucamonga",
+    "county": "San Bernardino County",
+    "source": "census",
+    "state": "CA",
+    "zip": "91730"
+  },
+  "rev|34.8625|-111.8182": {
+    "city": "Sedona",
+    "county": "Yavapai County",
+    "source": "census",
+    "state": "AZ",
+    "zip": "86336"
+  },
+  "rev|35.59|-82.632": {
+    "city": "Asheville",
+    "county": "Buncombe County",
+    "source": "census",
+    "state": "NC",
+    "zip": "28806"
+  },
+  "rev|35.6369|-106.02": {
+    "city": "Santa Fe",
+    "county": "Santa Fe County",
+    "source": "census",
+    "state": "NM",
+    "zip": "87507"
+  },
+  "rev|36.0307|-75.676": {
+    "city": "Kill Devil Hills",
+    "county": "Dare County",
+    "source": "census",
+    "state": "NC",
+    "zip": "27948"
+  },
+  "rev|37.4138|-79.1422": {
+    "city": "Lynchburg",
+    "county": "Lynchburg County",
+    "source": "census",
+    "state": "VA",
+    "zip": "24504"
+  },
+  "rev|37.6688|-122.081": {
+    "city": "Hayward",
+    "county": "Alameda County",
+    "source": "census",
+    "state": "CA",
+    "zip": "94541"
+  },
+  "rev|37.8382|-122.2625": {
+    "city": "Oakland",
+    "county": "Alameda County",
+    "source": "census",
+    "state": "CA",
+    "zip": "94609"
+  },
+  "rev|37.8564|-122.2711": {
+    "city": "Berkeley",
+    "county": "Alameda County",
+    "source": "census",
+    "state": "CA",
+    "zip": "94703"
+  },
+  "rev|38.0623|-84.5014": {
+    "city": "Lexington-Fayette",
+    "county": "Fayette County",
+    "source": "census",
+    "state": "KY",
+    "zip": "40508"
+  },
+  "rev|38.2323|-85.7398": {
+    "city": "Louisville",
+    "county": "Jefferson County",
+    "source": "census",
+    "state": "KY",
+    "zip": "40204"
+  },
+  "rev|38.4416|-122.7129": {
+    "city": "Santa Rosa",
+    "county": "Sonoma County",
+    "source": "census",
+    "state": "CA",
+    "zip": "95404"
+  },
+  "rev|38.495|-76.5026": {
+    "city": "2, Prince Frederick",
+    "county": "Calvert County",
+    "source": "census",
+    "state": "MD",
+    "zip": "20676"
+  },
+  "rev|38.8353|-104.8216": {
+    "city": "Colorado Springs",
+    "county": "El Paso County",
+    "source": "census",
+    "state": "CO",
+    "zip": "80903"
+  },
+  "rev|38.9416|-92.5049": {
+    "city": "Katy",
+    "county": "Boone County",
+    "source": "census",
+    "state": "MO",
+    "zip": "65279"
+  },
+  "rev|39.0015|-76.8767": {
+    "city": "Greenbelt",
+    "county": "Prince George's County",
+    "source": "census",
+    "state": "MD",
+    "zip": "20770"
+  },
+  "rev|39.0855|-77.1514": {
+    "city": "Rockville",
+    "county": "Montgomery County",
+    "source": "census",
+    "state": "MD",
+    "zip": "20850"
+  },
+  "rev|39.1547|-77.2405": {
+    "city": "9",
+    "county": "Montgomery County",
+    "source": "census",
+    "state": "MD",
+    "zip": "20878"
+  },
+  "rev|39.3067|-76.61": {
+    "city": "Baltimore",
+    "county": "Baltimore County",
+    "source": "census",
+    "state": "MD",
+    "zip": "21202"
+  },
+  "rev|39.7252|-104.9987": {
+    "city": "Denver",
+    "county": "Denver County",
+    "source": "census",
+    "state": "CO",
+    "zip": "80204"
+  },
+  "rev|39.8064|-83.8869": {
+    "city": "Yellow Springs",
+    "county": "Greene County",
+    "source": "census",
+    "state": "OH",
+    "zip": "45387"
+  },
+  "rev|39.9428|-75.2104": {
+    "city": "Philadelphia",
+    "county": "Philadelphia County",
+    "source": "census",
+    "state": "PA",
+    "zip": "19143"
+  },
+  "rev|39.9454|-75.1766": {
+    "city": "Philadelphia",
+    "county": "Philadelphia County",
+    "source": "census",
+    "state": "PA",
+    "zip": "19146"
+  },
+  "rev|39.986|-82.9009": {
+    "city": "Columbus",
+    "county": "Franklin County",
+    "source": "census",
+    "state": "OH",
+    "zip": "43219"
+  },
+  "rev|40.2113|-77.1932": {
+    "city": "Carlisle",
+    "county": "Cumberland County",
+    "source": "census",
+    "state": "PA",
+    "zip": "17013"
+  },
+  "rev|40.229|-75.3879": {
+    "city": "Lower Salford",
+    "county": "Montgomery County",
+    "source": "census",
+    "state": "PA",
+    "zip": "19438"
+  },
+  "rev|40.4792|-89.0015": {
+    "city": "Bloomington",
+    "county": "McLean County",
+    "source": "census",
+    "state": "IL",
+    "zip": "61701"
+  },
+  "rev|40.6126|-75.4631": {
+    "city": "Allentown",
+    "county": "Lehigh County",
+    "source": "census",
+    "state": "PA",
+    "zip": "18102"
+  },
+  "rev|41.4117|-82.1278": {
+    "city": "Elyria",
+    "county": "Lorain County",
+    "source": "census",
+    "state": "OH",
+    "zip": "44035"
+  },
+  "rev|41.8163|-71.4434": {
+    "city": "Providence",
+    "county": "Providence County",
+    "source": "census",
+    "state": "RI",
+    "zip": "02909"
+  },
+  "rev|41.8268|-71.4025": {
+    "city": "Providence",
+    "county": "Providence County",
+    "source": "census",
+    "state": "RI",
+    "zip": "02912"
+  },
+  "rev|41.8863|-87.7266": {
+    "city": "Chicago",
+    "county": "Cook County",
+    "source": "census",
+    "state": "IL",
+    "zip": "60624"
+  },
+  "rev|42.2285|-121.7777": {
+    "city": "Klamath Falls",
+    "county": "Klamath County",
+    "source": "census",
+    "state": "OR",
+    "zip": "97601"
+  },
+  "rev|42.2703|-88.0016": {
+    "city": "Mundelein",
+    "county": "Lake County",
+    "source": "census",
+    "state": "IL",
+    "zip": "60060"
+  },
+  "rev|42.3625|-83.0699": {
+    "city": "Detroit",
+    "county": "Wayne County",
+    "source": "census",
+    "state": "MI",
+    "zip": "48202"
+  },
+  "rev|42.4|-82.9473": {
+    "city": "Detroit",
+    "county": "Wayne County",
+    "source": "census",
+    "state": "MI",
+    "zip": "48224"
+  },
+  "rev|42.9394|-78.8394": {
+    "city": "Buffalo",
+    "county": "Erie County",
+    "source": "census",
+    "state": "NY",
+    "zip": "14214"
+  },
+  "rev|43.4579|-80.5034": {
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip": ""
+  },
+  "rev|43.615|-116.2023": {
+    "city": "Boise City",
+    "county": "Ada County",
+    "source": "census",
+    "state": "ID",
+    "zip": "83702"
+  },
+  "rev|43.9748|-75.9108": {
+    "city": "Watertown",
+    "county": "Jefferson County",
+    "source": "census",
+    "state": "NY",
+    "zip": "13601"
+  },
+  "rev|44.0158|-88.5785": {
+    "city": "Oshkosh",
+    "county": "Winnebago County",
+    "source": "census",
+    "state": "WI",
+    "zip": "54902"
+  },
+  "rev|44.0351|-123.1067": {
+    "city": "Eugene",
+    "county": "Lane County",
+    "source": "census",
+    "state": "OR",
+    "zip": "97405"
+  },
+  "rev|44.1636|-93.9994": {
+    "city": "Mankato",
+    "county": "Blue Earth County",
+    "source": "census",
+    "state": "MN",
+    "zip": "56001"
+  },
+  "rev|44.3306|-78.3416": {
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip": ""
+  },
+  "rev|44.8024|-93.58": {
+    "city": "Chaska",
+    "county": "Carver County",
+    "source": "census",
+    "state": "MN",
+    "zip": "55318"
+  },
+  "rev|44.9716|-93.1258": {
+    "city": "St. Paul",
+    "county": "Ramsey County",
+    "source": "census",
+    "state": "MN",
+    "zip": "55117"
+  },
+  "rev|45.005|-93.2481": {
+    "city": "Minneapolis",
+    "county": "Hennepin County",
+    "source": "census",
+    "state": "MN",
+    "zip": "55413"
+  },
+  "rev|45.1746|-113.8954": {
+    "city": "Salmon",
+    "county": "Lemhi County",
+    "source": "census",
+    "state": "ID",
+    "zip": "83467"
+  },
+  "rev|45.4778|-122.6978": {
+    "city": "Portland",
+    "county": "Multnomah County",
+    "source": "census",
+    "state": "OR",
+    "zip": "97239"
+  },
+  "rev|45.511|-122.5529": {
+    "city": "Portland",
+    "county": "Multnomah County",
+    "source": "census",
+    "state": "OR",
+    "zip": "97216"
+  },
+  "rev|45.5144|-122.6458": {
+    "city": "Portland",
+    "county": "Multnomah County",
+    "source": "census",
+    "state": "OR",
+    "zip": "97214"
+  },
+  "rev|45.5193|-122.4795": {
+    "city": "Gresham",
+    "county": "Multnomah County",
+    "source": "census",
+    "state": "OR",
+    "zip": "97233"
+  },
+  "rev|45.5394|-73.6343": {
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip": ""
+  },
+  "rev|45.5623|-122.6451": {
+    "city": "Portland",
+    "county": "Multnomah County",
+    "source": "census",
+    "state": "OR",
+    "zip": "97211"
+  },
+  "rev|45.5818|-122.6893": {
+    "city": "Portland",
+    "county": "Multnomah County",
+    "source": "census",
+    "state": "OR",
+    "zip": "97217"
+  },
+  "rev|46.8718|-114.0196": {
+    "city": "Missoula",
+    "county": "Missoula County",
+    "source": "census",
+    "state": "MT",
+    "zip": "59801"
+  },
+  "rev|47.2523|-122.4448": {
+    "city": "Tacoma",
+    "county": "Pierce County",
+    "source": "census",
+    "state": "WA",
+    "zip": "98405"
+  },
+  "rev|47.2996|-122.2478": {
+    "city": "Auburn",
+    "county": "King County",
+    "source": "census",
+    "state": "WA",
+    "zip": "98001"
+  },
+  "rev|47.5206|-120.4686": {
+    "city": "Cashmere",
+    "county": "Chelan County",
+    "source": "census",
+    "state": "WA",
+    "zip": "98815"
+  },
+  "rev|47.5635|-122.2958": {
+    "city": "Seattle",
+    "county": "King County",
+    "source": "census",
+    "state": "WA",
+    "zip": "98108"
+  },
+  "rev|47.564|-122.3626": {
+    "city": "Seattle",
+    "county": "King County",
+    "source": "census",
+    "state": "WA",
+    "zip": "98106"
+  },
+  "rev|47.5689|-122.6302": {
+    "city": "Bremerton",
+    "county": "Kitsap County",
+    "source": "census",
+    "state": "WA",
+    "zip": "98337"
+  },
+  "rev|47.57|-122.2907": {
+    "city": "Seattle",
+    "county": "King County",
+    "source": "census",
+    "state": "WA",
+    "zip": "98144"
+  },
+  "rev|47.6147|-122.3262": {
+    "city": "Seattle",
+    "county": "King County",
+    "source": "census",
+    "state": "WA",
+    "zip": "98122"
+  },
+  "rev|47.6847|-122.3771": {
+    "city": "Seattle",
+    "county": "King County",
+    "source": "census",
+    "state": "WA",
+    "zip": "98117"
+  },
+  "rev|47.7028|-122.3009": {
+    "city": "Seattle",
+    "county": "King County",
+    "source": "census",
+    "state": "WA",
+    "zip": "98125"
+  },
+  "rev|48.4214|-123.3634": {
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip": ""
+  },
+  "rev|48.439|-68.535": {
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip": ""
+  },
+  "rev|49.1727|-123.9409": {
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip": ""
+  },
+  "rev|49.2538|-123.0678": {
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip": ""
+  },
+  "rev|60.7403|-135.0723": {
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip": ""
   }
 }

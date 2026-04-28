@@ -10,7 +10,7 @@ county: Davidson County
 lat: 35.873928
 lng: -80.076496
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-04-27'
 geocode_confidence: high
 phone: '(336) 474-4585'
 website: https://www.kintegra.org
@@ -23,8 +23,8 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
 verified_at: '2026-04-27'
 ---

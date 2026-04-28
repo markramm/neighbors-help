@@ -10,7 +10,7 @@ county: Watauga County
 lat: 36.13159
 lng: -81.677
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-04-27'
 geocode_confidence: high
 phone: '(828) 262-3886'
 hours_raw: 24.00 hours/week
@@ -22,8 +22,8 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
 verified_at: '2026-04-27'
 ---

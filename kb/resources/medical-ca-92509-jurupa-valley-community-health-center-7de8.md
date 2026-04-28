@@ -10,7 +10,7 @@ county: Riverside County
 lat: 34.011482
 lng: -117.477052
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-04-27'
 geocode_confidence: high
 phone: '(951) 360-8795'
 website: https://www.ruhealth.org/chc/jurupa-valley
@@ -23,8 +23,8 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
 verified_at: '2026-04-27'
 ---

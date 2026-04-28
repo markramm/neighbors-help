@@ -32,6 +32,7 @@ log = logging.getLogger(__name__)
 CACHE_PATH = Path(__file__).parent / "cache.json"
 
 CENSUS_URL = "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress"
+CENSUS_REVERSE_URL = "https://geocoding.geo.census.gov/geocoder/geographies/coordinates"
 CENSUS_RATE_LIMIT_S = 0.1   # be polite — Census is free
 CENSUS_TIMEOUT_S = 10
 
@@ -56,6 +57,23 @@ class GeocodeResult:
     source: Literal["census", "google", "cache"]
     confidence: Confidence
     matched_address: Optional[str] = None
+
+
+@dataclass
+class ReverseResult:
+    """What we get back from reverse-geocoding a lat/lng to admin geographies.
+    Some fields may be empty (e.g. lat/lng outside any incorporated place)."""
+    state: str          # 2-letter, e.g. "WA"
+    zip: str            # 5-digit ZCTA
+    city: str           # Place name (Incorporated Place or county subdivision)
+    county: str         # e.g. "King County"
+    source: Literal["census", "cache"] = "census"
+
+
+def _normalize_reverse_key(lat: float, lng: float) -> str:
+    """Cache key for reverse-geocode lookups. Round to ~11m precision so
+    nearby points share a cache entry."""
+    return f"rev|{round(float(lat), 4)}|{round(float(lng), 4)}"
 
 
 def _normalize_address_key(address: str, city: str, state: str, zip_code: str) -> str:
@@ -100,6 +118,8 @@ class Geocoder:
             "google_miss": 0,
             "google_skipped_no_key": 0,
             "google_skipped_budget": 0,
+            "reverse_ok": 0,
+            "reverse_miss": 0,
             "errors": 0,
         }
 
@@ -276,6 +296,89 @@ class Geocoder:
             source="google", confidence=confidence,
             matched_address=result.get("formatted_address"),
         )
+
+
+    # -- reverse geocoding (lat/lng → admin geographies) -------------------
+
+    def reverse(self, lat: float, lng: float) -> Optional[ReverseResult]:
+        """Look up state / zip / city / county for a coordinate.
+
+        Used by sources (Food Not Bombs, Tool Library Alliance, etc.) that
+        publish points without addresses. Always uses the same cache file
+        as forward lookups, but with a distinct key prefix.
+        """
+        try:
+            lat = float(lat); lng = float(lng)
+        except (TypeError, ValueError):
+            return None
+        key = _normalize_reverse_key(lat, lng)
+        if key in self.cache:
+            cached = self.cache[key]
+            self.stats["cache_hit"] += 1
+            if not cached.get("state"):
+                return None
+            return ReverseResult(
+                state=cached.get("state", ""),
+                zip=cached.get("zip", ""),
+                city=cached.get("city", ""),
+                county=cached.get("county", ""),
+                source="cache",
+            )
+
+        # Polite rate limit — same Census service so honor the same gate.
+        elapsed = time.monotonic() - self._last_census_call
+        if elapsed < CENSUS_RATE_LIMIT_S:
+            time.sleep(CENSUS_RATE_LIMIT_S - elapsed)
+
+        try:
+            r = requests.get(
+                CENSUS_REVERSE_URL,
+                params={
+                    "x": lng, "y": lat,
+                    "benchmark": "Public_AR_Current",
+                    "vintage": "Census2020_Current",
+                    "layers": "all",
+                    "format": "json",
+                },
+                timeout=CENSUS_TIMEOUT_S,
+            )
+            self._last_census_call = time.monotonic()
+            r.raise_for_status()
+            data = r.json()
+        except (requests.RequestException, ValueError) as e:
+            log.debug("reverse error for %f,%f: %s", lat, lng, e)
+            self.stats["errors"] += 1
+            return None
+
+        geos = (data.get("result") or {}).get("geographies") or {}
+
+        def _first(key, field, default=""):
+            arr = geos.get(key) or []
+            if not arr:
+                return default
+            return arr[0].get(field, default) or default
+
+        state = _first("States", "STUSAB")
+        zip_code = _first("Zip Code Tabulation Areas", "ZCTA5") or _first("Zip Code Tabulation Areas", "BASENAME")
+        # Prefer Incorporated Places; fall back to County Subdivisions if outside
+        # an incorporated place.
+        city = _first("Incorporated Places", "BASENAME") or _first("County Subdivisions", "BASENAME")
+        county = _first("Counties", "BASENAME")
+        if county and not county.endswith(" County") and not county.endswith(" Parish"):
+            county = f"{county} County"
+
+        if not state:
+            self.stats["reverse_miss"] += 1
+            self.cache[key] = {"state": "", "zip": "", "city": "", "county": ""}
+            return None
+
+        result = ReverseResult(state=state, zip=zip_code, city=city, county=county)
+        self.cache[key] = {
+            "state": state, "zip": zip_code, "city": city, "county": county,
+            "source": "census",
+        }
+        self.stats["reverse_ok"] += 1
+        return result
 
 
 # -- entry-level convenience -------------------------------------------------

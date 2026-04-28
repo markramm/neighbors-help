@@ -53,7 +53,7 @@ VALID_SUBTYPES: dict[str, set[str]] = {
     },
     "care": {
         "childcare", "elder_care", "disability_support", "respite_care",
-        "hospice",
+        "hospice", "laundry_assistance",
     },
     "economy": {
         "mutual_aid_fund", "buy_nothing", "time_bank", "tool_library",
@@ -69,13 +69,18 @@ VALID_SOURCES = {
     "usda_food_pantries", "usda_snap_retailers", "hrsa_fqhc", "hud_shelters",
     "hud_hopwa", "va_facilities", "osm", "mutual_aid_hub",
     "211_national", "community_pr", "manual", "maintainer", "scraper",
+    "tool_library_alliance", "food_not_bombs", "laundry_love",
 }
 # 211_{state} sources are also valid — checked dynamically.
 
 # Sources whose underlying datasets don't include contact info. We accept
 # these without flagging "missing all contact channels" — that's not a
 # data-quality problem, it's a property of the dataset.
-NO_CONTACT_SOURCES = {"usda_snap_retailers"}
+NO_CONTACT_SOURCES = {
+    "usda_snap_retailers",
+    "tool_library_alliance",   # Google My Maps form, mostly empty fields
+    "food_not_bombs",          # ditto
+}
 
 # Continental US bounding box (rough). AK/HI handled separately if needed.
 US_LAT_RANGE = (24.0, 50.0)

@@ -1,0 +1,31 @@
+---
+name: SmartWash Laundromat Endicott
+type: care
+subtype: laundry_assistance
+address: 1001 North Street, Price Chopper Plaza
+city: Endicott
+state: NY
+zip: '13760'
+lat: 42.105148
+lng: -76.050735
+geocoded_by: source
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+phone: '(607) 785-8579'
+email: amber@newlifefm.com
+hours_raw: 4th Saturday of the month (11:00 am to 2:00pm)
+services:
+- laundry
+populations:
+- anyone
+source: laundry_love
+source_id: 'll-20422030'
+all_sources:
+- laundry_love
+verified: true
+verified_by: scraper:laundry_love
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

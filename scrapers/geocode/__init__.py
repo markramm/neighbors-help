@@ -1,1 +1,3 @@
-from .geocoder import geocode_entry, Geocoder, GeocodeResult, BudgetExceeded  # noqa: F401
+from .geocoder import (  # noqa: F401
+    geocode_entry, Geocoder, GeocodeResult, ReverseResult, BudgetExceeded,
+)

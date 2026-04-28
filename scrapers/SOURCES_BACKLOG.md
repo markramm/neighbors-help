@@ -4,12 +4,15 @@ Candidate data sources for future scrapers, with notes on access and feasibility
 Add to this file as new sources turn up — edit anywhere, anyone can PR. The
 top of the file lists shipped sources; everything below is candidate work.
 
-## Shipped (v1)
+## Shipped
 
 | Source | Coverage | Records (US) | Type | Subtype | Access |
 |---|---|---|---|---|---|
 | HRSA FQHC | National | ~18,800 | medical | fqhc | Public CSV bulk download |
 | USDA SNAP — Farmers and Markets | National | ~7,200 | food | farmers_market | ArcGIS REST FeatureServer |
+| Laundry Love | National | ~300 (116 visible US) | care | laundry_assistance | StoreRocket public JSON API |
+| Food Not Bombs | National | ~25 US chapters (2025 list) | food | soup_kitchen | Google My Maps KML; reverse-geocode for state/zip |
+| Tool Library Alliance | Worldwide → US | ~48 US | economy | tool_library | Google My Maps KML; reverse-geocode for state/zip |
 
 ## Candidates — reasonable-to-build
 
@@ -17,10 +20,7 @@ top of the file lists shipped sources; everything below is candidate work.
 |---|---|---|---|
 | **Mutual Aid Hub** (mutualaidhub.org) | economy / food / care | Webflow/Mapbox-rendered map. No documented API; need to inspect what the map JS fetches. Spec'd in original plan. | Many entries are COVID-era inactive — will need a `last_active` filter or community vetting before publishing. |
 | **National Diaper Bank Network** (nationaldiaperbanknetwork.org/member-directory) | care | Member directory page; need to inspect for embedded data or AJAX. | Population: families with infants. Strong fit. |
-| **Laundry Love** (laundrylove.org/find-a-location) | care / economy | Uses StoreRocket third-party widget — they expose JSON per query. ~500 locations nationally. | Probably scrapeable through the widget's JSON endpoint; check StoreRocket's terms. |
-| **Tool Library Alliance** (toollibraryalliance.org/map) | economy | Form-submitted map; the underlying spreadsheet may be public. Email hello@toollibraryalliance.org for data. | Small dataset (likely <500 libraries) but high-quality fit. Their FAQ explicitly invites partnerships. |
 | **Salvation Army** (salvationarmyusa.org/location-finder) | food / housing / care / economy | JS-rendered store locator. Needs DevTools inspection to find the API. ~7,000 US service centers + thrift stores. | Big dataset, services per location vary widely. Probably worth the effort. |
-| **Food Not Bombs** (Google My Maps, mid=1KVbOaPBP2Xh1zk59DS9nI-BjjYnrwtwD) | food | Google My Maps export → KML/CSV via Google's `Output=kml` URL pattern. ~1,000 chapters worldwide. | Easy to scrape (KML is well-defined); chapter contact info is the harder part. |
 
 ## Candidates — needs investigation before committing
 

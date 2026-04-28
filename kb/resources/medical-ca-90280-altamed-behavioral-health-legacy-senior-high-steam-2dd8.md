@@ -10,7 +10,7 @@ county: Los Angeles County
 lat: 33.941333
 lng: -118.178958
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-04-27'
 geocode_confidence: high
 phone: '(855) 425-1777'
 hours_raw: 8.50 hours/week
@@ -22,9 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
 all_source_ids:
 - hrsa-BPS-H80-040509-2
 - hrsa-BPS-H80-040512-2
