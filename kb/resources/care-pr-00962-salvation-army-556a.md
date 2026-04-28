@@ -8,8 +8,8 @@ state: PR
 zip: '00962'
 lat: 18.440676
 lng: -66.120588
-geocoded_by: census
-geocoded_at: '2026-04-27'
+geocoded_by: cache
+geocoded_at: '2026-04-28'
 geocode_confidence: medium
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/pr/catano/calle-barbosa/
@@ -17,12 +17,14 @@ populations:
 - anyone
 source: salvation_army
 source_id: 'sa-7-dacdcdc686-k9rk9n'
+all_sources:
+- salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-27'
+last_checked: '2026-04-28'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-27'
-updated: '2026-04-27'
+created: '2026-04-28'
+updated: '2026-04-28'
 verified_at: '2026-04-27'
 ---

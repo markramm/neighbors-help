@@ -9,20 +9,23 @@ zip: '26201'
 lat: 38.996392
 lng: -80.229592
 geocoded_by: cache
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 needs_geocode_review: false
-website: https://www.salvationarmyusa.org/wv/buckhannon/n-spring-st-1/
+website: https://www.salvationarmyusa.org/wv/buckhannon/n-spring-st/
 populations:
 - anyone
 source: salvation_army
-source_id: 'sa-7-eada9bca89-34mnzv'
+source_id: 'sa-7-88afcffce9-4slwz8'
 all_sources:
 - salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
+all_source_ids:
+- sa-7-88afcffce9-4slwz8
+- sa-7-eada9bca89-34mnzv
 verified_at: '2026-04-27'
 ---
