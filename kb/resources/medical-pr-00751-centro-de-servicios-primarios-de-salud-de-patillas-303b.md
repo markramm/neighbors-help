@@ -10,7 +10,7 @@ county: Salinas Municipio
 lat: 18.005492
 lng: -66.260292
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '787-839-4320 x1236'
 website: https://www.cspsp.org
@@ -23,10 +23,10 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-27'
+last_checked: '2026-04-28'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-27'
-updated: '2026-04-27'
+created: '2026-04-28'
+updated: '2026-04-28'
 verified_at: '2026-04-27'
 ---

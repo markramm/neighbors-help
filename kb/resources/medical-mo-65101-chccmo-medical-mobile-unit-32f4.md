@@ -10,7 +10,7 @@ county: Cole County
 lat: 38.559796
 lng: -92.189474
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(573) 632-2777'
 hours_raw: 16.00 hours/week
@@ -22,9 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
 all_source_ids:
 - hrsa-BPS-H80-029917-5
 - hrsa-BPS-H80-031837-5

@@ -9,7 +9,7 @@ zip: '33901'
 lat: 26.642274
 lng: -81.866922
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(239) 334-7747'
 email: outreach@citygateswf.org
@@ -24,8 +24,8 @@ all_sources:
 - laundry_love
 verified: true
 verified_by: scraper:laundry_love
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
 verified_at: '2026-04-27'
 ---

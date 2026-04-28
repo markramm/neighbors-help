@@ -10,7 +10,7 @@ county: San Lorenzo Municipio
 lat: 18.185117
 lng: -65.962177
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(787) 715-1260'
 hours_raw: 84.00 hours/week
@@ -22,10 +22,10 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-27'
+last_checked: '2026-04-28'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-27'
-updated: '2026-04-27'
+created: '2026-04-28'
+updated: '2026-04-28'
 verified_at: '2026-04-27'
 ---

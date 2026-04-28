@@ -9,7 +9,7 @@ zip: '37416'
 lat: 35.089301
 lng: -85.188716
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(909) 908-3730'
 email: cmmnoffice@gmail.com
@@ -24,9 +24,9 @@ all_sources:
 - laundry_love
 verified: true
 verified_by: scraper:laundry_love
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
 all_source_ids:
 - ll-20422100
 - ll-21362422

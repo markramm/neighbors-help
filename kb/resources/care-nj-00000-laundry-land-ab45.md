@@ -8,7 +8,7 @@ state: NJ
 lat: 40.802912
 lng: -74.481704
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '(908) 432-4241'
 email: stpeterschurchlaundrylove@gmail.com
@@ -23,10 +23,10 @@ all_sources:
 - laundry_love
 verified: true
 verified_by: scraper:laundry_love
-last_checked: '2026-04-27'
+last_checked: '2026-04-28'
 needs_review: true
 review_notes: missing or invalid zip
-created: '2026-04-27'
-updated: '2026-04-27'
+created: '2026-04-28'
+updated: '2026-04-28'
 verified_at: '2026-04-27'
 ---

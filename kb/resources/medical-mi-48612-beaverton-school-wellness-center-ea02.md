@@ -10,7 +10,7 @@ county: Gladwin County
 lat: 43.876678
 lng: -84.485354
 geocoded_by: source
-geocoded_at: '2026-04-27'
+geocoded_at: '2026-04-28'
 geocode_confidence: high
 phone: '989-246-3020 x5'
 website: https://healthynorth.org
@@ -23,9 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-27'
-created: '2026-04-27'
-updated: '2026-04-27'
+last_checked: '2026-04-28'
+created: '2026-04-28'
+updated: '2026-04-28'
 all_source_ids:
 - hrsa-BPS-H80-037073-2
 - hrsa-BPS-H80-037074-2
