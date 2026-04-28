@@ -10,17 +10,17 @@ top of the file lists shipped sources; everything below is candidate work.
 |---|---|---|---|---|---|
 | HRSA FQHC | National | ~18,800 | medical | fqhc | Public CSV bulk download |
 | USDA SNAP — Farmers and Markets | National | ~7,200 | food | farmers_market | ArcGIS REST FeatureServer |
-| Laundry Love | National | ~300 (116 visible US) | care | laundry_assistance | StoreRocket public JSON API |
+| Laundry Love | National | ~116 visible US | care | laundry_assistance | StoreRocket public JSON API |
 | Food Not Bombs | National | ~25 US chapters (2025 list) | food | soup_kitchen | Google My Maps KML; reverse-geocode for state/zip |
 | Tool Library Alliance | Worldwide → US | ~48 US | economy | tool_library | Google My Maps KML; reverse-geocode for state/zip |
+| Salvation Army | National | ~3,200 corps locations | care | community_support | Sitemap walk + per-page address extraction from inline cookieManager.set() calls; Census forward geocode |
+| National Diaper Bank Network | National | ~240 cities | care | diaper_bank | Single HTML page parse + Nominatim city-centroid geocoding |
 
 ## Candidates — reasonable-to-build
 
 | Source | Petal | Likely access | Risk / notes |
 |---|---|---|---|
 | **Mutual Aid Hub** (mutualaidhub.org) | economy / food / care | Webflow/Mapbox-rendered map. No documented API; need to inspect what the map JS fetches. Spec'd in original plan. | Many entries are COVID-era inactive — will need a `last_active` filter or community vetting before publishing. |
-| **National Diaper Bank Network** (nationaldiaperbanknetwork.org/member-directory) | care | Member directory page; need to inspect for embedded data or AJAX. | Population: families with infants. Strong fit. |
-| **Salvation Army** (salvationarmyusa.org/location-finder) | food / housing / care / economy | JS-rendered store locator. Needs DevTools inspection to find the API. ~7,000 US service centers + thrift stores. | Big dataset, services per location vary widely. Probably worth the effort. |
 
 ## Candidates — needs investigation before committing
 
@@ -29,6 +29,12 @@ top of the file lists shipped sources; everything below is candidate work.
 | **Organize Directory** (organize.directory/location) | depends on org type | National org directory by location, well-indexed. | "Organizing" framing may pull in electoral/political groups that are out-of-scope per spec ("nothing requiring explanation to a hostile reader"). Need to filter carefully. |
 | **Find a Protest** (findaprotest.info/directory) | safety / community | Lists grassroots orgs and "ways to get involved." | Same risk as Organize Directory — political adjacency. Read carefully before pulling in. Returned 403 to my probe. |
 | **The County Office** (thecountyoffice.com/charity-non-profit) | mixed | Aggregator of all US nonprofits/charities. Massive. | Aggregator data quality unknown; could include defunct or fraudulent entities. Better to source from IRS Form 990 directly if we want the nonprofit universe (then filter). |
+
+## Known issues to address later
+
+- **NDBN entries have `00000` zip in filenames.** Nominatim returns lat/lng but no ZCTA, so the writer falls back to `00000`. Cosmetic; entries still render correctly on the map (they have valid coords). Fix: reverse-geocode Nominatim coords through Census to derive ZCTA, then update the entries.
+- **Salvation Army `community_support` is a catch-all subtype.** Each corps offers a varying mix of services (food/shelter/youth/etc.) — the `services` list captures these but the petal/subtype model collapses them all under `care`. Could split into multiple petals per location later if needed.
+- **TLA + FNB entries have empty addresses** (form-submitted maps where contributors only dropped a pin). Reverse-geocoded to city/state/zip but no street. Fine for the directory; community PRs can add real addresses over time.
 
 ## Out of scope (for now)
 

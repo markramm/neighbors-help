@@ -1,0 +1,26 @@
+---
+name: The Salvation Army
+type: care
+subtype: community_support
+address: 21815 Three Notch Rd Ste D
+city: Lexington Park
+state: MD
+zip: '20653'
+lat: 38.266559
+lng: -76.454658
+geocoded_by: census
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+needs_geocode_review: false
+website: https://www.salvationarmyusa.org/md/lexington-park/three-notch-rd-ste-d/
+populations:
+- anyone
+source: salvation_army
+source_id: 'sa-7-faddec8cd0-3gw61r'
+verified: true
+verified_by: scraper:salvation_army
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -1,0 +1,28 @@
+---
+name: The Salvation Army
+type: care
+subtype: community_support
+address: 3232 Orchard Lake Rd.
+city: Orchard Lake
+state: MI
+zip: '48324'
+lat: 42.60291
+lng: -83.348785
+geocoded_by: cache
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+needs_geocode_review: false
+website: https://www.salvationarmyusa.org/mi/orchard-lake/orchard-lake-rd/
+populations:
+- anyone
+source: salvation_army
+source_id: 'sa-7-ccd3b1e696-kjxhvl'
+all_sources:
+- salvation_army
+verified: true
+verified_by: scraper:salvation_army
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

@@ -20,7 +20,8 @@ from scrapers import kb
 from scrapers.geocode import Geocoder, geocode_entry
 from scrapers.normalize.dedup import deduplicate
 from scrapers.sources.community import (
-    food_not_bombs, laundry_love, tool_library_alliance,
+    food_not_bombs, laundry_love, national_diaper_bank_network,
+    salvation_army, tool_library_alliance,
 )
 from scrapers.sources.federal import hrsa_fqhc, usda_snap
 
@@ -34,9 +35,11 @@ SOURCES: dict[str, Callable] = {
     "hrsa_fqhc":             hrsa_fqhc.fetch,
     "usda_snap":             usda_snap.fetch,
     # Community-maintained
-    "food_not_bombs":        food_not_bombs.fetch,
-    "laundry_love":          laundry_love.fetch,
-    "tool_library_alliance": tool_library_alliance.fetch,
+    "food_not_bombs":               food_not_bombs.fetch,
+    "laundry_love":                 laundry_love.fetch,
+    "tool_library_alliance":        tool_library_alliance.fetch,
+    "salvation_army":               salvation_army.fetch,
+    "national_diaper_bank_network": national_diaper_bank_network.fetch,
 }
 
 

@@ -1,0 +1,26 @@
+---
+name: The Salvation Army
+type: care
+subtype: community_support
+address: 280 Riverdale Avenue
+city: Brooklyn
+state: NY
+zip: '11212'
+lat: 40.661244
+lng: -73.906578
+geocoded_by: census
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+needs_geocode_review: false
+website: https://www.salvationarmyusa.org/ny/brooklyn/riverdale-avenue-corps/
+populations:
+- anyone
+source: salvation_army
+source_id: 'sa-7-eee78ed9dd-3x38vf'
+verified: true
+verified_by: scraper:salvation_army
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

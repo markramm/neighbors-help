@@ -1,0 +1,30 @@
+---
+name: The Salvation Army
+type: care
+subtype: community_support
+address: 401 Tenth St.
+city: Bay City
+state: MI
+zip: '48708'
+lat: 43.593028
+lng: -83.887333
+geocoded_by: cache
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+needs_geocode_review: false
+website: https://www.salvationarmyusa.org/mi/bay-city/tenth-st-corps/
+services:
+- groceries
+populations:
+- anyone
+source: salvation_army
+source_id: 'sa-7-c0a8df888c-pxl2j3'
+all_sources:
+- salvation_army
+verified: true
+verified_by: scraper:salvation_army
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

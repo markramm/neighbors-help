@@ -53,7 +53,7 @@ VALID_SUBTYPES: dict[str, set[str]] = {
     },
     "care": {
         "childcare", "elder_care", "disability_support", "respite_care",
-        "hospice", "laundry_assistance",
+        "hospice", "laundry_assistance", "community_support", "diaper_bank",
     },
     "economy": {
         "mutual_aid_fund", "buy_nothing", "time_bank", "tool_library",
@@ -70,6 +70,7 @@ VALID_SOURCES = {
     "hud_hopwa", "va_facilities", "osm", "mutual_aid_hub",
     "211_national", "community_pr", "manual", "maintainer", "scraper",
     "tool_library_alliance", "food_not_bombs", "laundry_love",
+    "salvation_army", "national_diaper_bank_network",
 }
 # 211_{state} sources are also valid — checked dynamically.
 

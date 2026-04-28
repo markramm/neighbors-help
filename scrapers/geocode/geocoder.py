@@ -36,6 +36,13 @@ CENSUS_REVERSE_URL = "https://geocoding.geo.census.gov/geocoder/geographies/coor
 CENSUS_RATE_LIMIT_S = 0.1   # be polite — Census is free
 CENSUS_TIMEOUT_S = 10
 
+# Nominatim (OpenStreetMap) — used as fallback for city-only lookups, which
+# Census doesn't support. Their usage policy: max 1 request/sec, descriptive
+# User-Agent, and attribution. We honor all three.
+NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
+NOMINATIM_USER_AGENT = "neighbors-help.org/0.1 (https://github.com/markramm/neighbors-help)"
+NOMINATIM_RATE_LIMIT_S = 1.1   # >1s to be safe
+
 GOOGLE_URL = "https://maps.googleapis.com/maps/api/geocode/json"
 GOOGLE_TIMEOUT_S = 10
 GOOGLE_COST_PER_CALL_USD = 0.005   # $5 / 1000
@@ -54,7 +61,7 @@ class BudgetExceeded(Exception):
 class GeocodeResult:
     lat: float
     lng: float
-    source: Literal["census", "google", "cache"]
+    source: Literal["census", "google", "nominatim", "cache"]
     confidence: Confidence
     matched_address: Optional[str] = None
 
@@ -110,6 +117,7 @@ class Geocoder:
         self.google_calls = 0
         self.google_spent_usd = 0.0
         self._last_census_call = 0.0
+        self._last_nominatim_call = 0.0
         self.stats = {
             "cache_hit": 0,
             "census_ok": 0,
@@ -118,6 +126,8 @@ class Geocoder:
             "google_miss": 0,
             "google_skipped_no_key": 0,
             "google_skipped_budget": 0,
+            "nominatim_ok": 0,
+            "nominatim_miss": 0,
             "reverse_ok": 0,
             "reverse_miss": 0,
             "errors": 0,
@@ -163,14 +173,20 @@ class Geocoder:
                 matched_address=cached.get("matched_address"),
             )
 
-        # 2. Census
+        # 2. Census (best for full US street addresses)
         result = self._geocode_census(address, city, state, zip_code)
 
-        # 3. Google fallback
+        # 3. Google fallback (only if API key present + budget remains)
         if result is None or result.confidence == "low":
             google_result = self._geocode_google(address, city, state, zip_code)
             if google_result is not None:
                 result = google_result
+
+        # 4. Nominatim fallback for city-only lookups (Census doesn't handle
+        # those). Only triggers when we have city + state but no street
+        # address — covers sources like NDBN that publish city-only.
+        if result is None and not address and city and state:
+            result = self._geocode_nominatim(city, state, zip_code)
 
         # 4. Cache outcome (positive or negative)
         self.cache[key] = (
@@ -297,6 +313,58 @@ class Geocoder:
             matched_address=result.get("formatted_address"),
         )
 
+
+    def _geocode_nominatim(
+        self, city: str, state: str, zip_code: str = "",
+    ) -> Optional[GeocodeResult]:
+        """City-only geocoding via Nominatim. Slow (1 req/sec). Used as a
+        fallback when Census can't help."""
+        elapsed = time.monotonic() - self._last_nominatim_call
+        if elapsed < NOMINATIM_RATE_LIMIT_S:
+            time.sleep(NOMINATIM_RATE_LIMIT_S - elapsed)
+
+        params = {
+            "city": city,
+            "state": state,
+            "country": "United States of America",
+            "format": "json",
+            "limit": 1,
+        }
+        if zip_code:
+            params["postalcode"] = zip_code
+        try:
+            r = requests.get(
+                NOMINATIM_URL,
+                params=params,
+                headers={"User-Agent": NOMINATIM_USER_AGENT},
+                timeout=CENSUS_TIMEOUT_S,
+            )
+            self._last_nominatim_call = time.monotonic()
+            r.raise_for_status()
+            data = r.json()
+        except (requests.RequestException, ValueError) as e:
+            log.debug("nominatim error for %r,%r: %s", city, state, e)
+            self.stats["errors"] += 1
+            return None
+
+        if not data:
+            self.stats["nominatim_miss"] += 1
+            return None
+
+        first = data[0]
+        try:
+            lat = float(first["lat"])
+            lng = float(first["lon"])
+        except (KeyError, ValueError):
+            self.stats["nominatim_miss"] += 1
+            return None
+        self.stats["nominatim_ok"] += 1
+        return GeocodeResult(
+            lat=lat, lng=lng,
+            source="nominatim",
+            confidence="medium",   # city-centroid only, not street-precise
+            matched_address=first.get("display_name"),
+        )
 
     # -- reverse geocoding (lat/lng → admin geographies) -------------------
 

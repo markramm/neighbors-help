@@ -1,0 +1,26 @@
+---
+name: The Salvation Army
+type: care
+subtype: community_support
+address: 145 Reagan St
+city: West Monroe
+state: LA
+zip: '71292'
+lat: 32.490161
+lng: -92.142383
+geocoded_by: census
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+needs_geocode_review: false
+website: https://www.salvationarmyusa.org/la/west-monroe/reagan-st/
+populations:
+- anyone
+source: salvation_army
+source_id: 'sa-7-cccc8f96b3-mhb47r'
+verified: true
+verified_by: scraper:salvation_army
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

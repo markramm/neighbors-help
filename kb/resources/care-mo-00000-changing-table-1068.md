@@ -1,0 +1,29 @@
+---
+name: The Changing Table
+type: care
+subtype: diaper_bank
+city: Osage Beach
+state: MO
+lat: 38.125992
+lng: -92.672325
+geocoded_by: nominatim
+geocoded_at: '2026-04-27'
+geocode_confidence: medium
+needs_geocode_review: false
+website: http://www.changingtable.org/
+services:
+- diapers
+populations:
+- families
+- infants
+source: national_diaper_bank_network
+source_id: 'ndbn-mo-the-changing-table'
+verified: true
+verified_by: scraper:national_diaper_bank_network
+last_checked: '2026-04-27'
+needs_review: true
+review_notes: missing or invalid zip; missing address
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

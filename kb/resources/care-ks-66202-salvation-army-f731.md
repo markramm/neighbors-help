@@ -1,0 +1,26 @@
+---
+name: The Salvation Army
+type: care
+subtype: community_support
+address: 6219 Johnson Dr.
+city: Mission
+state: KS
+zip: '66202'
+lat: 39.022094
+lng: -94.657511
+geocoded_by: census
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+needs_geocode_review: false
+website: https://www.salvationarmyusa.org/ks/mission/johnson-dr/
+populations:
+- anyone
+source: salvation_army
+source_id: 'sa-7-deb99ba78e-s9n41w'
+verified: true
+verified_by: scraper:salvation_army
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

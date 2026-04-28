@@ -1,0 +1,26 @@
+---
+name: The Salvation Army
+type: care
+subtype: community_support
+address: 2505 North St
+city: Beaufort
+state: SC
+zip: '29902'
+lat: 32.433892
+lng: -80.688086
+geocoded_by: census
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+needs_geocode_review: false
+website: https://www.salvationarmyusa.org/sc/beaufort/north-st-corps/
+populations:
+- anyone
+source: salvation_army
+source_id: 'sa-7-e6c8e8b581-z4wb1r'
+verified: true
+verified_by: scraper:salvation_army
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

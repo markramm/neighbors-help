@@ -1,0 +1,26 @@
+---
+name: The Salvation Army
+type: care
+subtype: community_support
+address: 27525 Jefferson Ave.
+city: Temecula
+state: CA
+zip: '92590'
+lat: 33.518283
+lng: -117.162669
+geocoded_by: census
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+needs_geocode_review: false
+website: https://www.salvationarmyusa.org/ca/temecula/jefferson-ave/
+populations:
+- anyone
+source: salvation_army
+source_id: 'sa-7-fad7de96d2-9h31nd'
+verified: true
+verified_by: scraper:salvation_army
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

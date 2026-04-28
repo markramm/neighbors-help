@@ -1,0 +1,26 @@
+---
+name: The Salvation Army
+type: care
+subtype: community_support
+address: 201 S Washington St
+city: Hobart
+state: OK
+zip: '73651'
+lat: 35.027056
+lng: -99.094604
+geocoded_by: census
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+needs_geocode_review: false
+website: https://www.salvationarmyusa.org/ok/hobart/s-washington-st/
+populations:
+- anyone
+source: salvation_army
+source_id: 'sa-7-b6d1aed9ca-3t4r46'
+verified: true
+verified_by: scraper:salvation_army
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---

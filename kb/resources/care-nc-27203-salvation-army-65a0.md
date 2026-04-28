@@ -1,0 +1,26 @@
+---
+name: The Salvation Army
+type: care
+subtype: community_support
+address: 345 N Church St
+city: Asheboro
+state: NC
+zip: '27203'
+lat: 35.711613
+lng: -79.816631
+geocoded_by: census
+geocoded_at: '2026-04-27'
+geocode_confidence: high
+needs_geocode_review: false
+website: https://www.salvationarmyusa.org/nc/asheboro/n-church-st-corps/
+populations:
+- anyone
+source: salvation_army
+source_id: 'sa-7-86c88c9fb8-m7b340'
+verified: true
+verified_by: scraper:salvation_army
+last_checked: '2026-04-27'
+created: '2026-04-27'
+updated: '2026-04-27'
+verified_at: '2026-04-27'
+---
