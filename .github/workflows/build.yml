@@ -32,15 +32,15 @@ concurrency:
 
 jobs:
   scrape:
-    # Skip scraping on PRs (they shouldn't trigger network fetches and
-    # they can't write to the KB anyway). Skip on manual dispatches that
-    # opt out.
+    # Run scrapers ONLY on the daily cron and on opt-in manual dispatch.
+    # Pushes to main rebuild from the existing KB without re-scraping —
+    # otherwise every code change would trigger a full ~60min source pull
+    # and possibly create scrape-commit loops.
     if: |
       github.event_name == 'schedule' ||
-      github.event_name == 'push' ||
       (github.event_name == 'workflow_dispatch' && inputs.run_scrapers)
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90   # Salvation Army national pull alone is ~50 min
     outputs:
       kb_changed: ${{ steps.commit.outputs.changed }}
     steps:
