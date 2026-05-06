@@ -30,6 +30,62 @@ top of the file lists shipped sources; everything below is candidate work.
 | **Find a Protest** (findaprotest.info/directory) | safety / community | Lists grassroots orgs and "ways to get involved." | Same risk as Organize Directory — political adjacency. Read carefully before pulling in. Returned 403 to my probe. |
 | **The County Office** (thecountyoffice.com/charity-non-profit) | mixed | Aggregator of all US nonprofits/charities. Massive. | Aggregator data quality unknown; could include defunct or fraudulent entities. Better to source from IRS Form 990 directly if we want the nonprofit universe (then filter). |
 
+## Started but blocked / deferred
+
+- **Meals on Wheels America** — probed 2026-05-06. Locator at
+  mealsonwheelsamerica.org/find-meals-and-services/ takes a `pc=ZIP` GET
+  param and returns server-rendered HTML with results. No public API,
+  no sitemap-of-providers, no "show all" listing. Per-zip iteration
+  would require ~3,000 queries at ~1s each = 50min/run with heavy
+  cross-zip duplication that needs careful dedup.
+
+  **Decision:** Skip for v1.5 in favor of cleaner federal sources.
+  Revisit when we have time to do per-state zip-iteration carefully.
+  The schema already has `food/meal_delivery` subtype and one seed
+  entry (Ypsilanti Meals on Wheels), so it's not a blocker.
+
+- **WIC clinic locator** — probed 2026-05-06. signupwic.com is a Craft
+  CMS site using HTMX/Sprig — every clinic-list render requires an
+  encoded `sprig:config` token per session. No bulk export. Federal
+  WIC defers locator data to state WIC programs; each state runs its
+  own website (Michigan, Texas, etc.) with no consistent data format.
+  Building real coverage = 50 state-specific scrapers.
+
+  **Decision:** Defer. Could potentially bootstrap from the
+  `food/wic_clinic` subtype using a single state at a time as
+  contributors become available. Federal-level scraping is not viable.
+
+- **SAMHSA Behavioral Health Treatment Locator (findtreatment.gov)** —
+  probed 2026-05-06. The locator listing API at /locator/listing is a
+  POST endpoint that requires a Google reCAPTCHA token per request
+  (intentional gate against automated scraping). The underlying
+  N-SUMHSS dataset is published by SAMHSA but access requires a manual
+  data-request workflow, not a public download.
+
+  **Decision:** Defer; consider negotiating dataset access via official
+  SAMHSA channels if mental-health coverage becomes a priority.
+
+## Pattern observation (2026-05-06)
+
+Three "high-priority" tier-1 sources we tried in this round (Meals on
+Wheels, WIC, SAMHSA) all turned out to be unbuildable as automated
+scrapers — either captcha-gated, federated to state programs without
+unified APIs, or behind manual data-request workflows. The earlier
+seven sources we shipped were anomalies: federal datasets that *did*
+publish bulk-downloadable data because they were designed for transit
+to other systems (HRSA federal funding programs, USDA SNAP retailer
+locator).
+
+For new high-quality sources we should look for:
+- Datasets explicitly published "open data" by their owner (data.gov,
+  agency open-data portals)
+- Standardized exchange formats (HL7 FHIR for healthcare, OpenReferral
+  HSDS for human services)
+- 211 state programs that publish openly (Texas, CT, WA do — most
+  others don't)
+- Member-of-network directories from federated nonprofits (Catholic
+  Charities, YMCA) where the parent maintains a member list
+
 ## Known issues to address later
 
 - **NDBN entries have `00000` zip in filenames.** Nominatim returns lat/lng but no ZCTA, so the writer falls back to `00000`. Cosmetic; entries still render correctly on the map (they have valid coords). Fix: reverse-geocode Nominatim coords through Census to derive ZCTA, then update the entries.
