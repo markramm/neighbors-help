@@ -60,9 +60,8 @@
   {{ end }}
 
   <div class="r-meta">
-    {{ if .Params.verified }}
-      <span class="r-verified-badge">✓ Verified{{ with .Params.verified_at }} · {{ . }}{{ end }}</span>
-    {{ else }}
+    {{ partial "freshness-badge.html" . }}
+    {{ if not .Params.verified }}
       <span class="r-unverified-badge">Unverified · please confirm before relying on details</span>
     {{ end }}
     {{ with .Params.source }}<span style="font-size:11px; color: var(--ink-mute);">via {{ . }}</span>{{ end }}

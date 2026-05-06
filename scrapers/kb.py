@@ -109,7 +109,8 @@ FIELD_ORDER = [
     "wheelchair_accessible", "transit_accessible",
     # provenance
     "source", "source_id", "all_sources",
-    "verified", "verified_by", "last_checked",
+    "verified", "verified_by", "verified_at",
+    "source_fetched_at", "last_checked",
     # data quality
     "needs_review", "review_notes",
     # accountability (defined but not surfaced in templates yet)
@@ -365,6 +366,14 @@ def write_entry(entry: dict, *, kb_root: Path | None = None, dry_run: bool = Fal
     today = date.today().isoformat()
     entry.setdefault("created", today)
     entry["updated"] = today
+    # source_fetched_at records when the upstream source data was last
+    # pulled. For scraper-written entries this is always "today" — the
+    # writer stamps it unconditionally. For human-edited entries
+    # (source: manual / maintainer / community_pr), we don't override what's
+    # already on disk.
+    src = entry.get("source") or ""
+    if src and src not in {"manual", "maintainer", "community_pr"}:
+        entry["source_fetched_at"] = today
 
     filename = make_filename(entry)
     path = kb_root / filename

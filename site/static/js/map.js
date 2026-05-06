@@ -482,6 +482,20 @@
     </svg>`;
   }
 
+  function freshnessBadge(dateStr) {
+    // Compact freshness pill matching the resource-page partial.
+    // dateStr is ISO YYYY-MM-DD or undefined.
+    if (!dateStr) return '';
+    const t = Date.parse(dateStr);
+    if (isNaN(t)) return '';
+    const days = Math.round((Date.now() - t) / 86400000);
+    let cls, label;
+    if (days <= 90)       { cls = 'r-fresh-fresh';   label = 'Recently confirmed'; }
+    else if (days <= 365) { cls = 'r-fresh-neutral'; label = 'Confirmed this year'; }
+    else                  { cls = 'r-fresh-stale';   label = 'May be outdated'; }
+    return `<span class="r-fresh-badge ${cls}" title="Last confirmed ${escapeAttr(dateStr)}">${label}</span>`;
+  }
+
   function orgPopupHtml(org) {
     const p = PETAL_BY_ID[org.type] || { label: org.type, cssVar: '--ink' };
     const web = org.website
@@ -489,10 +503,12 @@
       : '';
     const phone = org.phone ? `<dt>Phone</dt><dd>${escapeText(org.phone)}</dd>` : '';
     const hours = org.hours ? `<dt>Hours</dt><dd>${escapeText(org.hours)}</dd>` : '';
+    const fresh = freshnessBadge(org.fresh);
     return `<div class="org-popup">
       <div class="op-head"><span class="op-dot" style="background: var(${p.cssVar})"></span>${escapeText(p.label)}</div>
       <h3>${escapeText(org.name)}</h3>
       <dl>${hours}${phone}<dt>Where</dt><dd>${escapeText((org.address ? org.address + ', ' : '') + (org.city || '') + ', ' + (org.state || '').toUpperCase() + ' ' + org.zip)}</dd>${web}</dl>
+      ${fresh ? `<div class="op-fresh">${fresh}</div>` : ''}
       <div class="op-actions"><a href="${escapeAttr(org.url)}">Full details →</a></div>
     </div>`;
   }

@@ -157,6 +157,47 @@ def test_merge() -> None:
         shutil.rmtree(tmp)
 
 
+def test_source_fetched_at_stamping() -> None:
+    print("source_fetched_at stamping")
+    from datetime import date
+    today = date.today().isoformat()
+    tmp = Path(tempfile.mkdtemp())
+    try:
+        # Scraper-source entry should get source_fetched_at stamped
+        e1 = {"name": "X", "type": "food", "state": "MI", "zip": "48197",
+              "lat": 42.24, "lng": -83.61, "address": "1 A",
+              "source": "hrsa_fqhc"}
+        p1 = kb.write_entry(e1, kb_root=tmp)
+        r1 = kb.read_entry(p1)
+        t("scraper sets source_fetched_at", r1.get("source_fetched_at") == today)
+
+        # Manual-source entry should NOT get auto-stamped (avoids implying
+        # scraper involvement on a hand-edited file).
+        e2 = {"name": "Y", "type": "food", "state": "MI", "zip": "48198",
+              "lat": 42.25, "lng": -83.62, "address": "2 B",
+              "source": "manual"}
+        p2 = kb.write_entry(e2, kb_root=tmp)
+        r2 = kb.read_entry(p2)
+        t("manual skips source_fetched_at", "source_fetched_at" not in r2)
+
+        # community_pr also skipped
+        e3 = {"name": "Z", "type": "food", "state": "MI", "zip": "48199",
+              "lat": 42.26, "lng": -83.63, "address": "3 C",
+              "source": "community_pr"}
+        p3 = kb.write_entry(e3, kb_root=tmp)
+        r3 = kb.read_entry(p3)
+        t("community_pr skips source_fetched_at", "source_fetched_at" not in r3)
+
+        # Re-running scraper updates source_fetched_at (it's NOT preserved)
+        e1b = dict(e1)
+        kb.write_entry(e1b, kb_root=tmp)
+        r1b = kb.read_entry(p1)
+        t("scraper re-run updates source_fetched_at",
+          r1b.get("source_fetched_at") == today)
+    finally:
+        shutil.rmtree(tmp)
+
+
 def test_write_many() -> None:
     print("write_many")
     tmp = Path(tempfile.mkdtemp())
@@ -200,6 +241,7 @@ if __name__ == "__main__":
     test_leading_zero_zip_quoted()
     test_roundtrip()
     test_merge()
+    test_source_fetched_at_stamping()
     test_write_many()
     test_coverage()
     print("\nAll tests passed.")

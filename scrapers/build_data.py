@@ -74,6 +74,13 @@ def _state_centers() -> dict:
     return {k: v for k, v in data.items() if not k.startswith("_")}
 
 
+def _newest_date(*dates) -> str | None:
+    """Return the lexicographically-newest ISO date string from inputs, or None.
+    ISO 8601 dates sort correctly as strings."""
+    valid = [d for d in dates if d and isinstance(d, str)]
+    return max(valid) if valid else None
+
+
 def _to_org_record(e: dict) -> dict | None:
     """Compact public-facing org record. Drop fields users don't need;
     omit None values to shrink the payload."""
@@ -97,6 +104,9 @@ def _to_org_record(e: dict) -> dict | None:
         "phone":    e.get("phone"),
         "website":  e.get("website"),
         "verified": bool(e.get("verified")),
+        # Freshness signal — newest of the two date fields. Client uses
+        # this to render a "recently confirmed" / "may be outdated" badge.
+        "fresh":    _newest_date(e.get("source_fetched_at"), e.get("verified_at")),
     }
     return {k: v for k, v in rec.items() if v not in (None, "", False)} | (
         {"verified": True} if e.get("verified") else {}

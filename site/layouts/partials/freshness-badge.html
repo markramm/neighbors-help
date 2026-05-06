@@ -1,0 +1,73 @@
+{{- /*
+  Freshness badge for a resource entry. Pass the page (.) and reads:
+
+    .Params.verified           bool — is this entry maintainer-verified
+    .Params.verified_at        ISO date — when a human last vouched for it
+    .Params.source_fetched_at  ISO date — when the scraper last pulled the
+                                          source data this entry came from
+    .Params.source             string  — source name (for hover detail)
+
+  Buckets (using whichever of verified_at / source_fetched_at is most recent):
+    no date          -> no badge (just "via SOURCE")
+    <= 90 days       -> green "Recently confirmed"
+    <= 365 days      -> neutral "Confirmed this year"
+    > 365 days       -> warning "May be outdated — please verify"
+
+  We deliberately never claim an entry is "fresh" just because the scraper
+  touched our copy. Source-level freshness is the honest signal. Human
+  verification trumps scraper freshness when both are present.
+*/ -}}
+{{- $page := . -}}
+{{- $verified := default false $page.Params.verified -}}
+
+{{- /* Pick the most recent of verified_at and source_fetched_at. */ -}}
+{{- $vAt := $page.Params.verified_at -}}
+{{- $sAt := $page.Params.source_fetched_at -}}
+{{- $bestDate := "" -}}
+{{- $bestSource := "" -}}
+{{- if $vAt -}}
+  {{- $bestDate = $vAt -}}
+  {{- $bestSource = "human" -}}
+{{- end -}}
+{{- if $sAt -}}
+  {{- if or (not $bestDate) (gt (string $sAt) (string $bestDate)) -}}
+    {{- $bestDate = $sAt -}}
+    {{- $bestSource = "source" -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Compute days-since by subtracting Unix timestamps (Hugo doesn't
+       expose Go's time.Since directly in templates). */ -}}
+{{- $days := -1 -}}
+{{- if $bestDate -}}
+  {{- with try (time.AsTime $bestDate) -}}
+    {{- if .Err -}}{{/* unparseable date, leave days=-1 */}}{{- else -}}
+      {{- $t := .Value -}}
+      {{- $now := now -}}
+      {{- $secs := sub $now.Unix $t.Unix -}}
+      {{- $days = int (div $secs 86400) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Render */ -}}
+{{- if eq $days -1 -}}
+  {{- if $verified -}}
+    <span class="r-fresh-badge r-fresh-neutral" title="No date recorded">Verified</span>
+  {{- end -}}
+{{- else if le $days 90 -}}
+  <span class="r-fresh-badge r-fresh-fresh"
+        title="{{ if eq $bestSource "human" }}Confirmed by a maintainer{{ else }}Source data refreshed{{ end }} {{ $bestDate }}">
+    Recently confirmed
+  </span>
+{{- else if le $days 365 -}}
+  <span class="r-fresh-badge r-fresh-neutral"
+        title="{{ if eq $bestSource "human" }}Last maintainer-confirmed{{ else }}Source data refreshed{{ end }} {{ $bestDate }}">
+    Confirmed within the year
+  </span>
+{{- else -}}
+  <span class="r-fresh-badge r-fresh-stale"
+        title="Last confirmed {{ $bestDate }} — please verify before relying on details">
+    May be outdated
+  </span>
+{{- end -}}

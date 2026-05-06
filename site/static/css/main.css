@@ -354,6 +354,7 @@ body::before {
 .org-popup dl { margin: 0; font-size: 13px; }
 .org-popup dl dt { color: var(--ink-mute); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 8px; }
 .org-popup dl dd { margin: 2px 0 0; color: var(--ink); }
+.org-popup .op-fresh { margin-top: 10px; }
 .org-popup .op-actions { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--line); }
 .org-popup .op-actions a { font-size: 12.5px; }
 
@@ -575,6 +576,32 @@ body::before {
   border-radius: 999px;
   font-size: 11px; font-weight: 600;
   text-transform: uppercase; letter-spacing: 0.06em;
+}
+
+/* Freshness badges — surface how recently the entry's source data
+   was confirmed. Hover for the actual date. */
+.r-fresh-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  cursor: help;
+}
+.r-fresh-fresh {
+  background: oklch(0.95 0.04 145);
+  border: 1px solid oklch(0.72 0.18 145 / 0.4);
+  color: oklch(0.35 0.12 145);
+}
+.r-fresh-neutral {
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  color: var(--ink-soft);
+}
+.r-fresh-stale {
+  background: oklch(0.96 0.04 65);
+  border: 1px solid oklch(0.72 0.17 55 / 0.4);
+  color: oklch(0.40 0.13 45);
 }
 
 /* ==== About / static pages ==== */
