@@ -7,10 +7,10 @@ city: Yakima
 state: WA
 zip: '98901'
 county: Yakima County
-lat: 46.611883
-lng: -120.465434
+lat: 46.611615
+lng: -120.464768
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(866) 983-9279'
 populations:
@@ -21,8 +21,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

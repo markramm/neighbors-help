@@ -7,10 +7,10 @@ city: Denver
 state: CO
 zip: '80236'
 county: Denver County
-lat: 39.642295
-lng: -105.033846
+lat: 39.642629
+lng: -105.033856
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(303) 315-6150'
 website: https://www.nursing.ucdenver.edu/sheridan
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

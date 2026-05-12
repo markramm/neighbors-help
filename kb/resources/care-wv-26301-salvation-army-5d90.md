@@ -9,7 +9,7 @@ zip: '26301'
 lat: 39.269558
 lng: -80.35241
 geocoded_by: cache
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/wv/clarksburg/s-chestnut-st-corps/
@@ -21,12 +21,13 @@ all_sources:
 - salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 all_source_ids:
 - sa-7-ae98e8aabf-wg6zh8
 - sa-7-b8cdb4c5bd-h1dhvb
 - sa-7-f8d1aae68a-0dhsmf
-verified_at: '2026-04-27'
 ---

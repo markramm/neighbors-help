@@ -10,7 +10,7 @@ county: Allen County
 lat: 41.069512
 lng: -85.138181
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(260) 458-2641'
 website: https://www.nhci.org
@@ -23,12 +23,13 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 all_source_ids:
 - hrsa-BPS-H80-004669-1
 - hrsa-BPS-H80-008731-1
 - hrsa-BPS-H80-010034-1
-verified_at: '2026-04-27'
 ---

@@ -7,10 +7,10 @@ city: Lancaster
 state: OH
 zip: '43130'
 county: Fairfield County
-lat: 39.710789
-lng: -82.598041
+lat: 39.710778
+lng: -82.598058
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(740) 277-6043'
 hours_raw: 16.00 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

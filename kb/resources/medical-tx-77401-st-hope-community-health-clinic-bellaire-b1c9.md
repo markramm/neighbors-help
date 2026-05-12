@@ -7,10 +7,10 @@ city: Bellaire
 state: TX
 zip: '77401'
 county: Harris County
-lat: 29.705353
-lng: -95.459767
+lat: 29.705294
+lng: -95.460045
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(713) 839-7111'
 website: https://www.offeringhope.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

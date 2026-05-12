@@ -7,10 +7,10 @@ city: Tunkhannock
 state: PA
 zip: '18657'
 county: Wyoming County
-lat: 41.576732
-lng: -75.969824
+lat: 41.5776
+lng: -75.96941
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(570) 591-5299'
 hours_raw: 40.00 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

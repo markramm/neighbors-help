@@ -1,0 +1,28 @@
+---
+name: Agape CHC - Ed White High School
+type: medical
+subtype: fqhc
+address: 1700 Old Middleburg Rd N
+city: Jacksonville
+state: FL
+zip: '32210'
+county: Duval County
+lat: 30.289879
+lng: -81.768499
+geocoded_by: source
+geocoded_at: '2026-05-12'
+geocode_confidence: high
+phone: '(904) 760-5904'
+hours_raw: 32.50 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-041509-1'
+verified: true
+verified_by: scraper:hrsa_fqhc
+verified_at: '2026-05-12'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
+---

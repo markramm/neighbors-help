@@ -10,7 +10,7 @@ county: Orange County
 lat: 33.759833
 lng: -117.853944
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(714) 352-2911'
 website: https://www.servethepeoplechc.org
@@ -23,8 +23,12 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
+all_source_ids:
+- hrsa-BPS-H80-019534-1
+- hrsa-BPS-H80-021948-5
 ---

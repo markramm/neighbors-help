@@ -7,10 +7,10 @@ city: Missoula
 state: MT
 zip: '59802'
 county: Missoula County
-lat: 46.876087
-lng: -113.995903
+lat: 46.875865
+lng: -113.995971
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(406) 258-4789'
 website: https://partnershiphealthcenter.org/
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

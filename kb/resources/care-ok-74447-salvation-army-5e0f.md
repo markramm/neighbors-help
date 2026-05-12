@@ -9,7 +9,7 @@ zip: '74447'
 lat: 35.621459
 lng: -95.97159
 geocoded_by: cache
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/ok/okmulgee/e-8th-st/
@@ -21,11 +21,12 @@ all_sources:
 - salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 all_source_ids:
 - sa-7-9e8ff1cbc8-8qk1d6
 - sa-7-ae81fce081-b9krq1
-verified_at: '2026-04-27'
 ---

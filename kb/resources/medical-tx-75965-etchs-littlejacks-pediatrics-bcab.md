@@ -7,10 +7,10 @@ city: Nacogdoches
 state: TX
 zip: '75965'
 county: Nacogdoches County
-lat: 31.652187
-lng: -94.646927
+lat: 31.652791
+lng: -94.646915
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(936) 205-5805'
 hours_raw: 40.00 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

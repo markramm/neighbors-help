@@ -7,10 +7,10 @@ city: Seattle
 state: WA
 zip: '98108'
 county: King County
-lat: 47.524902
-lng: -122.314914
+lat: 47.524898
+lng: -122.314717
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(206) 762-3730'
 website: https://www.seamar.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

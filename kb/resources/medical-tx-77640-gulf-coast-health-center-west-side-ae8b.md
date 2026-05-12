@@ -7,10 +7,10 @@ city: Port Arthur
 state: TX
 zip: '77640'
 county: Jefferson County
-lat: 29.874345
-lng: -93.936812
+lat: 29.874535
+lng: -93.93702
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(409) 983-1161'
 website: https://WWW.GULFCOASTHC.ORG
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

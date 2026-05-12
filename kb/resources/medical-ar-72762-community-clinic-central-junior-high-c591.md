@@ -7,10 +7,10 @@ city: Springdale
 state: AR
 zip: '72762'
 county: Washington County
-lat: 36.189227
-lng: -94.162545
+lat: 36.188523
+lng: -94.16256
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(479) 751-7417'
 hours_raw: 40.00 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

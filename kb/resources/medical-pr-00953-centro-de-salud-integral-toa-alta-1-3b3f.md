@@ -10,7 +10,7 @@ county: Toa Alta Municipio
 lat: 18.389107
 lng: -66.248209
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(787) 870-3322'
 hours_raw: 168.00 hours/week
@@ -22,10 +22,11 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-28'
-updated: '2026-04-28'
-verified_at: '2026-04-27'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

@@ -7,10 +7,10 @@ city: High Ridge
 state: MO
 zip: '63049'
 county: Jefferson County
-lat: 38.484182
-lng: -90.505685
+lat: 38.483917
+lng: -90.504886
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(636) 677-9977'
 hours_raw: 40.00 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

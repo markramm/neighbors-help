@@ -7,10 +7,10 @@ city: Strasburg
 state: CO
 zip: '80136'
 county: Adams County
-lat: 39.738331
-lng: -104.331886
+lat: 39.738864
+lng: -104.33189
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(303) 622-9237'
 website: https://www.peakvista.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

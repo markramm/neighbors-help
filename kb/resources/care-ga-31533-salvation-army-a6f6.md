@@ -9,7 +9,7 @@ zip: '31533'
 lat: 31.508595
 lng: -82.845072
 geocoded_by: cache
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/ga/douglas/gaskin-ave-s-corps/
@@ -21,11 +21,12 @@ all_sources:
 - salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 all_source_ids:
 - sa-7-82e7abdd8e-jkp4gc
 - sa-7-faa3abceef-r33s9w
-verified_at: '2026-04-27'
 ---

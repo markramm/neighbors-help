@@ -7,10 +7,10 @@ city: Baldwin
 state: LA
 zip: '70514'
 county: St. Mary Parish
-lat: 29.8579
-lng: -91.56648
+lat: 29.857942
+lng: -91.568474
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(337) 924-9646'
 hours_raw: 35.00 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

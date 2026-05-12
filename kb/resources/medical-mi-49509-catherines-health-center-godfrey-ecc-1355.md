@@ -1,0 +1,28 @@
+---
+name: Catherine's Health Center Godfrey ECC
+type: medical
+subtype: fqhc
+address: 961 Joosten St SW
+city: Wyoming
+state: MI
+zip: '49509'
+county: Kent County
+lat: 42.930978
+lng: -85.690615
+geocoded_by: source
+geocoded_at: '2026-05-12'
+geocode_confidence: high
+phone: '(616) 336-8800'
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-041073-1'
+verified: true
+verified_by: scraper:hrsa_fqhc
+verified_at: '2026-05-12'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
+---

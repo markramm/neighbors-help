@@ -9,7 +9,7 @@ zip: '20772'
 lat: 38.814697
 lng: -76.760069
 geocoded_by: cache
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/md/upper-marlboro/school-lane/
@@ -21,8 +21,9 @@ all_sources:
 - salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

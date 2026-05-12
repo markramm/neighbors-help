@@ -7,10 +7,10 @@ city: West Burlington
 state: IA
 zip: '52655'
 county: Des Moines County
-lat: 40.81171
-lng: -91.175674
+lat: 40.812512
+lng: -91.17567
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(319) 768-5858'
 website: https://www.chcseia.com
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

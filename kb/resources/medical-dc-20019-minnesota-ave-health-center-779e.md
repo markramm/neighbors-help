@@ -7,10 +7,10 @@ city: Washington
 state: DC
 zip: '20019'
 county: District of Columbia
-lat: 38.894226
-lng: -76.949867
+lat: 38.8944
+lng: -76.950102
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '202-469-4699 x20238'
 website: https://www.unityhealthcare.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

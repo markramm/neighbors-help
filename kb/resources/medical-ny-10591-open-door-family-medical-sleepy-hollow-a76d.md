@@ -7,10 +7,10 @@ city: Sleepy Hollow
 state: NY
 zip: '10591'
 county: Westchester County
-lat: 41.086247
-lng: -73.858666
+lat: 41.086397
+lng: -73.858494
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(914) 502-1451'
 hours_raw: 58.00 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

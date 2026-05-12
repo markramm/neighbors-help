@@ -10,7 +10,7 @@ county: Moca Municipio
 lat: 18.395523
 lng: -67.114143
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(787) 818-5500'
 website: https://www.costasalud.com
@@ -23,10 +23,11 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-28'
-updated: '2026-04-28'
-verified_at: '2026-04-27'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

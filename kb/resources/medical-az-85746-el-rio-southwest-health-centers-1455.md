@@ -7,10 +7,10 @@ city: Tucson
 state: AZ
 zip: '85746'
 county: Pima County
-lat: 32.133335
-lng: -110.996317
+lat: 32.133346
+lng: -110.996759
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(520) 806-2650'
 website: https://www.elrio.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

@@ -1,0 +1,36 @@
+---
+name: Health Ministries Clinic
+type: medical
+subtype: fqhc
+address: 700 Medical Center Dr, Ste 102
+city: Newton
+state: KS
+zip: '67114'
+county: Harvey County
+lat: 38.022389
+lng: -97.332894
+geocoded_by: source
+geocoded_at: '2026-05-12'
+geocode_confidence: high
+phone: '(316) 283-6103'
+website: https://hmcks.org
+hours_raw: 40.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-031727-1'
+all_sources:
+- hrsa_fqhc
+verified: true
+verified_by: scraper:hrsa_fqhc
+verified_at: '2026-05-12'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
+all_source_ids:
+- hrsa-BPS-H80-020930-1
+- hrsa-BPS-H80-031727-1
+- hrsa-BPS-H80-036945-1
+- hrsa-BPS-H80-039645-1
+---

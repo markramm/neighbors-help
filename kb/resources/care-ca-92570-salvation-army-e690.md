@@ -9,7 +9,7 @@ zip: '92570'
 lat: 33.815759
 lng: -117.241626
 geocoded_by: cache
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/ca/perris/orange-avenue/
@@ -21,11 +21,12 @@ all_sources:
 - salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 all_source_ids:
 - sa-7-f2948ecad1-dwwg4w
 - sa-7-fac5d8e2db-s38mfq
-verified_at: '2026-04-27'
 ---

@@ -7,10 +7,10 @@ city: Russell Springs
 state: KY
 zip: '42642'
 county: Russell County
-lat: 37.057548
-lng: -85.085852
+lat: 37.057449
+lng: -85.085696
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(606) 388-9019'
 hours_raw: 40.00 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

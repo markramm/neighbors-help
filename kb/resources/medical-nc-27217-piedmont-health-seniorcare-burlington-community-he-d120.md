@@ -7,10 +7,10 @@ city: Burlington
 state: NC
 zip: '27217'
 county: Alamance County
-lat: 36.100175
-lng: -79.417335
+lat: 36.100726
+lng: -79.417444
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(336) 506-5840'
 website: https://www.piedmonthealth.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

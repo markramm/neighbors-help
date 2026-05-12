@@ -135,6 +135,12 @@
     "matched_address": "10 W LOCUST ST, HARRISBURG, IL, 62946",
     "source": "census"
   },
+  "100 arbana dr.|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "100 austinville rd sw|decatur|AL|35601": {
     "confidence": "high",
     "geocoded_at": "2026-04-28",
@@ -279,6 +285,20 @@
     "matched_address": "1000 C AVE NW, CEDAR RAPIDS, IA, 52405",
     "source": "census"
   },
+  "1000 center place, nw|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "1000 e moore lake drive|fridley|MN|55432": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.080500276253,
+    "lng": -93.242934174274,
+    "matched_address": "1000 E MOORE LAKE DR, FRIDLEY, MN, 55432",
+    "source": "census"
+  },
   "1000 e moore lake drive|jacksonville|IL|55432": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -389,6 +409,14 @@
     "lat": 36.111195129962,
     "lng": -97.05850333109,
     "matched_address": "1001 S MAIN ST, STILLWATER, OK, 74074",
+    "source": "census"
+  },
+  "10011 noble parkway|brooklyn park|MN|55443": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.133897656691,
+    "lng": -93.33770328284,
+    "matched_address": "10011 NOBLE PKWY, BROOKLYN PARK, MN, 55443",
     "source": "census"
   },
   "10011 noble parkway|jacksonville|IL|55443": {
@@ -525,6 +553,14 @@
     "matched_address": "1010 CURRIE AVE N, MINNEAPOLIS, MN, 55403",
     "source": "census"
   },
+  "1010 currie ave. n|minneapolis|MN|55403": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.977973225204,
+    "lng": -93.279005773362,
+    "matched_address": "1010 CURRIE AVE N, MINNEAPOLIS, MN, 55403",
+    "source": "census"
+  },
   "1010 e. main st.|alhambra|CA|91801": {
     "geocoded_at": "2026-04-27",
     "lat": null,
@@ -630,6 +666,14 @@
   "1019 payne ave.|jacksonville|IL|55130": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
+    "lat": 44.971980494137,
+    "lng": -93.073600002163,
+    "matched_address": "1019 PAYNE AVE, SAINT PAUL, MN, 55130",
+    "source": "census"
+  },
+  "1019 payne ave.|maplewood|MN|55130": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
     "lat": 44.971980494137,
     "lng": -93.073600002163,
     "matched_address": "1019 PAYNE AVE, SAINT PAUL, MN, 55130",
@@ -895,6 +939,14 @@
     "matched_address": "104 ASH ST E, SISSETON, SD, 57262",
     "source": "census"
   },
+  "104 clover ave.|corry|MI|49423": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 42.793170538861,
+    "lng": -86.084353783736,
+    "matched_address": "104 CLOVER ST, HOLLAND, MI, 49423",
+    "source": "census"
+  },
   "104 clover ave.|jacksonville|MI|49423": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -1099,6 +1151,14 @@
     "matched_address": "107 W STATE ST, MARSHALLTOWN, IA, 50158",
     "source": "census"
   },
+  "107 west howard st.|hibbing|MN|55746": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 47.427360415031,
+    "lng": -92.942254713464,
+    "matched_address": "107 HOWARD ST W, HIBBING, MN, 55746",
+    "source": "census"
+  },
   "107 west howard st.|jacksonville|IL|55746": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -1130,6 +1190,18 @@
     "lng": -122.355383982756,
     "matched_address": "10750 GREENWOOD AVE N, SEATTLE, WA, 98133",
     "source": "census"
+  },
+  "10755 burt street|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "10755 burt street|moline|IL|61265": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
   },
   "108 hamilton street|bound brook|NJ|08805": {
     "confidence": "high",
@@ -1661,6 +1733,14 @@
     "matched_address": "1110 UNION ST, LAFAYETTE, IN, 47904",
     "source": "census"
   },
+  "1110 vermillion street|hastings|MN|55033": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.735033943698,
+    "lng": -92.85271677975,
+    "matched_address": "1110 VERMILLION ST, HASTINGS, MN, 55033",
+    "source": "census"
+  },
   "1110 vermillion street|jacksonville|IL|55033": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -1769,6 +1849,14 @@
     "lat": 42.258690072402,
     "lng": -88.842464405484,
     "matched_address": "112 S STATE ST, BELVIDERE, IL, 61008",
+    "source": "census"
+  },
+  "112 sunnyside park|jefferson|NC|28640": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 36.418716697268,
+    "lng": -81.445890653454,
+    "matched_address": "112 SUNNYSIDE PARK, JEFFERSON, NC, 28640",
     "source": "census"
   },
   "112 tolly st|anderson|SC|29624": {
@@ -1898,6 +1986,12 @@
     "lng": -90.183776819089,
     "matched_address": "114 E 5TH ST, ALTON, IL, 62002",
     "source": "census"
+  },
+  "114 east central parkway|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
   },
   "114 fourth|royal oak|MI|48067": {
     "confidence": "medium",
@@ -2305,6 +2399,14 @@
     "matched_address": "120 N BROADWAY AVE, ROCHESTER, MN, 55906",
     "source": "census"
   },
+  "120 n. broadway suite b|rochester (mn)|MN|55906": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.024626066367,
+    "lng": -92.462929421126,
+    "matched_address": "120 N BROADWAY AVE, ROCHESTER, MN, 55906",
+    "source": "census"
+  },
   "120 n. cherry street|van wert|OH|45891": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -2336,6 +2438,18 @@
     "lng": -72.022486164066,
     "matched_address": "120 W MAIN ST, SPENCER, MA, 01562",
     "source": "census"
+  },
+  "120 west 14th street|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "120 west 14th street|mount clemens|MI|48043": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
   },
   "120 west 14th street|new york|NY|10011": {
     "confidence": "high",
@@ -2403,6 +2517,14 @@
     "lat": 33.968350295634,
     "lng": -118.055989049793,
     "matched_address": "12000 WASHINGTON BLVD, WHITTIER, CA, 90606",
+    "source": "census"
+  },
+  "1201 89th ave. ne, suite 130|blaine|MN|55433": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.131872278102,
+    "lng": -93.238768019631,
+    "matched_address": "1201 89TH AVE NE, BLAINE, MN, 55434",
     "source": "census"
   },
   "1201 89th ave. ne, suite 130|jacksonville|IL|55433": {
@@ -2662,6 +2784,12 @@
     "lng": -87.848673578605,
     "matched_address": "1221 MADISON ST, MAYWOOD, IL, 60153",
     "source": "census"
+  },
+  "1221 river bend drive|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
   },
   "1221 shonat|muskegon|MI|49442": {
     "confidence": "high",
@@ -2937,6 +3065,14 @@
     "lat": 36.109725201018,
     "lng": -80.246322114635,
     "matched_address": "1255 TRADE ST, WINSTON SALEM, NC, 27101",
+    "source": "census"
+  },
+  "12579 felch rd.|corry|MI|49424": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 42.819345122747,
+    "lng": -86.092522979461,
+    "matched_address": "12579 FELCH ST, HOLLAND, MI, 49424",
     "source": "census"
   },
   "12579 felch rd.|jacksonville|MI|49424": {
@@ -3253,6 +3389,14 @@
     "lat": 33.816417178392,
     "lng": -117.89789320472,
     "matched_address": "1300 S LEWIS ST, ANAHEIM, CA, 92805",
+    "source": "census"
+  },
+  "1301 3rd ave. west|international falls|MN|56649": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 48.592945471056,
+    "lng": -93.403240189556,
+    "matched_address": "1301 3RD AVE, INTERNATIONAL FALLS, MN, 56649",
     "source": "census"
   },
   "1301 3rd ave. west|jacksonville|IL|56649": {
@@ -3663,6 +3807,14 @@
     "matched_address": "13645 NORTHDALE BLVD, ROGERS, MN, 55374",
     "source": "census"
   },
+  "13645 northdale blvd|rogers|MN|55374": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.202080449164,
+    "lng": -93.554013320635,
+    "matched_address": "13645 NORTHDALE BLVD, ROGERS, MN, 55374",
+    "source": "census"
+  },
   "137 king street|pottstown|PA|19464": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -3947,6 +4099,14 @@
     "matched_address": "1409 E STONE DR, KINGSPORT, TN, 37660",
     "source": "census"
   },
+  "14101 irving ave|burnsville|MN|55337": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.747821565021,
+    "lng": -93.29823855345,
+    "matched_address": "14101 IRVING AVE S, BURNSVILLE, MN, 55337",
+    "source": "census"
+  },
   "14101 irving ave|jacksonville|IL|55337": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -4025,6 +4185,14 @@
     "matched_address": "14150 SUNFISH LAKE BLVD NW, ANOKA, MN, 55303",
     "source": "census"
   },
+  "14150 sunfish lake blvd|ramsey|MN|55303": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.227943047866,
+    "lng": -93.429456222687,
+    "matched_address": "14150 SUNFISH LAKE BLVD NW, RAMSEY, MN, 55303",
+    "source": "census"
+  },
   "14153 whittier blvd.|whittier|CA|90605": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -4089,6 +4257,14 @@
     "matched_address": "1421 YALE PL, MINNEAPOLIS, MN, 55403",
     "source": "census"
   },
+  "1421 yale pl|minneapolis|MN|55403": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.971456319623,
+    "lng": -93.282290361955,
+    "matched_address": "1421 YALE PL, MINNEAPOLIS, MN, 55403",
+    "source": "census"
+  },
   "1422 water st|fitchburg|MA|01420": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -4137,6 +4313,14 @@
     "matched_address": "1425 PAUL KIRKWOLD DR, SAINT PAUL, MN, 55112",
     "source": "census"
   },
+  "1425 paul kirkwold dr.|maplewood|MN|55112": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.080478220453,
+    "lng": -93.159302800232,
+    "matched_address": "1425 PAUL KIRKWOLD DR, SAINT PAUL, MN, 55112",
+    "source": "census"
+  },
   "14275 eureka rd.|southgate|MI|48195": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -4144,6 +4328,12 @@
     "lng": -83.197128657831,
     "matched_address": "14275 EUREKA RD, SOUTHGATE, MI, 48195",
     "source": "census"
+  },
+  "143 east 9th avenue|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
   },
   "143 n 2nd st|fulton|NY|13069": {
     "confidence": "high",
@@ -4215,6 +4405,14 @@
     "lat": 38.95308513718,
     "lng": -122.642920867306,
     "matched_address": "14420 LAKESHORE DR, CLEARLAKE, CA, 95422",
+    "source": "census"
+  },
+  "14425 old courthouse way|newport news|VA|23608": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 37.130421331999,
+    "lng": -76.542234521372,
+    "matched_address": "14425 OLD COURTHOUSE WAY, NEWPORT NEWS, VA, 23608",
     "source": "census"
   },
   "1444 n. citrus ave.|covina|CA|91722": {
@@ -4330,6 +4528,14 @@
     "lat": null,
     "lng": null,
     "source": "miss"
+  },
+  "1471 como avenue west|maplewood|MN|55108": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.977409067061,
+    "lng": -93.162394095613,
+    "matched_address": "1471 COMO AVE W, SAINT PAUL, MN, 55108",
+    "source": "census"
   },
   "14716 7th st.|victorville|CA|92395": {
     "geocoded_at": "2026-04-27",
@@ -4751,6 +4957,14 @@
     "matched_address": "151 ELM AVE SE, MONTGOMERY, MN, 56069",
     "source": "census"
   },
+  "151 elm avenue se|montgomery|MN|56069": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.436695877287,
+    "lng": -93.580114806986,
+    "matched_address": "151 ELM AVE SE, MONTGOMERY, MN, 56069",
+    "source": "census"
+  },
   "151 n. downs street|ridgecrest|CA|93555": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -4935,6 +5149,12 @@
     "matched_address": "1551 REMOUNT RD, NORTH CHARLESTON, SC, 29406",
     "source": "census"
   },
+  "1555 king st|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "1555 lpga blvd|daytona beach|FL|32117": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -5115,6 +5335,14 @@
     "lng": null,
     "source": "miss"
   },
+  "1604 east lake street|minneapolis|MN|55407": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.948425305643,
+    "lng": -93.251084430538,
+    "matched_address": "1604 E LAKE ST, MINNEAPOLIS, MN, 55407",
+    "source": "census"
+  },
   "161 east cedar st.|globe|AZ|85502": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -5154,6 +5382,30 @@
     "lng": -122.354578078034,
     "matched_address": "1612 I ST, WASHOUGAL, WA, 98671",
     "source": "census"
+  },
+  "16130 northland drive|clinton township|MI|48036": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "16130 northland drive|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "16130 northland drive|monroe|MI|48162": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "16130 northland drive|royal oak|MI|48073": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
   },
   "1615 \"d\" street|sacramento|CA|95814": {
     "confidence": "high",
@@ -5385,6 +5637,14 @@
     "matched_address": "165 CLEVELAND ST, ELYRIA, OH, 44035",
     "source": "census"
   },
+  "16501 highway 10|elk river|MN|55330": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.270270915558,
+    "lng": -93.542166006352,
+    "matched_address": "16501 US HWY 10, ELK RIVER, MN, 55330",
+    "source": "census"
+  },
   "16501 highway 10|jacksonville|IL|55330": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -5465,6 +5725,12 @@
     "matched_address": "16934 VENTURA BLVD, ENCINO, CA, 91316",
     "source": "census"
   },
+  "16941 keegan avenue|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "17 paddock hills plaza|florissant|MO|63033": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -5479,6 +5745,14 @@
     "lat": 41.243289509683,
     "lng": -75.880042164691,
     "matched_address": "17 S PENNSYLVANIA AVE, WILKES BARRE, PA, 18701",
+    "source": "census"
+  },
+  "170 89th ave. ne|blaine|MN|55434": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.131762726619,
+    "lng": -93.261513526216,
+    "matched_address": "170 89TH AVE NE, BLAINE, MN, 55434",
     "source": "census"
   },
   "170 89th ave. ne|jacksonville|IL|55434": {
@@ -5893,6 +6167,12 @@
     "lng": null,
     "source": "miss"
   },
+  "17625 kenrick avenue|lakeville|MN|55044": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "1763 monterey rd.|san jose|CA|95119": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -6041,6 +6321,14 @@
     "lng": null,
     "source": "miss"
   },
+  "1800 ward ave.|hudson|MN|54016": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.963992352199,
+    "lng": -92.740698531552,
+    "matched_address": "1800 WARD AVE, HUDSON, WI, 54016",
+    "source": "census"
+  },
   "1800 ward ave.|jacksonville|IL|54016": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -6179,6 +6467,14 @@
     "lat": 45.079114680088,
     "lng": -93.188134683856,
     "matched_address": "1823 OLD HWY 8 NW, SAINT PAUL, MN, 55112",
+    "source": "census"
+  },
+  "1823 old hwy 8 nw|new brighton|MN|55112": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.079114680088,
+    "lng": -93.188134683856,
+    "matched_address": "1823 OLD HWY 8 NW, NEW BRIGHTON, MN, 55112",
     "source": "census"
   },
   "1824  fulton street|fresno|CA|93721": {
@@ -6517,6 +6813,14 @@
     "matched_address": "1907 SUBURBAN AVE, SAINT PAUL, MN, 55119",
     "source": "census"
   },
+  "1907 suburban ave|maplewood|MN|55119": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.949719109516,
+    "lng": -93.020275888411,
+    "matched_address": "1907 SUBURBAN AVE, MAPLEWOOD, MN, 55119",
+    "source": "census"
+  },
   "1907-2147 nw 38th st|miami|FL|33142": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -6717,6 +7021,14 @@
     "matched_address": "1944 KEYSTONE DR, ERIE, PA, 16509",
     "source": "census"
   },
+  "19463 evans st. nw|elk river|MN|55330": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.324859040598,
+    "lng": -93.560783512998,
+    "matched_address": "19463 EVANS ST NW, ELK RIVER, MN, 55330",
+    "source": "census"
+  },
   "19463 evans st. nw|jacksonville|IL|55330": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -6845,6 +7157,14 @@
     "matched_address": "20 1ST AVE NE, ROCHESTER, MN, 55906",
     "source": "census"
   },
+  "20 ne first ave.|rochester (mn)|MN|55906": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.023683716232,
+    "lng": -92.461462422923,
+    "matched_address": "20 1ST AVE NE, ROCHESTER, MN, 55906",
+    "source": "census"
+  },
   "20 north 4th, suite 214|wilmington|NC|28401": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -6937,6 +7257,14 @@
     "lat": 35.252859728184,
     "lng": -95.12475641928,
     "matched_address": "200 SE A ST, STIGLER, OK, 74462",
+    "source": "census"
+  },
+  "200 twin oaks drive, syracuse ny 13206|corry|PA|16407": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 43.089478074196,
+    "lng": -76.113575693367,
+    "matched_address": "200 TWIN OAKS DR, SYRACUSE, NY, 13206",
     "source": "census"
   },
   "200 w. 5th street|gilroy|CA|95020": {
@@ -7115,6 +7443,14 @@
     "matched_address": "201 STAR ST, MANKATO, MN, 56001",
     "source": "census"
   },
+  "201 star street|mankato|MN|56001": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.168233469307,
+    "lng": -93.960434284433,
+    "matched_address": "201 STAR ST, MANKATO, MN, 56001",
+    "source": "census"
+  },
   "2012 w highway 160|fort mill|SC|29708": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -7204,6 +7540,14 @@
   "2024 lyndale ave. n|jacksonville|IL|55411": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
+    "lat": 44.999432931451,
+    "lng": -93.287908212264,
+    "matched_address": "2024 LYNDALE AVE N, MINNEAPOLIS, MN, 55411",
+    "source": "census"
+  },
+  "2024 lyndale ave. n|minneapolis|MN|55411": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
     "lat": 44.999432931451,
     "lng": -93.287908212264,
     "matched_address": "2024 LYNDALE AVE N, MINNEAPOLIS, MN, 55411",
@@ -7401,6 +7745,14 @@
     "matched_address": "20505 DIXIE HWY, CUTLER BAY, FL, 33189",
     "source": "census"
   },
+  "2051 50th street n.e.|buffalo|MN|55313": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.223086045534,
+    "lng": -93.846622669794,
+    "matched_address": "2051 50TH ST NE, BUFFALO, MN, 55313",
+    "source": "census"
+  },
   "2051 50th street n.e.|jacksonville|IL|55313": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -7431,6 +7783,14 @@
     "lat": 40.390605366194,
     "lng": -82.482650653589,
     "matched_address": "206 E OHIO AVE, MOUNT VERNON, OH, 43050",
+    "source": "census"
+  },
+  "206 first ave. ne|austin|MN|55912": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 43.667389714198,
+    "lng": -92.973436137148,
+    "matched_address": "206 1ST AVE NE, AUSTIN, MN, 55912",
     "source": "census"
   },
   "206 first ave. ne|jacksonville|IL|55912": {
@@ -7523,9 +7883,25 @@
     "matched_address": "207 WYOMING ST, CHARLESTON, WV, 25302",
     "source": "census"
   },
+  "20734 highway 169 south|grand rapids|MN|55744": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 47.176925832675,
+    "lng": -93.541133459896,
+    "matched_address": "20734 US HWY 169, GRAND RAPIDS, MN, 55744",
+    "source": "census"
+  },
   "20734 highway 169 south|jacksonville|IL|55744": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
+    "lat": 47.176925832675,
+    "lng": -93.541133459896,
+    "matched_address": "20734 US HWY 169, GRAND RAPIDS, MN, 55744",
+    "source": "census"
+  },
+  "20734 s hwy 169|grand rapids|MN|55744": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
     "lat": 47.176925832675,
     "lng": -93.541133459896,
     "matched_address": "20734 US HWY 169, GRAND RAPIDS, MN, 55744",
@@ -7587,6 +7963,14 @@
     "matched_address": "208 N LUTTERLOH AVE, GATESVILLE, TX, 76528",
     "source": "census"
   },
+  "208 south 5th street|brainerd|MN|56401": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 46.356699226185,
+    "lng": -94.202253014082,
+    "matched_address": "208 S 5TH ST, BRAINERD, MN, 56401",
+    "source": "census"
+  },
   "208 south 5th street|jacksonville|IL|56401": {
     "geocoded_at": "2026-04-27",
     "lat": null,
@@ -7609,6 +7993,14 @@
     "matched_address": "2080 WOODLYNN AVE, SAINT PAUL, MN, 55109",
     "source": "census"
   },
+  "2080 woodlynn ave.|maplewood|MN|55109": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.033288138469,
+    "lng": -93.011627741442,
+    "matched_address": "2080 WOODLYNN AVE, MAPLEWOOD, MN, 55109",
+    "source": "census"
+  },
   "20864 rector road|nevada city|CA|95959": {
     "confidence": "high",
     "geocoded_at": "2026-04-28",
@@ -7625,11 +8017,27 @@
     "matched_address": "20870 ROGERS DR, ROGERS, MN, 55374",
     "source": "census"
   },
+  "20870 rogers dr|rogers|MN|55374": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.195101311512,
+    "lng": -93.549613362042,
+    "matched_address": "20870 ROGERS DR, ROGERS, MN, 55374",
+    "source": "census"
+  },
   "20886 arsenal st|watertown|NY|13601": {
     "geocoded_at": "2026-04-27",
     "lat": null,
     "lng": null,
     "source": "miss"
+  },
+  "209 4th st. ne|austin|MN|55912": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 43.667563465572,
+    "lng": -92.969897562466,
+    "matched_address": "209 4TH ST NE, AUSTIN, MN, 55912",
+    "source": "census"
   },
   "209 4th st. ne|jacksonville|IL|55912": {
     "confidence": "high",
@@ -7725,6 +8133,14 @@
     "matched_address": "2100 6TH AVE N, BILLINGS, MT, 59101",
     "source": "census"
   },
+  "2100 6th avenue n.|billings|MT|59101": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.790482183216,
+    "lng": -108.501401581025,
+    "matched_address": "2100 6TH AVE N, BILLINGS, MT, 59101",
+    "source": "census"
+  },
   "2100 dearmoun road|anchorage|AK|99515": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -7755,6 +8171,14 @@
     "lat": 35.190990386559,
     "lng": -101.844041022022,
     "matched_address": "2101 S VAN BUREN ST, AMARILLO, TX, 79109",
+    "source": "census"
+  },
+  "2101 w superior st|duluth|MN|55806": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 46.766937791333,
+    "lng": -92.124380304127,
+    "matched_address": "2101 W SUPERIOR ST, DULUTH, MN, 55806",
     "source": "census"
   },
   "2101 w superior st|jacksonville|IL|55806": {
@@ -7816,6 +8240,12 @@
     "lng": -83.692899411314,
     "matched_address": "211 W KEARSLEY ST, FLINT, MI, 48502",
     "source": "census"
+  },
+  "2110 high wickham place|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
   },
   "2110 n queen st|kinston|NC|28501": {
     "confidence": "high",
@@ -8039,6 +8469,14 @@
     "matched_address": "2140 E 28TH ST, CHATTANOOGA, TN, 37407",
     "source": "census"
   },
+  "2140 north fourth street|saint charles|MO|63301": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 38.799979446079,
+    "lng": -90.477007016435,
+    "matched_address": "2140 N 4TH ST, SAINT CHARLES, MO, 63301",
+    "source": "census"
+  },
   "2140 north fourth|saint charles|MO|63301": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -8105,6 +8543,14 @@
     "lat": 34.714834166781,
     "lng": -81.621039888228,
     "matched_address": "215 S MOUNTAIN ST, UNION, SC, 29379",
+    "source": "census"
+  },
+  "215 south 27th ave. west|duluth|MN|55806": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 46.759944979915,
+    "lng": -92.129774627123,
+    "matched_address": "215 S 27TH AVE W, DULUTH, MN, 55806",
     "source": "census"
   },
   "215 south 27th ave. west|jacksonville|IL|55806": {
@@ -9267,6 +9713,14 @@
     "matched_address": "2401 ANTHUAN MAYBANK DR, GEORGETOWN, SC, 29440",
     "source": "census"
   },
+  "2402 e north st ste b|greenville|SC|29615": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 34.86867342304,
+    "lng": -82.358114426748,
+    "matched_address": "2402 E NORTH ST, GREENVILLE, SC, 29615",
+    "source": "census"
+  },
   "2402 s 16th st|chickasha|OK|73018": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -9394,6 +9848,12 @@
     "lng": -82.729860605437,
     "matched_address": "24400 US HWY 19, CLEARWATER, FL, 33763",
     "source": "census"
+  },
+  "2445 prior avenue n.|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
   },
   "245 alexander st|fayetteville|NC|28301": {
     "confidence": "high",
@@ -10161,9 +10621,25 @@
     "matched_address": "2727 CENTRAL AVE NE, MINNEAPOLIS, MN, 55418",
     "source": "census"
   },
+  "2727 central ave ne|minneapolis|MN|55418": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.017266669329,
+    "lng": -93.247213707902,
+    "matched_address": "2727 CENTRAL AVE NE, MINNEAPOLIS, MN, 55418",
+    "source": "census"
+  },
   "2727 central ave. ne|jacksonville|IL|55418": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
+    "lat": 45.017266669329,
+    "lng": -93.247213707902,
+    "matched_address": "2727 CENTRAL AVE NE, MINNEAPOLIS, MN, 55418",
+    "source": "census"
+  },
+  "2727 central ave. ne|minneapolis|MN|55418": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
     "lat": 45.017266669329,
     "lng": -93.247213707902,
     "matched_address": "2727 CENTRAL AVE NE, MINNEAPOLIS, MN, 55418",
@@ -11149,6 +11625,14 @@
     "matched_address": "3015 N MAIN ST, ROYAL OAK, MI, 48073",
     "source": "census"
   },
+  "302 court st.|albert lea|MN|56007": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 43.646238664707,
+    "lng": -93.370898943312,
+    "matched_address": "302 COURT ST, ALBERT LEA, MN, 56007",
+    "source": "census"
+  },
   "302 court st.|jacksonville|IL|56007": {
     "confidence": "medium",
     "geocoded_at": "2026-04-27",
@@ -11227,6 +11711,14 @@
     "lat": 34.029048595569,
     "lng": -81.025773727661,
     "matched_address": "3024 FARROW RD, COLUMBIA, SC, 29203",
+    "source": "census"
+  },
+  "303 downtown plaza|fairmont|MN|56031": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 43.654925425042,
+    "lng": -94.462460279784,
+    "matched_address": "303 DOWNTOWN PLZ, FAIRMONT, MN, 56031",
     "source": "census"
   },
   "303 downtown plaza|jacksonville|IL|56031": {
@@ -11823,6 +12315,14 @@
     "lat": 39.998551956019,
     "lng": -75.13137829523,
     "matched_address": "3150 N MASCHER ST, PHILADELPHIA, PA, 19133",
+    "source": "census"
+  },
+  "316 carlton avenue|cloquet|MN|55720": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 46.717603507234,
+    "lng": -92.46006473239,
+    "matched_address": "316 CARLTON AVE, CLOQUET, MN, 55720",
     "source": "census"
   },
   "316 carlton avenue|jacksonville|IL|55720": {
@@ -12455,6 +12955,12 @@
   },
   "3330 edinborough way|jacksonville|IL|55435": {
     "geocoded_at": "2026-04-27",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "3330 edinborough way|minneapolis|MN|55435": {
+    "geocoded_at": "2026-05-12",
     "lat": null,
     "lng": null,
     "source": "miss"
@@ -13253,6 +13759,14 @@
     "matched_address": "3740 NICOLLET AVE S, MINNEAPOLIS, MN, 55409",
     "source": "census"
   },
+  "3740 nicollet ave south|minneapolis|MN|55409": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.935154021826,
+    "lng": -93.277992825947,
+    "matched_address": "3740 NICOLLET AVE S, MINNEAPOLIS, MN, 55409",
+    "source": "census"
+  },
   "3740 telegraph road|arnold|MO|63010": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -13737,6 +14251,12 @@
     "lng": null,
     "source": "miss"
   },
+  "400 u.s. hwy 10 south|saint cloud|MN|56304": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "400 w main ave|bowling green|KY|42101": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -13873,6 +14393,14 @@
     "matched_address": "401 RACETRACK RD, MCDONOUGH, GA, 30252",
     "source": "census"
   },
+  "401 s prairie ave|pueblo|CO|81003": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 38.26028580671,
+    "lng": -104.644034247164,
+    "matched_address": "401 S PRAIRIE AVE, PUEBLO, CO, 81005",
+    "source": "census"
+  },
   "401 sherwood ave|mena|AR|71953": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -13907,6 +14435,12 @@
   },
   "401 west 7th street|jacksonville|IL|55102": {
     "geocoded_at": "2026-04-27",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "401 west 7th street|maplewood|MN|55102": {
+    "geocoded_at": "2026-05-12",
     "lat": null,
     "lng": null,
     "source": "miss"
@@ -14169,6 +14703,14 @@
     "matched_address": "408 RAVINE ST, HANCOCK, MI, 49930",
     "source": "census"
   },
+  "409 1st ave ne|austin|MN|55912": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 43.667500477623,
+    "lng": -92.970961928074,
+    "matched_address": "409 1ST AVE NE, AUSTIN, MN, 55912",
+    "source": "census"
+  },
   "409 1st ave ne|jacksonville|IL|55912": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -14221,6 +14763,14 @@
     "lat": 44.312855800557,
     "lng": -96.798369990835,
     "matched_address": "410 7TH ST, BROOKINGS, SD, 57006",
+    "source": "census"
+  },
+  "410 douglas avenue|henning|MN|56551": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 46.322210034166,
+    "lng": -95.446744532516,
+    "matched_address": "410 DOUGLAS AVE, HENNING, MN, 56551",
     "source": "census"
   },
   "410 douglas avenue|jacksonville|IL|56551": {
@@ -14457,6 +15007,14 @@
     "lat": 26.414683355294,
     "lng": -81.41647604573,
     "matched_address": "415 ROSE AVE, IMMOKALEE, FL, 34142",
+    "source": "census"
+  },
+  "416 bridge ave|albert lea|MN|56007": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 43.653065271825,
+    "lng": -93.35983276607,
+    "matched_address": "416 BRIDGE AVE, ALBERT LEA, MN, 56007",
     "source": "census"
   },
   "416 bridge ave|jacksonville|IL|56007": {
@@ -15079,6 +15637,14 @@
     "matched_address": "440 W COLONIAL DR, ORLANDO, FL, 32804",
     "source": "census"
   },
+  "440 west nyack road|west nyack|NY|10994": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 41.096186249616,
+    "lng": -73.986040091055,
+    "matched_address": "440 W NYACK RD, WEST NYACK, NY, 10994",
+    "source": "census"
+  },
   "4400 elm street|mchenry|IL|60050": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -15186,6 +15752,14 @@
   "4445 hwy 55|jacksonville|IL|55357": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
+    "lat": 45.065424344339,
+    "lng": -93.637307075509,
+    "matched_address": "4445 STATE HWY 55, LORETTO, MN, 55357",
+    "source": "census"
+  },
+  "4445 hwy 55|loretta|MN|55357": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
     "lat": 45.065424344339,
     "lng": -93.637307075509,
     "matched_address": "4445 STATE HWY 55, LORETTO, MN, 55357",
@@ -16053,6 +16627,12 @@
     "matched_address": "5040 N PULASKI RD, CHICAGO, IL, 60630",
     "source": "census"
   },
+  "5040 n pulaski road|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "5042 s padre island dr|corpus christi|TX|78411": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -16131,6 +16711,14 @@
     "lng": null,
     "source": "miss"
   },
+  "507 12th ave. west|virginia|MN|55792": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 47.518854068556,
+    "lng": -92.552027483453,
+    "matched_address": "507 S 12TH AVE W, VIRGINIA, MN, 55792",
+    "source": "census"
+  },
   "507 n. humphreys street|flagstaff|AZ|86001": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -16166,6 +16754,14 @@
   "509 plum street|jacksonville|IL|55066": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
+    "lat": 44.564555523877,
+    "lng": -92.530658900782,
+    "matched_address": "509 PLUM ST, RED WING, MN, 55066",
+    "source": "census"
+  },
+  "509 plum street|red wing|MN|55066": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
     "lat": 44.564555523877,
     "lng": -92.530658900782,
     "matched_address": "509 PLUM ST, RED WING, MN, 55066",
@@ -16498,6 +17094,14 @@
   "521 4th street. sw|jacksonville|IL|56201": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
+    "lat": 45.118942322409,
+    "lng": -95.047328768128,
+    "matched_address": "521 4TH ST SW, WILLMAR, MN, 56201",
+    "source": "census"
+  },
+  "521 4th street. sw|willmar|MN|56201": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
     "lat": 45.118942322409,
     "lng": -95.047328768128,
     "matched_address": "521 4TH ST SW, WILLMAR, MN, 56201",
@@ -17107,6 +17711,12 @@
     "matched_address": "5620 PSO DEL NORTE, CARLSBAD, CA, 92008",
     "source": "census"
   },
+  "5631 van dyke rd.|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "5656 s packard ave|cudahy|WI|53110": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -17707,6 +18317,14 @@
     "matched_address": "604 W JULIA ST, PERRY, FL, 32347",
     "source": "census"
   },
+  "60402 elbow lake rd.|finlayson|MN|55735": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 46.166494249742,
+    "lng": -92.991249952326,
+    "matched_address": "60402 ELBOW LAKE RD, FINLAYSON, MN, 55735",
+    "source": "census"
+  },
   "60402 elbow lake rd.|jacksonville|IL|55735": {
     "confidence": "high",
     "geocoded_at": "2026-04-28",
@@ -17771,12 +18389,32 @@
     "matched_address": "606 W 3RD ST, HOPE, AR, 71801",
     "source": "census"
   },
+  "6060 castleway west dr|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "6060 castleway west dr|la porte|IN|46350": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "609 e peoria ave|mcalester|OK|74501": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
     "lat": 34.91758436491,
     "lng": -95.766740166305,
     "matched_address": "609 E PEORIA AVE, MCALESTER, OK, 74501",
+    "source": "census"
+  },
+  "609 norwood st.|brainerd|MN|56401": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 46.353739174711,
+    "lng": -94.200477994508,
+    "matched_address": "609 NORWOOD ST, BRAINERD, MN, 56401",
     "source": "census"
   },
   "609 norwood st.|jacksonville|IL|56401": {
@@ -18077,6 +18715,14 @@
     "lat": 39.022093585739,
     "lng": -94.657511291868,
     "matched_address": "6219 JOHNSON DR, MISSION, KS, 66202",
+    "source": "census"
+  },
+  "622 e. vernon ave.|fergus falls|MN|56537": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 46.278276754895,
+    "lng": -96.064842629952,
+    "matched_address": "622 E VERNON AVE, FERGUS FALLS, MN, 56537",
     "source": "census"
   },
   "622 e. vernon ave.|jacksonville|IL|56537": {
@@ -18483,6 +19129,12 @@
     "matched_address": "6601 N BROADWAY AVE, OKLAHOMA CITY, OK, 73116",
     "source": "census"
   },
+  "6601 n. broadway ext., suite 300|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "66011 van dyke rd|washington township|MI|48095": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -18733,6 +19385,12 @@
     "matched_address": "700 JEFFERSON AVE, MOUNDSVILLE, WV, 26041",
     "source": "census"
   },
+  "700 n bell ave|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "700 n walnut|hutchinson|KS|67501": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -18776,6 +19434,14 @@
   "700 s. riverfront dr.|jacksonville|IL|56001": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
+    "lat": 44.161951957378,
+    "lng": -94.010418819012,
+    "matched_address": "700 S RIVERFRONT DR, MANKATO, MN, 56001",
+    "source": "census"
+  },
+  "700 s. riverfront dr.|mankato|MN|56001": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
     "lat": 44.161951957378,
     "lng": -94.010418819012,
     "matched_address": "700 S RIVERFRONT DR, MANKATO, MN, 56001",
@@ -18845,6 +19511,14 @@
     "matched_address": "7000 GRAND RIVER AVE, BRIGHTON, MI, 48114",
     "source": "census"
   },
+  "7007 lakeland avenue north|brooklyn park|MN|55428": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 45.08208975495,
+    "lng": -93.374852847584,
+    "matched_address": "7007 LAKELAND AVE N, BROOKLYN PARK, MN, 55428",
+    "source": "census"
+  },
   "7007 lakeland avenue north|jacksonville|IL|55428": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -18884,6 +19558,12 @@
     "lng": -75.160307091972,
     "matched_address": "701 N BROAD ST, PHILADELPHIA, PA, 19123",
     "source": "census"
+  },
+  "701 north broad street|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
   },
   "7018 buffalo avenue|niagara falls|NY|14304": {
     "confidence": "high",
@@ -20385,6 +21065,20 @@
     "matched_address": "832 6TH ST, BREMERTON, WA, 98337",
     "source": "census"
   },
+  "832 folsom street|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "832 state rd. 331 \nbremen, in 46506|corry|PA|16407": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 41.46700709706,
+    "lng": -86.15619656177,
+    "matched_address": "832 STATE RD 331, BREMEN, IN, 46506",
+    "source": "census"
+  },
   "8330 n broadway|kansas city|MO|64118": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -20683,6 +21377,12 @@
     "lng": null,
     "source": "miss"
   },
+  "8805 wayzata blvd|golden valley|MN|55426": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
   "8805 wayzata blvd|jacksonville|IL|55426": {
     "geocoded_at": "2026-04-27",
     "lat": null,
@@ -20827,6 +21527,14 @@
     "matched_address": "900 N 4TH ST, MINNEAPOLIS, MN, 55401",
     "source": "census"
   },
+  "900 n fourth st|minneapolis|MN|55401": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.987771460343,
+    "lng": -93.281584107558,
+    "matched_address": "900 N 4TH ST, MINNEAPOLIS, MN, 55401",
+    "source": "census"
+  },
   "900 n. 4th st.|jacksonville|IL|55401": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -20835,9 +21543,25 @@
     "matched_address": "900 N 4TH ST, MINNEAPOLIS, MN, 55401",
     "source": "census"
   },
+  "900 n. 4th st.|minneapolis|MN|55401": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.987771460343,
+    "lng": -93.281584107558,
+    "matched_address": "900 N 4TH ST, MINNEAPOLIS, MN, 55401",
+    "source": "census"
+  },
   "900 north 4th street|jacksonville|IL|55401": {
     "confidence": "high",
     "geocoded_at": "2026-04-28",
+    "lat": 44.987771460343,
+    "lng": -93.281584107558,
+    "matched_address": "900 N 4TH ST, MINNEAPOLIS, MN, 55401",
+    "source": "census"
+  },
+  "900 north 4th street|minneapolis|MN|55401": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
     "lat": 44.987771460343,
     "lng": -93.281584107558,
     "matched_address": "900 N 4TH ST, MINNEAPOLIS, MN, 55401",
@@ -21423,6 +22147,14 @@
     "matched_address": "9717 W MONTGOMERY RD, HOUSTON, TX, 77088",
     "source": "census"
   },
+  "9728 lyndale ave|bloomington|MN|55420": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-12",
+    "lat": 44.827578053497,
+    "lng": -93.288673722187,
+    "matched_address": "9728 LYNDALE AVE S, BLOOMINGTON, MN, 55420",
+    "source": "census"
+  },
   "9728 lyndale ave|jacksonville|IL|55420": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -21577,6 +22309,12 @@
   },
   "carretera 744 km. 1.1 bo. machete  guayama, pr 00784|guayama|PR|00784": {
     "geocoded_at": "2026-04-28",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
+  },
+  "church in mission, 27 s. indiana street|corry|PA|16407": {
+    "geocoded_at": "2026-05-12",
     "lat": null,
     "lng": null,
     "source": "miss"
@@ -21768,6 +22506,13 @@
     "state": "CA",
     "zip": "91730"
   },
+  "rev|34.2835|-119.3012": {
+    "city": "San Buenaventura (Ventura)",
+    "county": "Ventura County",
+    "source": "census",
+    "state": "CA",
+    "zip": "93001"
+  },
   "rev|34.8625|-111.8182": {
     "city": "Sedona",
     "county": "Yavapai County",
@@ -21872,6 +22617,13 @@
     "source": "census",
     "state": "MD",
     "zip": "20770"
+  },
+  "rev|39.0765|-84.5145": {
+    "city": "Covington",
+    "county": "Kenton County",
+    "source": "census",
+    "state": "KY",
+    "zip": "41011"
   },
   "rev|39.0855|-77.1514": {
     "city": "Rockville",
@@ -22066,6 +22818,13 @@
     "county": "",
     "state": "",
     "zip": ""
+  },
+  "rev|44.5053|-73.4819": {
+    "city": "Au Sable",
+    "county": "Clinton County",
+    "source": "census",
+    "state": "NY",
+    "zip": "12944"
   },
   "rev|44.8024|-93.58": {
     "city": "Chaska",
@@ -22289,6 +23048,12 @@
     "lng": -85.064069184609,
     "matched_address": "1103 AUBURN DR, AUBURN, IN, 46706",
     "source": "census"
+  },
+  "the crossing at big lake station|big lake|MN|55309": {
+    "geocoded_at": "2026-05-12",
+    "lat": null,
+    "lng": null,
+    "source": "miss"
   },
   "the crossing at big lake station|jacksonville|IL|55309": {
     "geocoded_at": "2026-04-27",

@@ -7,10 +7,10 @@ city: Key Largo
 state: FL
 zip: '33037'
 county: Monroe County
-lat: 25.092676
-lng: -80.440636
+lat: 25.092479
+lng: -80.440823
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(305) 252-4820'
 website: https://www.chisouthfl.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

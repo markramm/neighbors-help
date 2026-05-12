@@ -7,10 +7,10 @@ city: Fort Stockton
 state: TX
 zip: '79735'
 county: Pecos County
-lat: 30.891554
-lng: -102.87912
+lat: 30.891423
+lng: -102.878936
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(432) 336-8110'
 hours_raw: 42.00 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

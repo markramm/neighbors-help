@@ -10,7 +10,7 @@ county: San Sebastian Municipio
 lat: 18.379365
 lng: -66.952416
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(787) 830-8200'
 website: https://www.migrantspr.com
@@ -23,10 +23,11 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-28'
-updated: '2026-04-28'
-verified_at: '2026-04-27'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

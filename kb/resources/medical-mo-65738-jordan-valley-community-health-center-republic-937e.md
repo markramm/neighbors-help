@@ -7,10 +7,10 @@ city: Republic
 state: MO
 zip: '65738'
 county: Greene County
-lat: 37.118342
-lng: -93.468847
+lat: 37.118633
+lng: -93.468823
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(417) 851-1551'
 website: https://www.jordanvalley.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

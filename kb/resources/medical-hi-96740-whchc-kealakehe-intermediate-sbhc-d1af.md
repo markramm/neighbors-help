@@ -7,10 +7,10 @@ city: Kailua Kona
 state: HI
 zip: '96740'
 county: Hawaii County
-lat: 19.669546
-lng: -155.985637
+lat: 19.66964
+lng: -155.9844
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(808) 326-5629'
 website: https://www.westhawaiichc.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

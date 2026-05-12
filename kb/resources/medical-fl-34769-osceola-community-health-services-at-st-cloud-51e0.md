@@ -7,10 +7,10 @@ city: Saint Cloud
 state: FL
 zip: '34769'
 county: Osceola County
-lat: 28.248335
-lng: -81.26637
+lat: 28.248332
+lng: -81.266938
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(407) 943-8600'
 website: https://www.osceolahealthcare.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

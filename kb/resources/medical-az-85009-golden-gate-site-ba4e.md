@@ -7,10 +7,10 @@ city: Phoenix
 state: AZ
 zip: '85009'
 county: Maricopa County
-lat: 33.466889
-lng: -112.143102
+lat: 33.466875
+lng: -112.142478
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(602) 233-0017'
 website: https://www.wccphx.net
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

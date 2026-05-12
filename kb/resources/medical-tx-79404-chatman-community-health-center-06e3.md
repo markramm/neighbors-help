@@ -7,10 +7,10 @@ city: Lubbock
 state: TX
 zip: '79404'
 county: Lubbock County
-lat: 33.573969
-lng: -101.833454
+lat: 33.57397
+lng: -101.833121
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(806) 749-0024'
 website: http://chclubbock.org/
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

@@ -7,10 +7,10 @@ city: Ellaville
 state: GA
 zip: '31806'
 county: Schley County
-lat: 32.233051
-lng: -84.308746
+lat: 32.233055
+lng: -84.30835
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(229) 937-5321'
 website: https://www.phoebehealth.com/locations/phoebe-sumter-medical-center/ellaville-clinic
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

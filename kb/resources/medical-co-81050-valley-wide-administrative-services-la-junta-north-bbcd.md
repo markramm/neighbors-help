@@ -7,10 +7,10 @@ city: La Junta
 state: CO
 zip: '81050'
 county: Otero County
-lat: 37.985925
-lng: -103.553942
+lat: 37.986205
+lng: -103.553948
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(719) 383-5493'
 hours_raw: 42.50 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

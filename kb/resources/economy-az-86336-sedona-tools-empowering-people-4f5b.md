@@ -10,7 +10,7 @@ county: Yavapai County
 lat: 34.862469
 lng: -111.818157
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 populations:
 - anyone
@@ -20,9 +20,10 @@ all_sources:
 - tool_library_alliance
 verified: false
 verified_by: scraper:tool_library_alliance
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
-notes: https://step.myturn.com/library/
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
+notes: https://step.myturn.com/library/
 ---

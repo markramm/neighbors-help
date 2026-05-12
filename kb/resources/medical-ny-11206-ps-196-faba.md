@@ -7,10 +7,10 @@ city: Brooklyn
 state: NY
 zip: '11206'
 county: Kings County
-lat: 40.708736
-lng: -73.939985
+lat: 40.70877
+lng: -73.939803
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(718) 497-0139'
 hours_raw: 48.00 hours/week
@@ -22,8 +22,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

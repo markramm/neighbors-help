@@ -1,0 +1,28 @@
+---
+name: Westside Family Healthcare - EastSide Charter School Based Health Center
+type: medical
+subtype: fqhc
+address: 3000 N Claymont St
+city: Wilmington
+state: DE
+zip: '19802'
+county: New Castle County
+lat: 39.751659
+lng: -75.522804
+geocoded_by: source
+geocoded_at: '2026-05-12'
+geocode_confidence: high
+phone: '(302) 656-8292'
+hours_raw: 20.00 hours/week
+populations:
+- anyone
+source: hrsa_fqhc
+source_id: 'hrsa-BPS-H80-041360-2'
+verified: true
+verified_by: scraper:hrsa_fqhc
+verified_at: '2026-05-12'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
+---

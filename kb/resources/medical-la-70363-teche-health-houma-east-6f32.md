@@ -7,10 +7,10 @@ city: Houma
 state: LA
 zip: '70363'
 county: Terrebonne Parish
-lat: 29.537234
-lng: -90.676127
+lat: 29.537156
+lng: -90.676641
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(985) 868-3700'
 website: https://www.tabhealth.org
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

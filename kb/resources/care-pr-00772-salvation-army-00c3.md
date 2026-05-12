@@ -9,7 +9,7 @@ zip: '00772'
 lat: 18.417706
 lng: -65.844074
 geocoded_by: cache
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/pr/loiza/urb-santiago-86-calle-1-esp-calle-a-corps/
@@ -21,10 +21,11 @@ all_sources:
 - salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-04-28'
-updated: '2026-04-28'
-verified_at: '2026-04-27'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

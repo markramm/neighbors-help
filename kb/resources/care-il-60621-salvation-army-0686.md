@@ -9,7 +9,7 @@ zip: '60621'
 lat: 41.768717
 lng: -87.648814
 geocoded_by: cache
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/il/chicago/west-69th-street-corps/
@@ -21,11 +21,12 @@ all_sources:
 - salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 all_source_ids:
 - sa-7-829597fcb6-87fwxp
 - sa-7-bcd1af8983-bc8bgt
-verified_at: '2026-04-27'
 ---

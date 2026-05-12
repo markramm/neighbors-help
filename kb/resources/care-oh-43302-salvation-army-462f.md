@@ -9,7 +9,7 @@ zip: '43302'
 lat: 40.581021
 lng: -83.095292
 geocoded_by: cache
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/oh/marion/mount-vernon-ave/
@@ -21,11 +21,12 @@ all_sources:
 - salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 all_source_ids:
 - sa-7-ba8fd393ed-2p4bjh
 - sa-7-bcc9c5a7cd-t5v5mz
-verified_at: '2026-04-27'
 ---

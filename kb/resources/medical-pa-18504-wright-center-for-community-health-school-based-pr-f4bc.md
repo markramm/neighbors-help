@@ -7,10 +7,10 @@ city: Scranton
 state: PA
 zip: '18504'
 county: Lackawanna County
-lat: 41.409516
-lng: -75.691108
+lat: 41.40879
+lng: -75.691422
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(570) 591-5280'
 website: https://thewrightcenter.org/home/patientcare/locations/togetherinhealth/
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

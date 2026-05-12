@@ -7,10 +7,10 @@ city: Laredo
 state: TX
 zip: '78041'
 county: Webb County
-lat: 27.565315
-lng: -99.473183
+lat: 27.565259
+lng: -99.472544
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(956) 795-8100'
 website: https://gatewaychc.com/
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---

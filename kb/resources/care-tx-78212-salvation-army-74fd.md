@@ -9,7 +9,7 @@ zip: '78212'
 lat: 29.434967
 lng: -98.49744
 geocoded_by: cache
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/tx/san-antonio/w-elmira-st-corps/
@@ -21,12 +21,13 @@ all_sources:
 - salvation_army
 verified: true
 verified_by: scraper:salvation_army
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
+verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 all_source_ids:
 - sa-7-84cf86e782-dzv454
 - sa-7-c08fe6fd9f-l760g8
 - sa-7-dcdac4fae9-83qhch
-verified_at: '2026-04-27'
 ---

@@ -7,10 +7,10 @@ city: Friendship
 state: WI
 zip: '53934'
 county: Adams County
-lat: 43.973966
-lng: -89.81998
+lat: 43.974383
+lng: -89.819961
 geocoded_by: source
-geocoded_at: '2026-04-28'
+geocoded_at: '2026-05-12'
 geocode_confidence: high
 phone: '(800) 942-5330'
 website: https://nobleclinics.org/
@@ -23,8 +23,9 @@ all_sources:
 - hrsa_fqhc
 verified: true
 verified_by: scraper:hrsa_fqhc
-last_checked: '2026-04-28'
-created: '2026-04-28'
-updated: '2026-04-28'
 verified_at: '2026-04-27'
+source_fetched_at: '2026-05-12'
+last_checked: '2026-05-12'
+created: '2026-05-12'
+updated: '2026-05-12'
 ---
