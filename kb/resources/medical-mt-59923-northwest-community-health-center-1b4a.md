@@ -7,10 +7,10 @@ city: Libby
 state: MT
 zip: '59923'
 county: Lincoln County
-lat: 48.392693
-lng: -115.546616
+lat: 48.393058
+lng: -115.546504
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(406) 293-3755'
 hours_raw: 46.50 hours/week
@@ -23,8 +23,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

@@ -7,10 +7,10 @@ city: North Port
 state: FL
 zip: '34287'
 county: Sarasota County
-lat: 27.051687
-lng: -82.242282
+lat: 27.052083
+lng: -82.242122
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(941) 529-0300'
 website: https://centerplacehealth.org/
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

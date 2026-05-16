@@ -7,10 +7,10 @@ city: Hayward
 state: WI
 zip: '54843'
 county: Sawyer County
-lat: 46.005878
-lng: -91.503929
+lat: 46.005989
+lng: -91.502835
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(888) 834-4551'
 hours_raw: 8.00 hours/week
@@ -23,8 +23,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

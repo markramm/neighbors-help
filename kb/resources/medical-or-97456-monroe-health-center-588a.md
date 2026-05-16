@@ -10,7 +10,7 @@ county: Benton County
 lat: 44.311945
 lng: -123.298266
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(541) 847-5143'
 website: http://bentonlinnhealthcenters.org/
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

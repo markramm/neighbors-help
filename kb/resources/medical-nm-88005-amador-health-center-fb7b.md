@@ -10,7 +10,7 @@ county: Dona Ana County
 lat: 32.302541
 lng: -106.78822
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(575) 527-5482'
 website: https://www.amadorhealth.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

@@ -9,7 +9,7 @@ zip: '19966'
 lat: 38.59081
 lng: -75.301722
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(302) 723-2212'
 email: laundrylovesussex@gmail.com
@@ -25,8 +25,8 @@ all_sources:
 verified: true
 verified_by: scraper:laundry_love
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

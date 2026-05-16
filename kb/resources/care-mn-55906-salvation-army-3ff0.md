@@ -8,8 +8,8 @@ state: MN
 zip: '55906'
 lat: 44.024626
 lng: -92.462929
-geocoded_by: census
-geocoded_at: '2026-05-12'
+geocoded_by: cache
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/mn/rochester/n-broadway-suite-b/
@@ -17,11 +17,13 @@ populations:
 - anyone
 source: salvation_army
 source_id: 'sa-7-c8fbb59fd3-12fv77'
+all_sources:
+- salvation_army
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-05-12'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

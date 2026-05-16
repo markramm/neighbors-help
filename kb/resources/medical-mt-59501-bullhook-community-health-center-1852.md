@@ -7,10 +7,10 @@ city: Havre
 state: MT
 zip: '59501'
 county: Hill County
-lat: 48.550053
-lng: -109.674835
+lat: 48.550305
+lng: -109.67481
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(406) 395-4305'
 website: https://www.bullhook.com
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

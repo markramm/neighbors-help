@@ -9,7 +9,7 @@ zip: '33903'
 lat: 26.667566
 lng: -81.887775
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(612) 719-6712'
 email: dora@aanderud.net
@@ -25,8 +25,8 @@ all_sources:
 verified: true
 verified_by: scraper:laundry_love
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

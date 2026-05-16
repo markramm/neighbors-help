@@ -7,10 +7,10 @@ city: Denton
 state: MD
 zip: '21629'
 county: Caroline County
-lat: 38.884472
-lng: -75.832016
+lat: 38.884648
+lng: -75.831976
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(410) 479-4306'
 website: https://www.choptankhealth.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

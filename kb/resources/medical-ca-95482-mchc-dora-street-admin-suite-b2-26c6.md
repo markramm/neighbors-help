@@ -10,7 +10,7 @@ county: Mendocino County
 lat: 39.135303
 lng: -123.208349
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(707) 468-1010'
 populations:
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 all_source_ids:
 - hrsa-BPS-H80-017285-1
 - hrsa-BPS-H80-017353-1

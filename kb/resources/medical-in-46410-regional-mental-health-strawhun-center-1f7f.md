@@ -7,10 +7,10 @@ city: Merrillville
 state: IN
 zip: '46410'
 county: Lake County
-lat: 41.463329
-lng: -87.364906
+lat: 41.463354
+lng: -87.363364
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(219) 937-3300'
 website: https://www.regionalhealthclinic.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

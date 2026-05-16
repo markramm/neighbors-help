@@ -10,11 +10,11 @@ county: Bronx County
 lat: 40.814745
 lng: -73.907199
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(718) 960-7601'
 website: https://www.acacianetwork.org
-hours_raw: 54.50 hours/week
+hours_raw: 59.00 hours/week
 populations:
 - anyone
 source: hrsa_fqhc
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

@@ -9,7 +9,7 @@ county: Dare County
 lat: 36.030723
 lng: -75.67601
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(252) 220-0405'
 email: fnbobx@gmail.com
@@ -24,10 +24,10 @@ all_sources:
 verified: false
 verified_by: scraper:food_not_bombs
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
 needs_review: true
 review_notes: missing address
-created: '2026-05-12'
-updated: '2026-05-12'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

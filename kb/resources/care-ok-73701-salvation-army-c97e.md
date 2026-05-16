@@ -9,7 +9,7 @@ zip: '73701'
 lat: 36.401544
 lng: -97.879986
 geocoded_by: cache
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/ok/enid/n-independence-st/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 all_source_ids:
 - sa-7-dce5baf7d8-rm5d4f
 - sa-7-fa81f1938f-kkpzw6

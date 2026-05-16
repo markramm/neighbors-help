@@ -7,10 +7,10 @@ city: Socorro
 state: NM
 zip: '87801'
 county: Socorro County
-lat: 34.033958
-lng: -106.916695
+lat: 34.034207
+lng: -106.916256
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(575) 835-4444'
 website: https://www.pms-inc.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

@@ -8,8 +8,8 @@ state: MN
 zip: '55912'
 lat: 43.6675
 lng: -92.970962
-geocoded_by: census
-geocoded_at: '2026-05-12'
+geocoded_by: cache
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/mn/austin/1st-ave-nw-corps/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-05-12'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 all_source_ids:
 - sa-7-9098e9d8d4-zc52kr
 - sa-7-9ae588dbcb-1qwrh0

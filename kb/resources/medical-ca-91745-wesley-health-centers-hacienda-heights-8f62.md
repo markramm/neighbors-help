@@ -7,10 +7,10 @@ city: Hacienda Heights
 state: CA
 zip: '91745'
 county: Los Angeles County
-lat: 34.010257
-lng: -117.961282
+lat: 34.009852
+lng: -117.962955
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(323) 201-4516'
 website: https://www.jwchinstitute.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

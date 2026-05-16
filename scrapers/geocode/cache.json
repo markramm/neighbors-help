@@ -5005,6 +5005,14 @@
     "matched_address": "1513 HARRISON AVE, ELKINS, WV, 26241",
     "source": "census"
   },
+  "1515 w. north street anaheim, ca 92801|anaheim|CA|92801": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-16",
+    "lat": 33.840916958857,
+    "lng": -117.936468599813,
+    "matched_address": "1515 W NORTH ST, ANAHEIM, CA, 92801",
+    "source": "census"
+  },
   "1515 w. north street|anaheim|CA|92801": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -10528,6 +10536,14 @@
   "27 payne avenue, rockland maine, 04841|rockland|ME|04841": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
+    "lat": 44.100667767498,
+    "lng": -69.127408152214,
+    "matched_address": "27 PAYNE AVE, ROCKLAND, ME, 04841",
+    "source": "census"
+  },
+  "27 payne avenue|rockland|ME|04841": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-16",
     "lat": 44.100667767498,
     "lng": -69.127408152214,
     "matched_address": "27 PAYNE AVE, ROCKLAND, ME, 04841",
@@ -18079,6 +18095,14 @@
     "matched_address": "600 W 81ST AVE, MERRILLVILLE, IN, 46410",
     "source": "census"
   },
+  "600 walnut st.|leavenworth|KS|66048": {
+    "confidence": "high",
+    "geocoded_at": "2026-05-16",
+    "lat": 39.313615183315,
+    "lng": -94.916071096862,
+    "matched_address": "600 WALNUT ST, LEAVENWORTH, KS, 66048",
+    "source": "census"
+  },
   "600 wilson creek pkwy|mckinney|TX|75069": {
     "confidence": "high",
     "geocoded_at": "2026-04-27",
@@ -22764,6 +22788,13 @@
     "source": "census",
     "state": "MI",
     "zip": "48224"
+  },
+  "rev|42.661|-73.7663": {
+    "city": "Albany",
+    "county": "Albany County",
+    "source": "census",
+    "state": "NY",
+    "zip": "12206"
   },
   "rev|42.9394|-78.8394": {
     "city": "Buffalo",

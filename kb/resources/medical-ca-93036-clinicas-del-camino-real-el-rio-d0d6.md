@@ -7,10 +7,10 @@ city: Oxnard
 state: CA
 zip: '93036'
 county: Ventura County
-lat: 34.234297
-lng: -119.171351
+lat: 34.233442
+lng: -119.170034
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(805) 436-3444'
 website: https://www.clinicas.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

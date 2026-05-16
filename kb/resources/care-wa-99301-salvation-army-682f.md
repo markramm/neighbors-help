@@ -9,7 +9,7 @@ zip: '99301'
 lat: 46.232595
 lng: -119.093363
 geocoded_by: cache
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/wa/pasco/n-4th-avenue-corps/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 all_source_ids:
 - sa-7-86c6faeff5-t0x3xm
 - sa-7-b0afbcb9bc-gnjnf3

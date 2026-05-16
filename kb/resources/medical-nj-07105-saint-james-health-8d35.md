@@ -10,7 +10,7 @@ county: Essex County
 lat: 40.729067
 lng: -74.162698
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(973) 789-8111'
 hours_raw: 40.00 hours/week
@@ -23,10 +23,10 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 all_source_ids:
 - hrsa-BPS-H80-017493-1
 - hrsa-BPS-H80-019637-1

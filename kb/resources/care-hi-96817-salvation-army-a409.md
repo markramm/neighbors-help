@@ -9,7 +9,7 @@ zip: '96817'
 lat: 21.315226
 lng: -157.867327
 geocoded_by: cache
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/hi/honolulu/sumner-st/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 all_source_ids:
 - sa-7-d6f5e0dc86-fwdl9d
 - sa-7-f4e09180f8-0tvw9x

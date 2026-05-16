@@ -7,10 +7,10 @@ city: Brooklyn
 state: NY
 zip: '11204'
 county: Kings County
-lat: 40.623466
-lng: -73.99334
+lat: 40.623388
+lng: -73.993268
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(718) 234-0073'
 website: https://www.healthcarechoicesny.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

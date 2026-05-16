@@ -10,7 +10,7 @@ county: San Bernardino County
 lat: 34.47076
 lng: -117.304352
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(800) 722-4777'
 website: http://www.sbcounty.gov/pubhlth/ph_divisions/public_health_clinics/public_health_clinics_victor_valley.htm
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

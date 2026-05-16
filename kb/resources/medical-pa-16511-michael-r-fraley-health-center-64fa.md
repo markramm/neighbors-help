@@ -7,10 +7,10 @@ city: Erie
 state: PA
 zip: '16511'
 county: Erie County
-lat: 42.142705
-lng: -80.035952
+lat: 42.143044
+lng: -80.035723
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(814) 464-0307'
 website: https://www.community-healthnet.com
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

@@ -8,8 +8,8 @@ state: MN
 zip: '55744'
 lat: 47.176926
 lng: -93.541133
-geocoded_by: census
-geocoded_at: '2026-05-12'
+geocoded_by: cache
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/mn/grand-rapids/s-hwy-169/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-05-12'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 all_source_ids:
 - sa-7-ec86b298a1-k99ns4
 - sa-7-fca9c9b9e1-m6vk19

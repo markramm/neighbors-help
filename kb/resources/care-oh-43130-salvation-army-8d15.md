@@ -9,7 +9,7 @@ zip: '43130'
 lat: 39.70319
 lng: -82.603824
 geocoded_by: cache
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: medium
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/oh/lancaster/hubert-avenue-corps/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 all_source_ids:
 - sa-7-8cccf9e6c8-tfpwxj
 - sa-7-f08cfbbfde-lmz2xv

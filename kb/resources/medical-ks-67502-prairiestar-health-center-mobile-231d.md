@@ -7,10 +7,10 @@ city: Hutchinson
 state: KS
 zip: '67502'
 county: Reno County
-lat: 38.086529
-lng: -97.881721
+lat: 38.087734
+lng: -97.881719
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(620) 663-8484'
 website: https://www.prairiestarhealth.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

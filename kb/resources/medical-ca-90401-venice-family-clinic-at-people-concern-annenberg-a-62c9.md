@@ -10,7 +10,7 @@ county: Los Angeles County
 lat: 34.014066
 lng: -118.487896
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(310) 392-8636'
 website: https://www.venicefamilyclinic.org
@@ -24,10 +24,10 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-05-12'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 all_source_ids:
 - hrsa-BPS-H80-009505-1
 - hrsa-BPS-H80-011791-1

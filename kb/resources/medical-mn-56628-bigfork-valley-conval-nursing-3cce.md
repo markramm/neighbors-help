@@ -7,10 +7,10 @@ city: Bigfork
 state: MN
 zip: '56628'
 county: Itasca County
-lat: 47.746832
-lng: -93.6458
+lat: 47.74737
+lng: -93.646021
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(218) 743-3177'
 website: https://www.bigforkvalley.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

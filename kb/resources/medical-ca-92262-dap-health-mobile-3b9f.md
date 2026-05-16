@@ -7,10 +7,10 @@ city: Palm Springs
 state: CA
 zip: '92262'
 county: Riverside County
-lat: 33.843357
-lng: -116.528665
+lat: 33.843362
+lng: -116.528677
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(760) 323-2118'
 website: https://www.daphealth.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

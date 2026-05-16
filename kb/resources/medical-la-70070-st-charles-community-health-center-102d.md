@@ -7,10 +7,10 @@ city: Luling
 state: LA
 zip: '70070'
 county: St. Charles Parish
-lat: 29.923458
-lng: -90.369934
+lat: 29.923168
+lng: -90.369467
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(985) 785-5800'
 website: https://www.accesshealthla.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

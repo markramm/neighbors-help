@@ -10,11 +10,11 @@ county: Northampton County
 lat: 37.521221
 lng: -75.815543
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
-phone: '(757) 414-0400'
+phone: '(757) 789-9734'
 website: https://www.esrh.org
-hours_raw: 8.00 hours/week
+hours_raw: 16.00 hours/week
 populations:
 - anyone
 source: hrsa_fqhc
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

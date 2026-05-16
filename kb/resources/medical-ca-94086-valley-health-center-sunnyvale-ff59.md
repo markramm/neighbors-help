@@ -10,7 +10,7 @@ county: Santa Clara County
 lat: 37.36445
 lng: -122.024042
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(408) 992-4980'
 website: http://www.scvmed.org/SCC/docs%2FSanta%20Clara%20Valley%20Medical%20Center%20%28DEP%29%2Fattachments%2FSCVHC-ClinicCards2008FairOaks.pdf
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

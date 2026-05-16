@@ -8,8 +8,8 @@ state: PA
 zip: '16407'
 lat: 41.467007
 lng: -86.156197
-geocoded_by: census
-geocoded_at: '2026-05-12'
+geocoded_by: cache
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/in/bremen/marshall-county/
@@ -17,11 +17,13 @@ populations:
 - anyone
 source: salvation_army
 source_id: 'sa-7-aeeed1958e-6tn184'
+all_sources:
+- salvation_army
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-05-12'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

@@ -7,10 +7,10 @@ city: Ocean Park
 state: WA
 zip: '98640'
 county: Pacific County
-lat: 46.459069
-lng: -124.05214
+lat: 46.45907
+lng: -124.052156
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(360) 665-3000'
 website: https://cowlitzfamilyhealth.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

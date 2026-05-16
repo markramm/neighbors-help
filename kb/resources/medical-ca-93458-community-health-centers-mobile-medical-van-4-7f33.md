@@ -7,10 +7,10 @@ city: Santa Maria
 state: CA
 zip: '93458'
 county: Santa Barbara County
-lat: 34.922732
-lng: -120.453801
+lat: 34.922707
+lng: -120.453194
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(805) 346-3900'
 website: https://www.communityhealthcenters.org/
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

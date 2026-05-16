@@ -7,10 +7,10 @@ city: Hope Valley
 state: RI
 zip: '02832'
 county: Washington County
-lat: 41.489128
-lng: -71.736122
+lat: 41.48979
+lng: -71.736562
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(401) 539-2461'
 website: https://www.woodriverhealthservices.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

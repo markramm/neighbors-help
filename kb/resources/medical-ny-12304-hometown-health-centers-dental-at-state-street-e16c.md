@@ -7,10 +7,10 @@ city: Schenectady
 state: NY
 zip: '12304'
 county: Schenectady County
-lat: 42.800791
-lng: -73.927114
+lat: 42.800362
+lng: -73.927492
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-16'
 geocode_confidence: high
 phone: '(518) 370-1441'
 website: https://www.hometownhealthcenters.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+created: '2026-05-16'
+updated: '2026-05-16'
 ---

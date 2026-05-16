@@ -1,0 +1,27 @@
+---
+name: Tool Library Albany
+type: economy
+subtype: tool_library
+city: Albany
+state: NY
+zip: '12206'
+county: Albany County
+lat: 42.661023
+lng: -73.76632
+geocoded_by: source
+geocoded_at: '2026-05-16'
+geocode_confidence: high
+populations:
+- anyone
+source: tool_library_alliance
+source_id: 'tla-tool-library-albany'
+verified: false
+verified_by: scraper:tool_library_alliance
+verified_at: '2026-05-16'
+source_fetched_at: '2026-05-16'
+last_checked: '2026-05-16'
+needs_review: true
+review_notes: missing address
+created: '2026-05-16'
+updated: '2026-05-16'
+---
