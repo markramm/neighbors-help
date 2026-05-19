@@ -4509,6 +4509,14 @@
     "matched_address": "1463 S FARRELL RD, LOCKPORT, IL, 60441",
     "source": "census"
   },
+  "1466 hwy n|bourbon|MO|65441": {
+    "confidence": "medium",
+    "geocoded_at": "2026-05-19",
+    "lat": 38.176010570156,
+    "lng": -91.256199642761,
+    "matched_address": "1466 STATE HWY J, BOURBON, MO, 65441",
+    "source": "census"
+  },
   "1468 sterling hwy.|homer|AK|99603": {
     "geocoded_at": "2026-04-27",
     "lat": null,

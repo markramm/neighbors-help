@@ -9,7 +9,7 @@ zip: '87102'
 lat: 35.079696
 lng: -106.645493
 geocoded_by: cache
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/nm/albuquerque/broadway-blvd-se-corps/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - sa-7-a4c5ecd9c0-xsnmfp
 - sa-7-c4d2df91af-x66wx0

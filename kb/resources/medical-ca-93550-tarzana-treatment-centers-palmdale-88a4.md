@@ -10,7 +10,7 @@ county: Los Angeles County
 lat: 34.579514
 lng: -118.124097
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(661) 729-9000'
 website: https://www.tarzanatc.org/location-detail/palmdale/320-east-palmdale-blvd/
@@ -24,10 +24,10 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - hrsa-BPS-LAL-031688-1
 - hrsa-BPS-LAL-039069-1

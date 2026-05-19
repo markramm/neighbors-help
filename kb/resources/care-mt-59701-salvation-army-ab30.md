@@ -9,7 +9,7 @@ zip: '59701'
 lat: 46.002355
 lng: -112.522041
 geocoded_by: cache
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/mt/butte/harrison/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - sa-7-da9297a5d2-v2ctc9
 - sa-7-ea88bea7ad-2dgbbp

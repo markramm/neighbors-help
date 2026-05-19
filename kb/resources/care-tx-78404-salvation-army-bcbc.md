@@ -9,7 +9,7 @@ zip: '78404'
 lat: 27.781123
 lng: -97.409324
 geocoded_by: cache
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/tx/corpus-christi/buford-st-corps/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - sa-7-b2a3f2b7f5-15dstq
 - sa-7-c0ae90ac80-xcw2zr

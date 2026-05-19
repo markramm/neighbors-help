@@ -9,7 +9,7 @@ zip: '31792'
 lat: 30.841651
 lng: -83.985295
 geocoded_by: cache
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/ga/thomasville/n-madison-st-corps/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - sa-7-84b6b0d4af-4nk4fb
 - sa-7-dc92bdf381-c6jpxv

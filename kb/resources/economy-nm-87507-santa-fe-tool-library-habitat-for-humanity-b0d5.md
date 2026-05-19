@@ -12,7 +12,7 @@ county: Santa Fe County
 lat: 35.63695
 lng: -106.020002
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 populations:
 - anyone
@@ -23,9 +23,9 @@ all_sources:
 verified: false
 verified_by: scraper:tool_library_alliance
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 notes: https://santaferestore.org/restore/tool-lending-library/
 ---

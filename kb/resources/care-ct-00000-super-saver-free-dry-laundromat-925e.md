@@ -8,7 +8,7 @@ state: CT
 lat: 41.17453
 lng: -73.204119
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(203) 400-9953'
 email: internationalspine@yahoo.com
@@ -24,10 +24,10 @@ all_sources:
 verified: true
 verified_by: scraper:laundry_love
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
 needs_review: true
 review_notes: missing or invalid zip
-created: '2026-05-16'
-updated: '2026-05-16'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

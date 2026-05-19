@@ -10,10 +10,9 @@ county: San Diego County
 lat: 32.749594
 lng: -117.101436
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(619) 269-1267'
-hours_raw: 40.00 hours/week
 populations:
 - anyone
 source: hrsa_fqhc
@@ -23,11 +22,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
-all_source_ids:
-- hrsa-BPS-H80-031788-1
-- hrsa-BPS-H80-032365-1
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

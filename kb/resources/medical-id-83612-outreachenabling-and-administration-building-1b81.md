@@ -10,7 +10,7 @@ county: Adams County
 lat: 44.731189
 lng: -116.429398
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(208) 253-4242'
 website: https://www.achcid.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

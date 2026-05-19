@@ -7,10 +7,10 @@ city: Clinton
 state: CT
 zip: '06413'
 county: Lower Connecticut River Valley Planning Region
-lat: 41.276779
-lng: -72.517571
+lat: 41.275745
+lng: -72.517747
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(860) 664-0787'
 website: https://www.chc1.com
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

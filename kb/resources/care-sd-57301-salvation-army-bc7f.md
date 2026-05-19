@@ -9,7 +9,7 @@ zip: '57301'
 lat: 43.715761
 lng: -98.0297
 geocoded_by: cache
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/sd/mitchell/n-sanborn-blvd-corps/
@@ -22,10 +22,10 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - sa-7-b4e2c0f4f0-27zjr9
 - sa-7-bac8d4afbd-nl51tp

@@ -10,7 +10,7 @@ county: Allegany County
 lat: 42.212944
 lng: -78.288293
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(716) 375-7500'
 hours_raw: 40.00 hours/week
@@ -23,11 +23,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
-all_source_ids:
-- hrsa-BPS-H80-011605-1
-- hrsa-BPS-H80-041158-1
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

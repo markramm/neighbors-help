@@ -10,7 +10,7 @@ county: King County
 lat: 47.520197
 lng: -122.264359
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(206) 331-2363'
 website: https://youthcare.org/homeless-youth-services/engagement-services/south-seattle-shelter/
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

@@ -10,7 +10,7 @@ county: Richland Parish
 lat: 32.452957
 lng: -91.492859
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(318) 878-6650'
 website: https://www.dchc-delhi.com
@@ -24,10 +24,10 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - hrsa-BPS-H80-011989-1
 - hrsa-BPS-H80-032017-1

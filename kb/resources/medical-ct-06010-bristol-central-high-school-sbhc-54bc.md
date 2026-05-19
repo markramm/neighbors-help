@@ -10,7 +10,7 @@ county: Naugatuck Valley Planning Region
 lat: 41.661355
 lng: -72.959814
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(860) 584-7735'
 website: https://www.wheelerclinic.org
@@ -24,10 +24,10 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - hrsa-BPS-H80-030454-2
 - hrsa-BPS-H80-030457-1

@@ -9,7 +9,7 @@ zip: '79109'
 lat: 35.205177
 lng: -101.854478
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(806) 570-6329'
 email: camillehoy2@suddenlink.net
@@ -25,8 +25,8 @@ all_sources:
 verified: true
 verified_by: scraper:laundry_love
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

@@ -10,7 +10,7 @@ county: Crisp County
 lat: 31.964361
 lng: -83.782608
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(229) 401-3090'
 website: http://dch.georgia.gov/02/dch/home/0,2467,31446711,00.html;jsessionid=87D14593A9B52B681B19B60E10491513
@@ -23,8 +23,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

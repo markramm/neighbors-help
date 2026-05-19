@@ -7,10 +7,10 @@ city: Ansonia
 state: CT
 zip: '06401'
 county: Naugatuck Valley Planning Region
-lat: 41.340193
-lng: -73.09036
+lat: 41.340127
+lng: -73.091096
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(203) 503-3570'
 website: https://www.cornellscott.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

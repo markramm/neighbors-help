@@ -10,7 +10,7 @@ county: Alameda County
 lat: 37.557959
 lng: -121.980874
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(510) 770-8040'
 hours_raw: 69.00 hours/week
@@ -23,10 +23,10 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-05-12'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - hrsa-BPS-H80-003143-1
 - hrsa-BPS-H80-014769-1

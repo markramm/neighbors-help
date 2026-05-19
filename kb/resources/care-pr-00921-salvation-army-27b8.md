@@ -9,7 +9,7 @@ zip: '00921'
 lat: 18.44303
 lng: -66.064215
 geocoded_by: cache
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: medium
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/pr/san-juan/ave-ponce-de-leon-corps/
@@ -22,12 +22,12 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
 needs_review: true
 review_notes: coordinates outside US bounds
-created: '2026-05-16'
-updated: '2026-05-16'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - sa-7-aef79eeb84-4ztwb1
 - sa-7-e2f1b0db9e-kmcqvd

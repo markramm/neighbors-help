@@ -7,10 +7,10 @@ city: Port Chester
 state: NY
 zip: '10573'
 county: Westchester County
-lat: 41.008754
-lng: -73.660098
+lat: 41.008509
+lng: -73.660205
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(914) 939-1205'
 website: https://www.opendoormedical.org
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

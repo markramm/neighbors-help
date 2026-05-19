@@ -10,7 +10,7 @@ county: Kane County
 lat: 41.752465
 lng: -88.314059
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(630) 859-0015'
 website: https://www.chpofil.org
@@ -24,10 +24,10 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-05-12'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 all_source_ids:
 - hrsa-BPS-H80-004684-1
 - hrsa-BPS-H80-007362-1

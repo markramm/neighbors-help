@@ -10,7 +10,7 @@ county: Pierce County
 lat: 47.25227
 lng: -122.444763
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 populations:
 - anyone
@@ -21,9 +21,9 @@ all_sources:
 verified: false
 verified_by: scraper:tool_library_alliance
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 notes: www.tacomatoollibrary.org
 ---

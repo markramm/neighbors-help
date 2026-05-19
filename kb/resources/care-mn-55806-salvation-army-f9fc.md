@@ -9,7 +9,7 @@ zip: '55806'
 lat: 46.766938
 lng: -92.12438
 geocoded_by: cache
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 needs_geocode_review: false
 website: https://www.salvationarmyusa.org/mn/duluth/w-superior-st/
@@ -22,8 +22,8 @@ all_sources:
 verified: true
 verified_by: scraper:salvation_army
 verified_at: '2026-05-12'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

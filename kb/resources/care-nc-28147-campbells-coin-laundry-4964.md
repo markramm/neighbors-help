@@ -9,7 +9,7 @@ zip: '28147'
 lat: 35.665968
 lng: -80.498623
 geocoded_by: source
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(704) 798-2072'
 email: loriyang@carolina.rr.com
@@ -25,8 +25,8 @@ all_sources:
 verified: true
 verified_by: scraper:laundry_love
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
-created: '2026-05-16'
-updated: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

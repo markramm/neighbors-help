@@ -7,7 +7,7 @@ state: PR
 lat: 18.380852
 lng: -65.957024
 geocoded_by: cache
-geocoded_at: '2026-05-16'
+geocoded_at: '2026-05-19'
 geocode_confidence: medium
 needs_geocode_review: false
 website: https://alimentospr.org/
@@ -23,10 +23,10 @@ all_sources:
 verified: true
 verified_by: scraper:national_diaper_bank_network
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-16'
-last_checked: '2026-05-16'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
 needs_review: true
 review_notes: missing or invalid zip; coordinates outside US bounds; missing address
-created: '2026-05-16'
-updated: '2026-05-16'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---

@@ -10,7 +10,7 @@ county: Letcher County
 lat: 37.122807
 lng: -82.842402
 geocoded_by: source
-geocoded_at: '2026-05-12'
+geocoded_at: '2026-05-19'
 geocode_confidence: high
 phone: '(606) 632-2800'
 website: https://www.mchcky.com
@@ -24,8 +24,8 @@ all_sources:
 verified: true
 verified_by: scraper:hrsa_fqhc
 verified_at: '2026-04-27'
-source_fetched_at: '2026-05-12'
-last_checked: '2026-05-12'
-created: '2026-05-12'
-updated: '2026-05-12'
+source_fetched_at: '2026-05-19'
+last_checked: '2026-05-19'
+created: '2026-05-19'
+updated: '2026-05-19'
 ---
